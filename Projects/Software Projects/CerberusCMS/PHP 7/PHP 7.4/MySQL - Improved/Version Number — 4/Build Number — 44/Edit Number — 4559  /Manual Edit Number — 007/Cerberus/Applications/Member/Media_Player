@@ -424,7 +424,7 @@ echo ("
 													<INPUT TYPE=\"file\" name=\"AMM_Media_Player_Upload_File_Audio\"><BR>
 												<INPUT TYPE=\"submit\" VALUE=\"Upload Media\">
 											</FORM><BR>
-											Maximum File Size :: Audio File :: In Kilo-BITS :: File: $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_AUDIO<BR><BR>
+											Maximum File Upload Size :: Audio File :: In Kilo-BITS :: File: $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_AUDIO<BR><BR>
 ");
 
 /*
@@ -573,7 +573,7 @@ echo ("
 													<INPUT TYPE=\"file\" name=\"AMM_Media_Player_Upload_File_Video\"><BR>
 												<INPUT TYPE=\"submit\" VALUE=\"Upload Media\">
 											</FORM><BR>
-											Maximum File Size :: Video File :: In Kilo-BITS :: File: $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_VIDEO<BR>
+											Maximum File Upload Size :: Video File :: In Kilo-BITS :: File: $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_VIDEO<BR>
 ");
 
 /*
