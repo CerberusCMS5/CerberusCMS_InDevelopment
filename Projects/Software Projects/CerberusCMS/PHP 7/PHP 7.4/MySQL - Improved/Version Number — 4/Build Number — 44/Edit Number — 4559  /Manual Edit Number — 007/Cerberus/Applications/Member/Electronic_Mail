@@ -115,7 +115,7 @@ if (!$_Application_Module_Member_Electronic_Mail_POST_MESSAGE_CLEARTEXT) {
 
 echo ("
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Electronic_Mail&amp;Electronic_MailID&#61;$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
-													Send Private Electronic Mail Message To: <I><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME\" TITLE=\":: Open & Display :: The Profile Entry For :: $_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME\">$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME</A></I><BR>
+													Send Private Clear-Text Electronic Mail Message To: <I><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME\" TITLE=\":: Open & Display :: The Registered Member Account Profile Entry For :: $_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME ::\">$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME</A></I><BR>
 														<TEXTAREA ROWS=\"15\" COLS=\"75\" NAME=\"AMM_Electronic_Mail_Message_ClearText\">Write the Electronic Mail Message here... Registered Member Account Electronic Mail Addresses are hidden to prevent malicious use of personal information.</TEXTAREA><BR>
 													<INPUT TYPE=\"submit\" VALUE=\"Send Electronic Message\">
 												</FORM>
@@ -205,7 +205,7 @@ if (!$_Application_Module_Member_Electronic_Mail_POST_MESSAGE_ENCRYPTED) {
 
 echo ("
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Electronic_Mail&amp;Encrypted_Electronic_MailID&#61;$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
-													Send Private and Pretty-Good-Privacy Encrypted Electronic Mail Message To: <I><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME\" TITLE=\":: Open & Display :: The Registered Member Account Profile Entry For :: $_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME\">$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME</A></I><BR>
+													Send Private and Pretty-Good-Privacy Encrypted Electronic Mail Message To: <I><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME\" TITLE=\":: Open & Display :: The Registered Member Account Profile Entry For :: $_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME ::\">$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_USERNAME</A></I><BR>
 														Pretty-Good-Privacy :: Key Block :: Public<BR>
 														<TEXTAREA ROWS=\"15\" COLS=\"75\">$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_ELECTRONIC_MAIL_ADDRESS_PGP_KEY_PUBLIC</TEXTAREA><BR>
 														Message<BR>
@@ -224,38 +224,63 @@ echo ("
  ============================================================================================================
 */
 
+echo ("* Electronic Mail Message Notification: Setting G.N.U. P.G.P. Home Environment... Wait.<BR>");
+
 putenv("GNUPGHOME=/tmp");
 
+echo ("Done.<BR><BR>");
+
+echo ("* Electronic Mail Message Notification: Getting P.G.P. Encryption Public Keys For UserName: <I>$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_ELECTRONIC_MAIL_ADDRESS</I>... Wait.<BR>");
+
 $_Application_Module_Member_Electronic_Mail_LIST_MEMBER_ELECTRONIC_MAIL_ADDRESS_PGP_KEY_PUBLIC		= "$_Application_Module_Member_Electronic_Mail_LIST_MEMBER_ELECTRONIC_MAIL_ADDRESS_PGP_KEY_PUBLIC";
+
+echo ("Done.<BR><BR>");
+
+echo ("* Electronic Mail Message Notification: Initializing The Pre-HyperText-Post-Processor G.N.U. P.G.P. Functions... Wait.<BR>");
 
 $_Application_Module_Member_Electronic_Mail_LIST_MEMBER_ELECTRONIC_MAIL_ADDRESS_PGP_ENC			= (null);
 $_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_INITIALIZE				= gnupg_init();
 
-echo "gnupg_init RTV = <br/><pre>\n";
+echo ("Done.<BR><BR>");
+
+echo ("* Electronic Mail Message Notification: Extracting This Specific G.N.U. P.G.P. Encryption Key Data... Wait.<BR>");
 
 var_dump($_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_INITIALIZE);
 
-echo "</pre>\n";
+echo ("Done.<BR><BR>");
 
 $_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_IMPORT				= gnupg_import($_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_INITIALIZE, $_Application_Module_Member_Electronic_Mail_LIST_MEMBER_ELECTRONIC_MAIL_ADDRESS_PGP_KEY_PUBLIC);
 
-echo "gnupg_import RTV = <br/><pre>\n";
+echo ("* Electronic Mail Message Notification: Extracting This Specific G.N.U. P.G.P. Encryption Key Data From Importation... Wait.<BR>");
 
 var_dump($_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_IMPORT);
 
-echo "</pre>\n";
+echo ("Done.<BR><BR>");
 
-$_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_IMPORT				= gnupg_addencryptkey($_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_INITIALIZE, "28DEB45C98AF0B968F5049244EBE36081C121EAC");
+echo ("* Electronic Mail Message Notification: Adding Encryption Keys To This Electronic Mail Message... Wait.<BR>");
 
-echo "gnupg_addencryptkey RTV = <br /><pre>\n";
+$_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_IMPORT				= gnupg_addencryptkey($_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_INITIALIZE, "28deb45c98af0b968f5049244ebe36081c121eac");
+
+echo ("Done.<BR><BR>");
+
+echo ("* Electronic Mail Message Notification: Extracting Encryption Keys To This Electronic Mail Message... Wait.<BR>");
 
 var_dump($_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_IMPORT);
 
-echo "</pre>\n";
+echo ("Done.<BR><BR>");
+
+echo ("* Electronic Mail Message Notification: Encrypting This Electronic Mail Message... Wait.<BR>");
 
 $_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_ENCRYPT_DATA			= gnupg_encrypt($_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_INITIALIZE, "$_Application_Module_Member_Electronic_Mail_POST_MESSAGE_ENCRYPTED");
 
-echo "Encrypted Data: " . $_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_ENCRYPT_DATA . "<br/>";
+echo ("Done.<BR><BR>");
+
+echo ("
+														Clear-Text Electronic Mail Message :: Non-Encrypted<BR>
+															<TEXTAREA ROWS=\"15\" COLS=\"75\">$_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_ENCRYPT_DATA</TEXTAREA><BR>
+														Encrypted Electronic Mail Message :: Pretty-Good-Privacy<BR>
+															<TEXTAREA ROWS=\"15\" COLS=\"75\">$_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_ENCRYPT_DATA</TEXTAREA><BR><BR>
+");
 
 /*
  ============================================================================================================
