@@ -193,7 +193,12 @@ $_Application_Module_Member_Media_Player_SPECIFY_UPLOAD_FILE_VIDEO					= $_Appli
 */
 
 $_Application_Module_Member_Media_Player_ALLOWED_FILE_EXTENSIONS_VIDEO					= array();
-$_Application_Module_Member_Media_Player_ALLOWED_FILE_EXTENSIONS_VIDEO[0]				= "mp4";
+$_Application_Module_Member_Media_Player_ALLOWED_FILE_EXTENSIONS_VIDEO[0]				= "avi";
+$_Application_Module_Member_Media_Player_ALLOWED_FILE_EXTENSIONS_VIDEO[1]				= "mkv";
+$_Application_Module_Member_Media_Player_ALLOWED_FILE_EXTENSIONS_VIDEO[2]				= "mov";
+$_Application_Module_Member_Media_Player_ALLOWED_FILE_EXTENSIONS_VIDEO[3]				= "mp4";
+$_Application_Module_Member_Media_Player_ALLOWED_FILE_EXTENSIONS_VIDEO[4]				= "wmv";
+$_Application_Module_Member_Media_Player_ALLOWED_FILE_EXTENSIONS_VIDEO[5]				= "webm";
 
 /*
  ============================================================================================================
@@ -285,7 +290,7 @@ echo ("
 
 echo ("
 											<CENTER>
-												<VIDEO WIDTH=\"80%\" HEIGHT=\"350\" CONTROLS>
+												<VIDEO WIDTH=\"80%\" HEIGHT=\"350\" CONTROLS AUTOPLAY>
 													<SOURCE SRC=\"$_Application_Module_Media_Player_POST_VIDEO_FILE_NAME\" TYPE=\"VIDEO/MP4\">
 												</VIDEO>
 											</CENTER>
@@ -415,10 +420,11 @@ echo ("
 											<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;Upload&#61;Media&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\" ENCTYPE=\"multipart/form-data\">
 												* Media :: File :: Audio File:<BR>
 												[ Maximum Audio File Name Length: 50 Characters ]<BR>
+												* Allowed Audio File Extensions: MP3, WMA, FLAC, OGG<BR>
 													<INPUT TYPE=\"file\" name=\"AMM_Media_Player_Upload_File_Audio\"><BR>
 												<INPUT TYPE=\"submit\" VALUE=\"Upload Media\">
 											</FORM><BR>
-											Maximum File Size :: Audio File :: In Kilo-BITS :: File: $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_AUDIO<BR>
+											Maximum File Size :: Audio File :: In Kilo-BITS :: File: $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_AUDIO<BR><BR>
 ");
 
 /*
@@ -550,6 +556,155 @@ if (filesize($_Application_Module_Member_Media_Player_SPECIFY_UPLOAD_FILE_AUDIO 
 } // [ + ] IF: Media :: File :: Audio :: Is: Prepared
 
 } // [ + ] IF: Internal Application: Upload :: Media :: File :: Audio :: Input Form :: Variable HAS Executed
+
+/*
+ ============================================================================================================
+ + IF: Upload :: Media :: Video :: Input Form :: Variable HAS NOT Executed, Display Input Form
+ ============================================================================================================
+*/
+
+if ((!$_Application_Module_Member_Media_Player_SPECIFY_UPLOAD_FILE_EXTENSION_TYPE_VIDEO)) {
+
+echo ("
+											<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;Upload&#61;Media&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\" ENCTYPE=\"multipart/form-data\">
+												* Media :: File :: Video File:<BR>
+												[ Maximum Video File Name Length: 50 Characters ]<BR>
+												* Allowed Video File Extensions: AVI, MKV, MOV, MP4, WMV, WEBM<BR>
+													<INPUT TYPE=\"file\" name=\"AMM_Media_Player_Upload_File_Video\"><BR>
+												<INPUT TYPE=\"submit\" VALUE=\"Upload Media\">
+											</FORM><BR>
+											Maximum File Size :: Video File :: In Kilo-BITS :: File: $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_VIDEO<BR>
+");
+
+/*
+ ============================================================================================================
+ + ELSE: Input Form: Media Upload :: Video File :: Variable HAS Executed
+ ============================================================================================================
+*/
+
+} else {
+
+/*
+ ============================================================================================================
+ + IF: Attempt To Move The Video Files To The Temporary Directory
+ ============================================================================================================
+*/
+
+											echo ("* Message: Attempting To Upload This Video File... Wait.<BR>");
+
+if (move_uploaded_file($_FILES['AMM_Media_Player_Upload_File_Video']['tmp_name'], $_Application_Module_Member_Media_Player_SPECIFY_UPLOAD_FILE_VIDEO)) {
+
+											echo ("* Message: This Video File Was Successfully Uploaded To The Temporary Upload Directory !<BR>");
+
+/*
+ ============================================================================================================
+ + ELSE: Display Error Message
+ ============================================================================================================
+*/
+
+} else {
+
+											echo ("* Message: Error: This Video File *WAS NOT* Uploaded To The Temporary Upload Directory !<BR>");
+
+} // [ + ] IF: Move Uploaded File: Video File
+
+											echo ("* Message: Checking The Video File Properties... Wait.<BR>");
+
+											echo ("* Message: Checking The Video File Extension Type... Wait.<BR>");
+
+											echo ("* Message: The Video File Extension Type Detected Is: $_Application_Module_Member_Media_Player_SPECIFY_UPLOAD_FILE_EXTENSION_TYPE_VIDEO !<BR>");
+
+/*
+ ============================================================================================================
+ + IF: Media :: Video :: Video File :: File Extension :: Is: In Allowed File Extensions Array
+ ============================================================================================================
+*/
+
+if (in_array($_Application_Module_Member_Media_Player_SPECIFY_UPLOAD_FILE_EXTENSION_TYPE_VIDEO, $_Application_Module_Member_Media_Player_ALLOWED_FILE_EXTENSIONS_VIDEO)) {
+
+$_Application_Module_Member_Media_Player_PREPARE_FILE_VIDEO				= "1";
+
+} // [ + ] IF: File Extension Is In Allowed File Extension Array
+
+/*
+ ============================================================================================================
+ + IF: Media :: Video :: Video File :: File Extension :: Is: In Allowed File Extensions Array :: Prepare Video File
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Member_Media_Player_PREPARE_FILE_VIDEO == "1") {
+
+											echo ("* Message: This Video File Is Acceptable... Wait.<BR>");
+
+											echo ("* Message: Checking For Existing Video File Within The ./Upload/Video/Movies Directory... Wait.<BR>");
+
+/*
+ ============================================================================================================
+ + IF: Media :: Video :: Video File :: Exists Within Audio Directory
+ ============================================================================================================
+*/
+
+if (file_exists("./Upload/Video/Movies/$_Application_Module_Member_Media_Player_BASENAME_FILE_VIDEO")) {
+
+											echo ("* Message: This Video File Already Exists Within The ./Upload/Video/Movies/ Directory... Deleting This Temporary Video File Immediately !<BR>");
+
+											unlink("./Temporary/$_Application_Module_Member_Media_Player_BASENAME_FILE_VIDEO");
+
+/*
+ ============================================================================================================
+ + ELSE: Media :: Video :: Video File :: DOES NOT Exist Within The Video Directory
+ ============================================================================================================
+*/
+
+} else {
+
+
+											echo ("* Message: This Video File Does Not Currently Exist Within The ./Upload/Video/Movies/ Directory... Checking The Video File Size... Wait.<BR>");
+
+/*
+ ============================================================================================================
+ + IF: Media :: Video :: Video File :: File Size :: Is: Greater Than: The Allowed Video File Size Limitations
+ ============================================================================================================
+*/
+
+if (filesize($_Application_Module_Member_Media_Player_SPECIFY_UPLOAD_FILE_VIDEO > $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_VIDEO)) {
+
+											echo ("* Message: This Video File Size Is Greater Than The Allowed Media Upload File Size, Deleting Now... Wait.<BR>");
+
+											unlink("./Temporary/$_Application_Module_Member_Media_Player_BASENAME_FILE_VIDEO");
+
+											echo ("* Message: This Video File Was Deleted.<BR>");
+
+/*
+ ============================================================================================================
+ + ELSE: Media :: Video :: Video File :: File Size :: Is NOT: Greater Than: The Allowed Video File Size Limitations
+ ============================================================================================================
+*/
+
+} else {
+
+
+/*
+ ============================================================================================================
+ + Media :: Video :: Video Files Are Cleared, Move The Video Files Permanently To The Video Directory
+ ============================================================================================================
+*/
+
+											echo ("* Message: This Video File Size Is Acceptable, Permanently Moving This Video File To The ./Upload/Video/Movies Directory Now... Wait.<BR>");
+
+											copy("./Temporary/$_Application_Module_Member_Media_Player_BASENAME_FILE_VIDEO","./Upload/Video/Movies/$_Application_Module_Member_Media_Player_BASENAME_FILE_VIDEO");
+
+											unlink("./Temporary/$_Application_Module_Member_Media_Player_BASENAME_FILE_VIDEO");
+
+											echo ("* Message: This Video File Has Been Uploaded.<BR>");
+
+} // [ + ] IF: Media :: File :: Video :: File Already Exists Within Video Directory :: Unlink Video File
+
+} // [ + ] IF: Media :: File :: Video :: File Size :: Is: Greater Than: The Allowed Media Video File File Size
+
+} // [ + ] IF: Media :: File :: Video :: Is: Prepared
+
+} // [ + ] IF: Internal Application: Upload :: Media :: File :: Video :: Input Form :: Variable HAS Executed
 
 /*
  ============================================================================================================
