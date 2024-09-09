@@ -277,7 +277,7 @@ echo ("Done.<BR><BR>");
 
 echo ("
 														Clear-Text Electronic Mail Message :: Non-Encrypted<BR>
-															<TEXTAREA ROWS=\"15\" COLS=\"75\">$_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_ENCRYPT_DATA</TEXTAREA><BR>
+															<TEXTAREA ROWS=\"15\" COLS=\"75\">$_Application_Module_Member_Electronic_Mail_POST_MESSAGE_ENCRYPTED</TEXTAREA><BR>
 														Encrypted Electronic Mail Message :: Pretty-Good-Privacy<BR>
 															<TEXTAREA ROWS=\"15\" COLS=\"75\">$_Application_Module_Member_Electronic_Mail_ENCRYPTED_MESSAGE_GNUPGP_ENCRYPT_DATA</TEXTAREA><BR><BR>
 ");
