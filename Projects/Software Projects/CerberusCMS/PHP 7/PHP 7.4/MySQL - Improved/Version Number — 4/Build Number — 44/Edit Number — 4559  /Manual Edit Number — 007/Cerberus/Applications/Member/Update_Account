@@ -1609,11 +1609,11 @@ if ($_Application_Module_Member_Update_Account_DB_Query_UPDATE_MEMBER_ACCOUNT) {
 mail($_Application_Module_Member_Update_Account_POST_UPDATE_ELECTRONIC_MAIL_ADDRESS,"Account Profile Updated :: $_GLOBAL_SYSTEM_SITE_TITLE","
 Dear [ $_Application_Module_Member_Update_Account_POST_UPDATE_ELECTRONIC_MAIL_ADDRESS ],
 -----------------------------
-Your Registered Member Account Details have been updated at :: $_GLOBAL_SYSTEM_SITE_TITLE
+This Registered Member Account has been updated at :: $_GLOBAL_SYSTEM_SITE_TITLE
 
-If you did not make this update please notify a Moderator, Administrator or Services Root Administrator of this system immediately.
+If you did not make this update please notify a Moderator, Administrator or a Services Root Administrator of this system immediately.
 
-The Internet Protocol Address associated with this update was: $_GLOBAL_REMOTE_SERVER_ADDRESS
+The Internet Protocol Address That Is Associated With This Registered Member Account Update Is: $_GLOBAL_REMOTE_SERVER_ADDRESS
 This Electronic Mail Message Timestamp From The Local Server Was: $_GLOBAL_LOCAL_SERVER_DATE
 -----------------------------
 Have a nice day,
@@ -1624,7 +1624,8 @@ Have a nice day,
 
 											echo ($_Application_Module_Member_Message_Update_Account_UPDATE);
 
-	header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Update_Account&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
+											header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Update_Account&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
+											exit();
 
 } else {
 
