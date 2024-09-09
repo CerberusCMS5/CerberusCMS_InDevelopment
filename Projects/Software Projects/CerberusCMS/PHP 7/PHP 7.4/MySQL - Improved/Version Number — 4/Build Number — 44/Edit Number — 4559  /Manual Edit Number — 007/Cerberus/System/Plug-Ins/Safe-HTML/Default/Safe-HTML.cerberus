@@ -86,6 +86,8 @@ $_GLOBAL_PLUGIN_SAFEHTML_CODE[11] 					= "[link]";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE[12] 					= "[/link]";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE[13] 					= "[big]";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE[14] 					= "[/big]";
+$_GLOBAL_PLUGIN_SAFEHTML_CODE[15] 					= "[video]";
+$_GLOBAL_PLUGIN_SAFEHTML_CODE[16] 					= "[/video]";
 
 /*
  ============================================================================================================
@@ -129,6 +131,8 @@ $_GLOBAL_PLUGIN_SAFEHTML_CODE_REPLACE[11]	 			= "<A HREF=\"";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE_REPLACE[12]	 			= "\" TITLE=\"Click here to open this Web Link in a new window -- Look to the bottom left of your browser to see where it goes\" Target=\"_NEW\">Web Link</A>";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE_REPLACE[13]	 			= "<BIG>";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE_REPLACE[14]	 			= "</BIG>";
+$_GLOBAL_PLUGIN_SAFEHTML_CODE_REPLACE[15]	 			= "<WIDTH=\"45%\" HEIGHT=\"250\" CONTROLS><SOURCE SRC=\"";
+$_GLOBAL_PLUGIN_SAFEHTML_CODE_REPLACE[16]	 			= "\" TYPE=\"VIDEO/MP4\"></VIDEO>";
 
 /*
  ============================================================================================================
@@ -180,6 +184,8 @@ $_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK[11]					= "<A HREF=\"";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK[12]					= "\" TITLE=\"Click here to open this web link in a new window\" Target=\"_NEW\">Web Link</A>";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK[13]					= "<BIG>";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK[14]					= "</BIG>";
+$_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK[15]	 				= "<WIDTH=\"45%\" HEIGHT=\"250\" CONTROLS><SOURCE SRC=\"";
+$_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK[16]	 				= "\" TYPE=\"VIDEO/MP4\"></VIDEO>";
 
 /*
  ============================================================================================================
@@ -202,6 +208,8 @@ $_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK_REPLACE[11]				= "[link]";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK_REPLACE[12]				= "[/link]";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK_REPLACE[13]				= "[big]";
 $_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK_REPLACE[14]				= "[/big]";
+$_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK_REPLACE[15]				= "[video]";
+$_GLOBAL_PLUGIN_SAFEHTML_CODE_BACK_REPLACE[16]				= "[/video]";
 
 /*
  ============================================================================================================
