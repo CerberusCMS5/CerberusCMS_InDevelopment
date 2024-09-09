@@ -108,6 +108,42 @@ if ($_Application_Module_Panel_Media_Player_READ_DIRECTORY_AUDIO_MUSIC == "." ||
 echo ("
 													</SELECT><BR>
 													<INPUT TYPE=\"submit\" VALUE=\"Play Media\">
+												</FORM><HR><BR>
+");
+
+/*
+ ============================================================================================================
+ +
+ + Find and Open :: Directory :: Video :: Movies Directory
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Panel_Media_Player_FIND_DIRECTORY_VIDEO_MOVIES				= "./Upload/Video/Movies";
+$_Application_Module_Panel_Media_Player_OPEN_DIRECTORY_VIDEO_MOVIES				= opendir($_Application_Module_Panel_Media_Player_FIND_DIRECTORY_VIDEO_MOVIES);
+
+echo ("
+												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;DisplayVideo&#61;FileName&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
+													Video :: Movies<BR>
+													<SELECT NAME=\"AMM_Media_Player_Video_File_Name\">
+");
+
+while (($_Application_Module_Panel_Media_Player_READ_DIRECTORY_VIDEO_MOVIES = readdir($_Application_Module_Panel_Media_Player_OPEN_DIRECTORY_VIDEO_MOVIES))) {
+
+if ($_Application_Module_Panel_Media_Player_READ_DIRECTORY_VIDEO_MOVIES == "." || $_Application_Module_Panel_Media_Player_READ_DIRECTORY_VIDEO_MOVIES == ".." || $_Application_Module_Panel_Media_Player_READ_DIRECTORY_VIDEO_MOVIES == "index.php") {
+/**
+ * Do Nothing
+**/
+} else {
+											echo ("<OPTION VALUE=\"./Upload/Video/Movies/$_Application_Module_Panel_Media_Player_READ_DIRECTORY_VIDEO_MOVIES\">$_Application_Module_Panel_Media_Player_READ_DIRECTORY_VIDEO_MOVIES</OPTION>");
+
+} // [ + ] IF: Directory :: Video :: Movies Directory ARE NOT Specified Files And Directory
+
+} // [ + ] WHILE: Reading :: Directory :: Video :: Movies
+
+echo ("
+													</SELECT><BR>
+													<INPUT TYPE=\"submit\" VALUE=\"Play Media\">
 												</FORM><HR>
 												<CENTER>[&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Application Module :: Media Player ::\">Options</A>&nbsp;]
 ");
@@ -119,4 +155,12 @@ echo ("
 */
 
 closedir($_Application_Module_Panel_Media_Player_OPEN_DIRECTORY_AUDIO_MUSIC);
+
+/*
+ ============================================================================================================
+ + Close Directory :: Video :: Movies
+ ============================================================================================================
+*/
+
+closedir($_Application_Module_Panel_Media_Player_OPEN_DIRECTORY_VIDEO_MOVIES);
 ?>
