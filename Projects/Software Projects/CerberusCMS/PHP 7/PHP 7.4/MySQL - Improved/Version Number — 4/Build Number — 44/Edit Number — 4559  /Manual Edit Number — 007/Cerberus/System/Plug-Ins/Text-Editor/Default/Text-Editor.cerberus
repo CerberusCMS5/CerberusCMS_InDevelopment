@@ -83,6 +83,7 @@ $_GLOBAL_PLUGIN_SYSTEM_TEXTEDITOR_BUTTONS					= "
 									<BUTTON TYPE=\"button\" CLASS=\"button\" onclick=\"insert('WYSIWYG', '[image]', '[/image]');\" TITLE=\"Insert :: Image :: BB Code\">[IMG]</BUTTON>
 									<BUTTON TYPE=\"button\" CLASS=\"button\" onclick=\"insert('WYSIWYG', '[link]', '[/link]');\" TITLE=\"Insert :: Link :: BB Code\">[LNK]</BUTTON>
 									<BUTTON TYPE=\"button\" CLASS=\"button\" onclick=\"insert('WYSIWYG', '[smile]', '');\" TITLE=\"Insert :: Smile :: BB Code\">[Smile]</BUTTON>
+									<BUTTON TYPE=\"button\" CLASS=\"button\" onclick=\"insert('WYSIWYG', '[video]', '[/video]');\" TITLE=\"Insert :: Smile :: BB Code\">[Video]</BUTTON>
 								";
 
 ?>
