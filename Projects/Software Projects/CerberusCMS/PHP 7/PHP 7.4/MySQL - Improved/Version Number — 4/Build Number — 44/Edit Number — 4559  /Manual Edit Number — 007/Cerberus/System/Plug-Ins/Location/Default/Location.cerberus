@@ -61,7 +61,7 @@
  ============================================================================================================
  +
  +
- + Plug-In :: Location :: Location By Global-Positioning-System :: Coordinates :: JavaScript
+ + Plug-In :: Location :: Location By Global-Positioning-System :: Coordinates :: HTML5
  +
  +
  ============================================================================================================
@@ -70,7 +70,7 @@
 /*
  ============================================================================================================
  +
- + Plug-In :: Location :: Location By Global-Positioning-System :: Coordinates :: JavaScript :: X, Y, Z
+ + Plug-In :: Location :: Location By Global-Positioning-System :: Coordinates :: HTML5 :: X, Y, Z
  + Longitude, Latitude and Altitude :: Application Panel
  ============================================================================================================
 */
@@ -134,7 +134,7 @@ console.log(position)
 /*
  ============================================================================================================
  +
- + Plug-In :: Location :: Location By Global-Positioning-System :: Coordinates :: JavaScript :: X, Y
+ + Plug-In :: Location :: Location By Global-Positioning-System :: Coordinates :: HTML5 :: X, Y
  + Longitude and Latitude With Hyper-Text Reference
  ============================================================================================================
 */
