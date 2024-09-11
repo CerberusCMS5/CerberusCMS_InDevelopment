@@ -1978,7 +1978,7 @@ if (fwrite($_Application_Module_Member_Messenger_FIND_VISIBILE_CLEAR_TEXT_MESSEN
 
 							<B>Location :: Internet Protocol Address</B><BR>
 							<B>* Internet Protocol Address, Sent To :: Device :: This Web Server:</B>&nbsp;<A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_GLOBAL_LOCAL_SERVER_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For This Internet Protocol Address ::\" TARGET=\"_NEW\">$_GLOBAL_LOCAL_SERVER_ADDRESS :: $_GLOBAL_LOCAL_SERVER_PORT</A><BR>
-							<B>* Internet Protocol Address, Sent From :: Device :: Connected Device:</B>&nbsp;<A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_GLOBAL_REMOTE_SERVER_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For This Internet Protocol Address ::\" TARGET=\"_NEW\">$_GLOBAL_REMOTE_SERVER_ADDRESS</A> :: $_GLOBAL_REMOTE_SERVER_PORT<BR><BR>
+							<B>* Internet Protocol Address, Sent From :: Device :: Connected Device:</B>&nbsp;<A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_GLOBAL_REMOTE_SERVER_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For This Internet Protocol Address ::\" TARGET=\"_NEW\">$_GLOBAL_REMOTE_SERVER_ADDRESS :: $_GLOBAL_REMOTE_SERVER_PORT</A><BR><BR>
 
 							<B>Device :: Details</B><BR>
 							<B>* Web Browser :: Sent From :: Device :: Connected Device:</B>&nbsp;$_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT_DISPLAY :: $_GLOBAL_REMOTE_SERVER_PORT<BR>
@@ -1994,7 +1994,6 @@ echo ("* Done...<BR>");
 */
 
 fwrite($_Application_Module_Member_Messenger_FIND_VISIBILE_CLEAR_TEXT_MESSENGER_MESSAGES_FILE, "
-						<HR>
 					<A HREF=\"../../../../../../$_GLOBAL_MEMBER_IMAGE_PROFILE_DISPLAY\" TARGET=\"_NEW\" TITLE=\":: Open & Display :: This Registered Member Account :: Profile Image :: \"><IMG SRC=\"../../../../../../$_GLOBAL_MEMBER_IMAGE_PROFILE_DISPLAY\" WIDTH=\"75\" HEIGHT=\"75\" CLASS=\"MessengerImageMemberProfile\"></A>
 						&nbsp;
 						<B><I><A HREF=\"../../../../../../$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_GLOBAL_COOKIE_MEMBER_USERNAME\" TITLE=\":: Open & Display :: This Registered Member Account :: Profile ::\" TARGET=\"_NEW\">$_GLOBAL_COOKIE_MEMBER_USERNAME</A> Wrote This Message:</B></I><BR>
@@ -2118,8 +2117,8 @@ $_Application_Module_Member_Messenger_ERASE_WRITE_CLEAR_TEXT_FILE_MESSENGER_FILE
  ============================================================================================================
 */
 
-fwrite($_Application_Module_Member_Messenger_ERASE_FIND_VISIBLE_CLEAR_TEXT_MESSENGER_FILE, $_Application_Module_Member_Messenger_ERASE_WRITE_CLEAR_TEXT_FILE_MESSENGER_FILE_DATA);
-fwrite($_Application_Module_Member_Messenger_ERASE_FIND_VISIBLE_CLEAR_TEXT_MESSENGER_FILE_LOG, $_Application_Module_Member_Messenger_ERASE_WRITE_CLEAR_TEXT_FILE_MESSENGER_FILE_DATA);
+//fwrite($_Application_Module_Member_Messenger_ERASE_FIND_VISIBLE_CLEAR_TEXT_MESSENGER_FILE, $_Application_Module_Member_Messenger_ERASE_WRITE_CLEAR_TEXT_FILE_MESSENGER_FILE_DATA);
+//fwrite($_Application_Module_Member_Messenger_ERASE_FIND_VISIBLE_CLEAR_TEXT_MESSENGER_FILE_LOG, $_Application_Module_Member_Messenger_ERASE_WRITE_CLEAR_TEXT_FILE_MESSENGER_FILE_DATA);
 
 						echo ("*&nbsp;Done<BR>");
 
