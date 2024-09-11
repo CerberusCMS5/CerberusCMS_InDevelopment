@@ -68,8 +68,10 @@
 $_Application_Module_Member_Emulators_POST_TYPE						= $_POST['AMM_Emulators_Search_Type'];
 $_Application_Module_Member_Emulators_POST_KEYWORD					= $_POST['AMM_Emulators_Search_Keyword'];
 
+if (!$_Application_Module_Member_Emulators_POST_KEYWORD) {
+
 echo ("
-											<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Emulators&amp;LaunchGameType&#61;$_Application_Module_Member_Emulators_POST_TYPE&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"POST\">
+											<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Emulators&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"POST\">
 												Video Game Console<BR>
 												<SELECT NAME=\"AMM_Emulators_Search_Type\" MAXLENGTH=\"1\">
 													<OPTION VALUE=\"0\">Nintendo :: Nintendo Entertainment System</OPTION>
@@ -88,15 +90,13 @@ echo ("
 											</FORM><BR>
 ");
 
-if ($_GET["LaunchGameType"] == "7") {
+} else {
+
+if ($_Application_Module_Member_Emulators_POST_TYPE == "7") {
 
 echo ("<CENTER><OBJECT DATA=\"./Applications/Video_Games/HTML5/Canvas/$_Application_Module_Member_Emulators_POST_KEYWORD/index.html\" WIDTH=\"100%\" HEIGHT=\"450\"></OBJECT></CENTER>");
 
-}
+} // [ + ] 
 
-if ($_GET["LaunchGameType"] == "8") {
-
-echo ("<CENTER><OBJECT DATA=\"./Applications/Video_Games/HTML5/Unity3D/$_Application_Module_Member_Emulators_POST_KEYWORD/index.html\" WIDTH=\"100%\" HEIGHT=\"450\"></OBJECT></CENTER>");
-
-}
+} // [ + ] 
 ?>
