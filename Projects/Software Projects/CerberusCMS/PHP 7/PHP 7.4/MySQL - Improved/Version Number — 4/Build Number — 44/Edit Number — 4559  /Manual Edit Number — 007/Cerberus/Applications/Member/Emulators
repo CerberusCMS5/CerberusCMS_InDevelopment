@@ -68,6 +68,12 @@
 $_Application_Module_Member_Emulators_POST_TYPE						= $_POST['AMM_Emulators_Search_Type'];
 $_Application_Module_Member_Emulators_POST_KEYWORD					= $_POST['AMM_Emulators_Search_Keyword'];
 
+/*
+ ============================================================================================================
+ + IF: Video Game Console Emulator :: Selection :: Input Form :: Variables :: HAVE NOT Executed, Display Input Form
+ ============================================================================================================
+*/
+
 if (!$_Application_Module_Member_Emulators_POST_KEYWORD) {
 
 echo ("
@@ -90,11 +96,23 @@ echo ("
 											</FORM><BR>
 ");
 
+/*
+ ============================================================================================================
+ + ELSE: Video Game Console Emulator :: Input Form :: Variables :: HAVE Executed, Include Video Game Console ROM
+ ============================================================================================================
+*/
+
 } else {
+
+/*
+ ============================================================================================================
+ + IF: Video Game Console Emulator :: Selection :: Is: 7, H.T.M.L. Version: 5 - Canvas :: Include Video Game Programming Code
+ ============================================================================================================
+*/
 
 if ($_Application_Module_Member_Emulators_POST_TYPE == "7") {
 
-echo ("<CENTER><OBJECT DATA=\"./Applications/Video_Games/HTML5/Canvas/$_Application_Module_Member_Emulators_POST_KEYWORD/index.html\" WIDTH=\"100%\" HEIGHT=\"450\"></OBJECT></CENTER>");
+echo ("<CENTER><OBJECT DATA=\"./Applications/Video_Games/HTML5/Canvas/$_Application_Module_Member_Emulators_POST_KEYWORD/index.html\" WIDTH=\"100%\" HEIGHT=\"650\"></OBJECT></CENTER>");
 
 } // [ + ] IF: Internal Application: Select :: Video Game Console Emulator :: Type :: Is: 7, H.T.M.L. Version: 5 - Canvas
 
