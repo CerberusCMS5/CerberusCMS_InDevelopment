@@ -96,7 +96,7 @@ if ($_Application_Module_Member_Emulators_POST_TYPE == "7") {
 
 echo ("<CENTER><OBJECT DATA=\"./Applications/Video_Games/HTML5/Canvas/$_Application_Module_Member_Emulators_POST_KEYWORD/index.html\" WIDTH=\"100%\" HEIGHT=\"450\"></OBJECT></CENTER>");
 
-} // [ + ] 
+} // [ + ] IF: Internal Application: Select :: Video Game Console Emulator :: Type :: Is: 7, H.T.M.L. Version: 5 - Canvas
 
-} // [ + ] 
+} // [ + ] IF: Internal Application: Video Game Console Emulator :: Input Form :: Variables :: HAVE NOT Executed
 ?>
