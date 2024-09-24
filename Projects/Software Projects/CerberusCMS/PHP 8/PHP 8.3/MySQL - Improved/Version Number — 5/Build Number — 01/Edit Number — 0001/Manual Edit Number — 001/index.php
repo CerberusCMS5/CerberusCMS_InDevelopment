@@ -5177,8 +5177,10 @@ I am physically capable of:<BR>
 * Leg-Scizzors for up to x5 Minutes Non-Stop.<BR>
 * Forward Double-Handed Bar Pull-Ups up to x25 Non-Stop<BR>
 * Reverse Double-Handed Bar Pull-Ups up to x25 Non-Stop<BR>
-* Reverse Right-Handed Bar Pull-Ups up to x3 Non-Stop<BR>
-* Reverse Left-Handed Bar Pull-Ups up to x3 Non-Stop<BR>
+* Forward Right-Handed Bar Pull-Ups up to x3 Non-Stop<BR>
+* Forward Left-Handed Bar Pull-Ups up to x3 Non-Stop<BR>
+* Reverse Right-Handed Bar Pull-Ups up to x1 Non-Stop<BR>
+* Reverse Left-Handed Bar Pull-Ups up to x1 Non-Stop<BR>
 * ... More<BR><BR>
 ");
 
