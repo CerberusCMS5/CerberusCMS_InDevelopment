@@ -103,7 +103,7 @@ if (file_exists($_Project_File_Installation)) {
 
 /*
  ============================================================================================================
- + Check For Installation File: If The Installation File Does Not Exists, Redirect To The Kernel File
+ + Check For The Installation File: If The Installation File Does Not Exists, Redirect To The Kernel File
  ============================================================================================================
 */
 
