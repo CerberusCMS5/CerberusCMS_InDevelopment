@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
  ============================================================================================================
  + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -986,8 +986,15 @@ echo ("
 			<SELECT NAME=\"Architect_System_Services_Encryption_Status_PGP_Electronic_Mail_Message\">
 				<OPTION VALUE=\"1\">On</OPTION>
 				<OPTION VALUE=\"0\">Off</OPTION>
-			</SELECT><BR>
-			System-Level Pretty-Good-Privacy Public Key Panel:<BR>
+			</SELECT><BR><BR>
+
+			Pretty-Good-Privacy Public Key Panel :: Public :: System Web Server Notification Messages<BR>
+			<TEXTAREA ROWS=\"20\" COLS=\"150\" NAME=\"Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public\" MAXLENGTH=\"4096\">Paste-In The Public Pretty-Good-Privacy Key Panel Here... Maximum Panel Length: 4096 BITS / Characters With Panel Armor.</TEXTAREA><BR><BR>
+
+			Pretty-Good-Privacy Public Key Panel :: Public :: System Services-Root Administration Messages<BR>
+			<TEXTAREA ROWS=\"20\" COLS=\"150\" NAME=\"Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public\" MAXLENGTH=\"4096\">Paste-In The Public Pretty-Good-Privacy Key Panel Here... Maximum Panel Length: 4096 BITS / Characters With Panel Armor.</TEXTAREA><BR><BR>
+
+			Pretty-Good-Privacy Public Key Panel :: Public :: System Background-Services Notification Messages<BR>
 			<TEXTAREA ROWS=\"20\" COLS=\"150\" NAME=\"Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public\" MAXLENGTH=\"4096\">Paste-In The Public Pretty-Good-Privacy Key Panel Here... Maximum Panel Length: 4096 BITS / Characters With Panel Armor.</TEXTAREA><BR><BR>
 
 		<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
