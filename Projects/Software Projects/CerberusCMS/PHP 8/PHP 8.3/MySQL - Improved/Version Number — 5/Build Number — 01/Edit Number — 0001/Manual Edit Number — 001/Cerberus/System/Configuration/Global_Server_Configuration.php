@@ -174,5 +174,5 @@ $_SYSTEM_SETTINGS_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC_3	= ""
  ============================================================================================================
 */
 
-$_SYSTEM_SETTINGS_PASSWORD_MAINTENANCE							= "";
+$_SYSTEM_SETTINGS_PASSWORD_MAINTENANCE						= "";
 ?>
