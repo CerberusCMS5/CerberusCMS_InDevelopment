@@ -630,7 +630,9 @@ $_ARCHITECT_INSTALL_FORM_POST_ELECTRONIC_MAIL_ADDRESS_SYSTEM_ADMINISTRATOR					=
 $_ARCHITECT_INSTALL_FORM_POST_ELECTRONIC_MAIL_ADDRESS_SYSTEM_ROOT						= $_POST['Architect_Electronic_Mail_Address_System_Root'];
 $_ARCHITECT_INSTALL_FORM_POST_ELECTRONIC_MAIL_ADDRESS_SYSTEM_SERVICES						= $_POST['Architect_Electronic_Mail_Address_System_Services'];
 $_ARCHITECT_INSTALL_FORM_POST_SYSTEM_SERVICES_ENCRYPTION_STATUS_PGP_ELECTRONIC_MAIL_MESSAGE			= $_POST['Architect_System_Services_Encryption_Status_PGP_Electronic_Mail_Message'];
-$_ARCHITECT_INSTALL_FORM_POST_SYSTEM_SERVICES_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC		= $_POST['Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public'];
+$_ARCHITECT_INSTALL_FORM_POST_SYSTEM_SERVICES_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC_1		= $_POST['Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public_1'];
+$_ARCHITECT_INSTALL_FORM_POST_SYSTEM_SERVICES_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC_2		= $_POST['Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public_2'];
+$_ARCHITECT_INSTALL_FORM_POST_SYSTEM_SERVICES_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC_3		= $_POST['Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public_3'];
 $_ARCHITECT_INSTALL_FORM_POST_URL_SECURE									= $_POST['Architect_URL_Secure'];
 $_ARCHITECT_INSTALL_FORM_POST_URL_SECURE_SSL									= $_POST['Architect_URL_Secure_SSL'];
 $_ARCHITECT_INSTALL_FORM_POST_URL_SECURE_SSL_CUSTOM								= $_POST['Architect_URL_Secure_SSL_Custom'];
@@ -989,13 +991,13 @@ echo ("
 			</SELECT><BR><BR>
 
 			Pretty-Good-Privacy Public Key Panel :: Public :: System Web Server Notification Messages<BR>
-			<TEXTAREA ROWS=\"20\" COLS=\"150\" NAME=\"Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public\" MAXLENGTH=\"4096\">Paste-In The Public Pretty-Good-Privacy Key Panel Here... Maximum Panel Length: 4096 BITS / Characters With Panel Armor.</TEXTAREA><BR><BR>
+			<TEXTAREA ROWS=\"20\" COLS=\"150\" NAME=\"Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public_1\" MAXLENGTH=\"4096\">Paste-In The Public Pretty-Good-Privacy Key Panel Here... Maximum Panel Length: 4096 BITS / Characters With Panel Armor.</TEXTAREA><BR><BR>
 
 			Pretty-Good-Privacy Public Key Panel :: Public :: System Services-Root Administration Messages<BR>
-			<TEXTAREA ROWS=\"20\" COLS=\"150\" NAME=\"Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public\" MAXLENGTH=\"4096\">Paste-In The Public Pretty-Good-Privacy Key Panel Here... Maximum Panel Length: 4096 BITS / Characters With Panel Armor.</TEXTAREA><BR><BR>
+			<TEXTAREA ROWS=\"20\" COLS=\"150\" NAME=\"Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public_1\" MAXLENGTH=\"4096\">Paste-In The Public Pretty-Good-Privacy Key Panel Here... Maximum Panel Length: 4096 BITS / Characters With Panel Armor.</TEXTAREA><BR><BR>
 
 			Pretty-Good-Privacy Public Key Panel :: Public :: System Background-Services Notification Messages<BR>
-			<TEXTAREA ROWS=\"20\" COLS=\"150\" NAME=\"Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public\" MAXLENGTH=\"4096\">Paste-In The Public Pretty-Good-Privacy Key Panel Here... Maximum Panel Length: 4096 BITS / Characters With Panel Armor.</TEXTAREA><BR><BR>
+			<TEXTAREA ROWS=\"20\" COLS=\"150\" NAME=\"Architect_System_Services_Encryption_Electronic_Mail_Message_PGP_Key_Panel_Public_1\" MAXLENGTH=\"4096\">Paste-In The Public Pretty-Good-Privacy Key Panel Here... Maximum Panel Length: 4096 BITS / Characters With Panel Armor.</TEXTAREA><BR><BR>
 
 		<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 		Settings :: Electronic Mail Address
@@ -1407,7 +1409,9 @@ $_SYSTEM_CONFIGURATION_ACCESS_FILE_DATA							= "<?php
 \$_ACCESS_ELECTRONIC_MAIL_ADDRESS_SYSTEM_ROOT						= \"$_ARCHITECT_INSTALL_FORM_POST_ELECTRONIC_MAIL_ADDRESS_SYSTEM_ROOT\";
 \$_ACCESS_ELECTRONIC_MAIL_ADDRESS_SYSTEM_SERVICES					= \"$_ARCHITECT_INSTALL_FORM_POST_ELECTRONIC_MAIL_ADDRESS_SYSTEM_SERVICES\";
 \$_SYSTEM_SETTINGS_STATUS_ENCRYPTION_PGP_ELECTRONIC_MAIL_MESSAGE			= \"$_ARCHITECT_INSTALL_FORM_POST_SYSTEM_SERVICES_ENCRYPTION_STATUS_PGP_ELECTRONIC_MAIL_MESSAGE\";
-\$_SYSTEM_SETTINGS_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC		= \"$_ARCHITECT_INSTALL_FORM_POST_SYSTEM_SERVICES_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC\";
+\$_SYSTEM_SETTINGS_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC_1		= \"$_ARCHITECT_INSTALL_FORM_POST_SYSTEM_SERVICES_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC_1\";
+\$_SYSTEM_SETTINGS_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC_2		= \"$_ARCHITECT_INSTALL_FORM_POST_SYSTEM_SERVICES_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC_2\";
+\$_SYSTEM_SETTINGS_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC_3		= \"$_ARCHITECT_INSTALL_FORM_POST_SYSTEM_SERVICES_ENCRYPTION_ELECTRONIC_MAIL_MESSAGE_PGP_KEY_PANEL_PUBLIC_3\";
 \$_SYSTEM_SETTINGS_PASSWORD_MAINTENANCE							= \"$_ARCHITECT_INSTALL_FORM_POST_SYSTEM_PASSWORD_MAINTENANCE_HASHED\";
 ?>";
 
