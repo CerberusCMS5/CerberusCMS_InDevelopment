@@ -111,7 +111,7 @@ $_ACCESS_URL_SECURE_TLS_CUSTOM							= "";
  ==================================================
 */
 
-$_ACCESS_URL_GIT_REPOSITORY_APPLICATIONS			= "";
+$_ACCESS_URL_GIT_REPOSITORY_APPLICATIONS					= "";
 
 /*
  ==================================================
@@ -119,7 +119,7 @@ $_ACCESS_URL_GIT_REPOSITORY_APPLICATIONS			= "";
  ==================================================
 */
 
-$_ACCESS_URL_GIT_REPOSITORY_KERNEL				= "";
+$_ACCESS_URL_GIT_REPOSITORY_KERNEL						= "";
 
 /*
  ==================================================
@@ -127,7 +127,7 @@ $_ACCESS_URL_GIT_REPOSITORY_KERNEL				= "";
  ==================================================
 */
 
-$_ACCESS_URL_GIT_REPOSITORY_PLUGINS				= "";
+$_ACCESS_URL_GIT_REPOSITORY_PLUGINS						= "";
 
 /*
  ==================================================
@@ -135,7 +135,7 @@ $_ACCESS_URL_GIT_REPOSITORY_PLUGINS				= "";
  ==================================================
 */
 
-$_ACCESS_URL_GIT_REPOSITORY_THEMES				= "";
+$_ACCESS_URL_GIT_REPOSITORY_THEMES						= "";
 
 /*
  ============================================================================================================
