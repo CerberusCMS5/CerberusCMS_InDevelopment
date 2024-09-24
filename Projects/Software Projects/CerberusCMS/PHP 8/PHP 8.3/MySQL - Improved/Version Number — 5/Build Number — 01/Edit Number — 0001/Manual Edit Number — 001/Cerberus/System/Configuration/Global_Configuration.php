@@ -438,7 +438,7 @@ $_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_NAME			= "2023_Cerberus_White"
 */
 
 $_INTERNAL_FILE_KERNEL							= "Cerberus.php";
-$_INTERNAL_FILE_KERNEL_VERSION						= "4.44.4559.007";
+$_INTERNAL_FILE_KERNEL_VERSION						= "5.01.0001.001";
 $_INTERNAL_FILE_KERNEL_INTEGRITY					= hash_file('sha256', "$_INTERNAL_FILE_KERNEL");
 $_INTERNAL_FILE_EXTENSION						= "cerberus";
 
@@ -512,11 +512,11 @@ $_INTERNAL_FILE_MAINTENANCE_REPAIR					= "Soteria.php";
  ============================================================================================================
 */
 
-$_PROJECT_VERSION_SHORT							= "4.44.4559.239";
-$_PROJECT_VERSION_EXTENDED						= "Cerberus Content Management System - Version Number: 4, Build Number: 44, Edit Number: 4,559 - Manual Edit Number: 007 ~ Nyx - Monday, May 13th of 2024";
-$_PROJECT_VERSION_EDIT_NUMBER_GENERATED					= "4559";
-$_PROJECT_VERSION_EDIT_NUMBER_MANUAL					= "007";
-$_PROJECT_VERSION_FILE_NUMBER						= "0.7.3";
+$_PROJECT_VERSION_SHORT							= "5.01.0001.001";
+$_PROJECT_VERSION_EXTENDED						= "Cerberus Content Management System - Version Number: 5, Build Number: 01, Edit Number: 0,001 - Manual Edit Number: 001 ~ Hades - Friday, September 13th of 2024";
+$_PROJECT_VERSION_EDIT_NUMBER_GENERATED					= "0001";
+$_PROJECT_VERSION_EDIT_NUMBER_MANUAL					= "001";
+$_PROJECT_VERSION_FILE_NUMBER						= "0.7.4";
 
 /*
  ============================================================================================================
