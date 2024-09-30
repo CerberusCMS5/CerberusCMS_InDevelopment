@@ -571,7 +571,7 @@ Timestamps
 * Timestamp :: Device :: This Web Server :: Unix-Time: $_GLOBAL_LOCAL_SERVER_DATE_TIMESTAMP_UNIX
 * Timestamp :: Device :: This Web Server :: Micro-Time: $_GLOBAL_LOCAL_SERVER_DATE_TIMESTAMP_UNIX
 * Timestamp :: Device :: Connecting Device :: Unix-Time: $_GLOBAL_LOCAL_SERVER_DATE_TIMESTAMP_UNIX
-* Timestamp ::Machine ::  Connecting Device :: Micro-Time: $_GLOBAL_LOCAL_SERVER_DATE_TIMESTAMP_UNIX
+* Timestamp ::Machine :: Connecting Device :: Micro-Time: $_GLOBAL_LOCAL_SERVER_DATE_TIMESTAMP_UNIX
 ";
 
 /*
@@ -1051,19 +1051,19 @@ echo ("
 			
 		* <I>GIT :: Repository :: Uniform-Resource-Location With Path-To-Directory :: Applications</I>:<BR>
 		Example: http://www.GITWebServer.com/RepositoryName/Version Number/Edit Number/Manual Edit Number/Applications<BR>
-			<INPUT TYPE=\"TEXT\" NAME=\"Architect_URL_GIT_Repository_Applications\"><BR><BR>
+			<INPUT TYPE=\"TEXT\" NAME=\"Architect_URL_GIT_Repository_Applications\" VALUE=\"$_PROJECT_SERVER_URL_SECURE_RAW_GITHUB\"><BR><BR>
 			
 		* <I>GIT :: Repository :: Uniform-Resource-Location With Path-To-Directory :: Kernel</I>:<BR>
 		Example: http://www.GITWebServer.com/RepositoryName/Version Number/Edit Number/Manual Edit Number/System/Kernel/Version<BR>
-			<INPUT TYPE=\"TEXT\" NAME=\"Architect_URL_GIT_Repository_Kernel\"><BR><BR>
+			<INPUT TYPE=\"TEXT\" NAME=\"Architect_URL_GIT_Repository_Kernel\" VALUE=\"$_PROJECT_SERVER_URL_SECURE_RAW_GITHUB\"><BR><BR>
 
 		* <I>GIT :: Repository :: Uniform-Resource-Location With Path-To-Directory :: Plug-Ins</I>:<BR>
 		Example: http://www.GITWebServer.com/RepositoryName/Version Number/Edit Number/Manual Edit Number/System/Plug-Ins<BR>
-			<INPUT TYPE=\"TEXT\" NAME=\"Architect_URL_GIT_Repository_PlugIns\"><BR><BR>
+			<INPUT TYPE=\"TEXT\" NAME=\"Architect_URL_GIT_Repository_PlugIns\" VALUE=\"$_PROJECT_SERVER_URL_SECURE_RAW_GITHUB\"><BR><BR>
 
 		* <I>GIT :: Repository :: Uniform-Resource-Location With Path-To-Directory :: Themes</I>:<BR>
 		Example: http://www.GITWebServer.com/RepositoryName/Version Number/Edit Number/Manual Edit Number/Themes<BR>
-			<INPUT TYPE=\"TEXT\" NAME=\"Architect_URL_GIT_Repository_Themes\"><BR><BR>
+			<INPUT TYPE=\"TEXT\" NAME=\"Architect_URL_GIT_Repository_Themes\" VALUE=\"$_PROJECT_SERVER_URL_SECURE_RAW_GITHUB\"><BR><BR>
 			
 		<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 		Settings :: Maintenance
@@ -1280,14 +1280,14 @@ echo ("
 		<B>List of Programming Code Vulnerability Scanning Software Used</B><BR>
 		[&nbsp;*&nbsp;]&nbsp;CodeHax<BR><BR>
 
-		[&nbsp;!&nbsp;]&nbsp;Keep this server software, this server operating system kernels and its applications up-to-date as well as set server security policies that comply with security standards to prevent any exploitation of the data on this server.<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is up to the Administrator of this Web Server that is running $_PROJECT_STRING_NAME_EXTENDED to install $_PROJECT_STRING_NAME_EXTENDED correctly by following each of the important steps stated above<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as well as all of the steps outlined in the documentation file for this project - not doing so may leave the Internal System open to attacks. Double check the steps before proceeding.<BR><BR>
+		[&nbsp;!&nbsp;]&nbsp;Keep this server software, this server operating system kernels and its applications up-to-date and set server security policies that comply with security standards to prevent any exploitation of the data that is added to this web server through this web application.<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is up to the Administrator of this Web Server that is administrating $_PROJECT_STRING_NAME_EXTENDED to install $_PROJECT_STRING_NAME_EXTENDED correctly by following each of the important steps that are stated above<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as well as following all of the steps that are outlined in the documentation file for this project - not doing so may leave the Internal System open to physical and digital attacks. Double check the steps before proceeding with this installation.<BR><BR>
 
-		[&nbsp;!&nbsp;]&nbsp;This Installation Application has not been secured from vulnerabilities. Do not leave this Installation Web Application on a live server for longer than is needed to install $_PROJECT_STRING_NAME_EXTENDED.<BR><BR>
+		[&nbsp;!&nbsp;]&nbsp;This Installation Application has been secured from vulnerabilities. However, do not leave this Installation Web Application on a live server for longer than is needed to install $_PROJECT_STRING_NAME_EXTENDED.<BR><BR>
 
-		[&nbsp;!&nbsp;]&nbsp;If you are unable to install the Structured-Query-Language Tables automatically by this application, click [ <A HREF=\"./$_INTERNAL_FILE_ARCHITECT_DIRECTORY/MySQL/MySQL_Generator.php\" TITLE=\":: Open & Display The Structured-Query-Language Data Generator Application ::\" TARGET=\"_NEW\">here</A> ] to manually generate the S.Q.L. Structure and S.Q.L. Data.<BR>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once the Structured-Query-Language Table Structure and its data is generated correctly, copy the Structured-Query-Language Tables with generated Table Prefix Name and then manually paste the generated Structured-Query-Language Data Structure into your server Structured-Query-Language Manager / Editor.<BR><BR>
+		[&nbsp;!&nbsp;]&nbsp;If you are unable to install the Structured-Query-Language Tables automatically by this web application, click [ <A HREF=\"./$_INTERNAL_FILE_ARCHITECT_DIRECTORY/MySQL/MySQL_Generator.php\" TITLE=\":: Open & Display The Structured-Query-Language Data Generator Application ::\" TARGET=\"_NEW\">here</A> ] to manually generate the S.Q.L. Structure and the S.Q.L. Data.<BR>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once the Structured-Query-Language Table Structure and its data is generated correctly, copy the Structured-Query-Language Tables with generated Table Prefix Name and then manually paste the generated Structured-Query-Language Data Structure into your web server Structured-Query-Language Manager / Editor and click install.<BR><BR>
 
 		<B>Tools :: Pre-Installation</B><HR>
 		<B>Tools :: Pre-Installation :: Database Management System Server :: Database</B>
@@ -4884,23 +4884,42 @@ if (unlink("./$_INTERNAL_FILE_ARCHITECT")) {
 
 	echo ("<BIG><FONT COLOR=\"#CD0000\">***</FONT> $_INTERNAL_ARCHITECT_NAME: I am Testing the Pre-Hyper-Text-Post-Processor mail() Function. wait...</BIG><BR>");
 
-if (mail($_ACCESS_ELECTRONIC_MAIL_ADDRESS_SYSTEM_ADMINISTRATOR,"$_PROJECT_STRING_NAME_EXTENDED - Testing the Pre-Hyper-Text-Post-Processor Server mail() Function.","
--------This is a test to see if this specific Web Server Pre-Hyper-Text-Post-Processor mail() Function is working-------
+if (mail($_ACCESS_ELECTRONIC_MAIL_ADDRESS_SYSTEM_ADMINISTRATOR,"$_PROJECT_STRING_NAME_EXTENDED - Pre-Hyper-Text-Post-Processor Server mail() Function Test","
+-------This is a test electronic mail message to confirm that this specific Web Server Pre-Hyper-Text-Post-Processor mail() Function is currently functional-------
 
 -------------------------------------------------------
-If you have received this Non-Encrypted Electronic Mail Message $_PROJECT_STRING_NAME_EXTENDED was installed successfully to your web server through $_INTERNAL_ARCHITECT_NAME
-The only thing left for you to do now is for you to manually configure this installation of $_PROJECT_STRING_NAME_EXTENDED
+IF: you have received this Non-Encrypted Electronic Mail Message $_PROJECT_STRING_NAME_EXTENDED was installed successfully to this web server through $_INTERNAL_ARCHITECT_NAME
+The only thing to do now is to manually configure this web application installation of $_PROJECT_STRING_NAME_EXTENDED through the Administration Control Panel
 Read through the Portable Document Format Documentation File or watch the Educational Videos to see how to further secure this installation.
 -------------------------------------------------------
--- Internet Protocol Addresses
-* Internet Protocol Address :: This Web Server: $_GLOBAL_LOCAL_SERVER_ADDRESS
-* Internet Protocol Address :: Connecting Device: ( Who Installed This ): $_GLOBAL_REMOTE_SERVER_ADDRESS
 
+-------------------------------------------------------
+- NETWORK INFORMATION
+-------------------------------------------------------
+-- Network Information :: Internet Protocol Addresses :: This Web Server
+* Internet Protocol Address :: This Web Server: $_GLOBAL_LOCAL_SERVER_ADDRESS :: $_GLOBAL_LOCAL_SERVER_PORT
+
+-- Network Information :: Internet Protocol Addresses :: Connecting Device
+* Internet Protocol Address :: Connecting Device: ( Who Installed This ): $_GLOBAL_REMOTE_SERVER_ADDRESS :: $_GLOBAL_REMOTE_SERVER_PORT
+
+-------------------------------------------------------
+- SOFTWARE INFORMATION
+-------------------------------------------------------
 -- Software Information :: This Web Server
-* This Web Server :: Software Information: $_GLOBAL_LOCAL_SERVER_SOFTWARE
+* Software Information :: This Web Server :: Web Server Software Information: $_GLOBAL_LOCAL_SERVER_SOFTWARE
 
--- Timestamps
-* Timestamp :: This Web Server :: Electronic Mail Message: $_GLOBAL_LOCAL_SERVER_DATE_TIMESTAMP
+-- Software Information :: Connecting Device
+* Software Information :: Connecting Device :: Web Browser: ( Who Installed This ): $_GLOBAL_LOCAL_SERVER_HTTP_USER_AGENT
+
+-------------------------------------------------------
+- TIMESTAMPS
+-------------------------------------------------------
+-- Timestamps :: This Electronic Mail Message
+* Timestamp :: This Web Server :: Electronic Mail Message :: Standard :: $_GLOBAL_LOCAL_SERVER_DATE_TIMESTAMP
+* Timestamp :: This Web Server :: Electronic Mail Message :: Hours :: $_GLOBAL_LOCAL_SERVER_TIME_HOURS
+* Timestamp :: This Web Server :: Electronic Mail Message :: Minutes :: $_GLOBAL_LOCAL_SERVER_TIME_MINUTES
+* Timestamp :: This Web Server :: Electronic Mail Message :: Seconds :: $_GLOBAL_LOCAL_SERVER_TIME_SECONDS
+* Timestamp :: This Web Server :: Electronic Mail Message :: UNIX :: $_GLOBAL_LOCAL_SERVER_DATE_TIMESTAMP_UNIX
 ------------------------------------------------------
 Have a nice day !
 
