@@ -525,7 +525,7 @@ $_PROJECT_VERSION_FILE_NUMBER						= "0.7.4";
 */
 
 $_PROJECT_STRING_LEGAL_COPYRIGHT					= "&copy; Tinke Software, G.C. Johnson Works 2000 - Present-Day";
-$_PROJECT_STRING_LEGAL_ELECTRONIC_MAIL_ADDRESS				= "CerberusCMS2@Proton.me";
+$_PROJECT_STRING_LEGAL_ELECTRONIC_MAIL_ADDRESS				= "CerberusCMS5@Proton.me";
 $_PROJECT_STRING_LEGAL_NAME_AUTHOR					= "G.C. Johnson";
 $_PROJECT_STRING_NAME_EXTENDED						= "Cerberus Content Management System";
 $_PROJECT_STRING_NAME_SHORT						= "Cerberus";
