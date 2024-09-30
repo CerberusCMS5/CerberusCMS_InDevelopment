@@ -960,7 +960,7 @@ echo ("
 		<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 		Settings :: Pre-Hyper-Text-Post-Processor Engine
 		<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
-		* <I>Pre-Hyper-Text-Post-Processor Engine Version Number</I>:<BR>
+		* <I>Pre-Hyper-Text-Post-Processor Engine Type and Version Number</I>:<BR>
 			<SELECT NAME=\"Architect_PHP_Engine_Version\">
 				<OPTION VALUE=\"4\">PHP Version - 4</OPTION>
 				<OPTION VALUE=\"5\">PHP Version - 5</OPTION>
@@ -972,7 +972,7 @@ echo ("
 		<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 		Settings :: Structured-Query-Language Engine
 		<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
-		* <I>Structured-Query-Language Engine Version Number</I>:<BR>
+		* <I>Structured-Query-Language Engine Type and Version Number</I>:<BR>
 			<SELECT NAME=\"Architect_SQL_Engine_Version\">
 				<OPTION VALUE=\"0\">Standard - MySQL</OPTION>
 				<OPTION VALUE=\"1\">Improved - MySQL</OPTION>
