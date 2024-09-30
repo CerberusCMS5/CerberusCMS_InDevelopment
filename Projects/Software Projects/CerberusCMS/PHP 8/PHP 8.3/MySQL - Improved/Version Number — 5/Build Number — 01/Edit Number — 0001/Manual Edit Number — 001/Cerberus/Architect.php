@@ -5119,18 +5119,19 @@ $_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_009		
 $_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_010					= hash_file('sha256', "./Applications/Administration/Messenger");
 $_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_011					= hash_file('sha256', "./Applications/Administration/Networking");
 $_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_012					= hash_file('sha256', "./Applications/Administration/Panels");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_013					= hash_file('sha256', "./Applications/Administration/PlugIns");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_014					= hash_file('sha256', "./Applications/Administration/Publish");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_015					= hash_file('sha256', "./Applications/Administration/Ranks");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_016					= hash_file('sha256', "./Applications/Administration/Referrers");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_017					= hash_file('sha256', "./Applications/Administration/Robot_Monitor");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_018					= hash_file('sha256', "./Applications/Administration/Settings");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_019					= hash_file('sha256', "./Applications/Administration/Submissions");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_020					= hash_file('sha256', "./Applications/Administration/Terminal");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_021					= hash_file('sha256', "./Applications/Administration/Themes");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_022					= hash_file('sha256', "./Applications/Administration/Update");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_023					= hash_file('sha256', "./Applications/Administration/VoIP");
-$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_024					= hash_file('sha256', "./Applications/Administration/Web_Pages");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_013					= hash_file('sha256', "./Applications/Administration/PHP_Information.php");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_014					= hash_file('sha256', "./Applications/Administration/PlugIns");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_015					= hash_file('sha256', "./Applications/Administration/Publish");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_016					= hash_file('sha256', "./Applications/Administration/Ranks");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_017					= hash_file('sha256', "./Applications/Administration/Referrers");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_018					= hash_file('sha256', "./Applications/Administration/Robot_Monitor");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_019					= hash_file('sha256', "./Applications/Administration/Settings");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_020					= hash_file('sha256', "./Applications/Administration/Submissions");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_021					= hash_file('sha256', "./Applications/Administration/Terminal");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_022					= hash_file('sha256', "./Applications/Administration/Themes");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_023					= hash_file('sha256', "./Applications/Administration/Update");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_024					= hash_file('sha256', "./Applications/Administration/VoIP");
+$_ARCHITECT_INTEGRITY_FILES_FIND_DIRECTORY_APPLICATION_ADMINISTRATION_FILE_025					= hash_file('sha256', "./Applications/Administration/Web_Pages");
 
 /*
  ============================================================================================================
