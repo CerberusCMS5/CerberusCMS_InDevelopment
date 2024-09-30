@@ -594,8 +594,8 @@ $_PROJECT_SERVER_URL_PARTIAL						= "CerberusCMS";
  ======================
 */
 
-$_PROJECT_SERVER_URL_BITBUCKET_CLEARTEXT				= "http://www.BITBucket.com/CerberusCMS2";
-$_PROJECT_SERVER_URL_BITBUCKET_SECURE					= "https://www.BITBucket.com/CerberusCMS2";
+$_PROJECT_SERVER_URL_BITBUCKET_CLEARTEXT				= "http://www.BITBucket.com/CerberusCMS5";
+$_PROJECT_SERVER_URL_BITBUCKET_SECURE					= "https://www.BITBucket.com/CerberusCMS5";
 
 /*
  ======================
@@ -603,8 +603,9 @@ $_PROJECT_SERVER_URL_BITBUCKET_SECURE					= "https://www.BITBucket.com/CerberusC
  ======================
 */
 
-$_PROJECT_SERVER_URL_GITHUB_CLEARTEXT					= "http://www.GITHub.com/CerberusCMS2";
-$_PROJECT_SERVER_URL_GITHUB_SECURE					= "https://www.GITHub.com/CerberusCMS2";
+$_PROJECT_SERVER_URL_GITHUB_CLEARTEXT					= "http://www.GITHub.com/CerberusCMS5";
+$_PROJECT_SERVER_URL_GITHUB_SECURE					= "https://www.GITHub.com/CerberusCMS5";
+$_PROJECT_SERVER_URL_SECURE_RAW_GITHUB					= "https://raw.GITHubUserContent.com/CerberusCMS5";
 
 /*
  ======================
@@ -612,8 +613,8 @@ $_PROJECT_SERVER_URL_GITHUB_SECURE					= "https://www.GITHub.com/CerberusCMS2";
  ======================
 */
 
-$_PROJECT_SERVER_URL_GITLAB_CLEARTEXT					= "http://www.GITLab.com/CerberusCMS2";
-$_PROJECT_SERVER_URL_GITLAB_SECURE					= "https://www.GITLab.com/CerberusCMS2";
+$_PROJECT_SERVER_URL_GITLAB_CLEARTEXT					= "http://www.GITLab.com/CerberusCMS5";
+$_PROJECT_SERVER_URL_GITLAB_SECURE					= "https://www.GITLab.com/CerberusCMS5";
 
 /*
  ============================================================================================================
@@ -621,8 +622,8 @@ $_PROJECT_SERVER_URL_GITLAB_SECURE					= "https://www.GITLab.com/CerberusCMS2";
  ============================================================================================================
 */
 
-$_PROJECT_SERVER_URL_SOURCEFORGE_CLEARTEXT				= "http://www.SourceForge.net/projects/CerberusCMS2";
-$_PROJECT_SERVER_URL_SOURCEFORGE_SECURE					= "https://www.SourceForge.net/projects/CerberusCMS2";
+$_PROJECT_SERVER_URL_SOURCEFORGE_CLEARTEXT				= "http://www.SourceForge.net/projects/CerberusCMS5";
+$_PROJECT_SERVER_URL_SOURCEFORGE_SECURE					= "https://www.SourceForge.net/projects/CerberusCMS5";
 
 /*
  ============================================================================================================
