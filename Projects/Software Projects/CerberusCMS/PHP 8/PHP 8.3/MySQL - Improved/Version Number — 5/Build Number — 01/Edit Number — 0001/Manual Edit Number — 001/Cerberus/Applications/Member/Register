@@ -217,53 +217,72 @@ $_Application_Module_Member_Register_POST_REGISTRAR_PASSWORD_HASHED								= pas
 if (!$_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME) {
 
 echo ("
-											<BIG><B>How will you benefit from Registering ?</B></BIG>
-											<HR>
-											<BIG><B>&middot;</B></BIG>&nbsp;You will be given access to restricted areas.<BR>
-											<BIG><B>&middot;</B></BIG>&nbsp;You will be given personal webspace.<BR>
-											<BIG><B>&middot;</B></BIG>&nbsp;You will be given your very own avatar, profile with rich features, profile rank and more !<BR>
-											<HR>
-											<BIG><B>Registration is completely free ! First you will become a Registrar and then you will become a Registered Member.</B></BIG><BR><BR>
+											<HR WIDTH=\"50%\" ALIGN=\"LEFT\">
+												<BIG><B>How will I benefit from Registering a Member Account ?</B></BIG><BR><BR>
+
+											<HR WIDTH=\"50%\" ALIGN=\"LEFT\">
+												<BIG><B>&middot;</B></BIG>&nbsp;You will be given access to restricted areas.<BR>
+												<BIG><B>&middot;</B></BIG>&nbsp;You will be given personal webspace.<BR>
+												<BIG><B>&middot;</B></BIG>&nbsp;You will be given your very own avatar, profile with rich features, profile rank and more !<BR><BR>
+
+											<HR WIDTH=\"50%\" ALIGN=\"LEFT\">
+												<BIG><B>Account Registration is completely free ! First you will become an Account Registrar and then you will become a Registered Member.</B></BIG>
+											<HR WIDTH=\"50%\" ALIGN=\"LEFT\">
+												<BR>
 
 											<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Register&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
-												[ Your password will be sent to the specified Electronic Mail Address ]
-											<HR>
-											Registrar :: Personal Details<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+
+											<HR WIDTH=\"20%\" ALIGN=\"LEFT\">
+												<B>Registrar :: Personal Details</B>
+											<HR WIDTH=\"20%\" ALIGN=\"LEFT\">
 												* Registrar :: First Name<BR>
-													<INPUT TYPE=\"text\" NAME=\"AMM_Register_Registrar_First_Name\" MAXLENGTH=\"50\"><BR>
+													<INPUT TYPE=\"text\" NAME=\"AMM_Register_Registrar_First_Name\" MAXLENGTH=\"50\"><BR><BR>
+
 												* Registrar :: Last Name<BR>
-													<INPUT TYPE=\"text\" NAME=\"AMM_Register_Registrar_Last_Name\" MAXLENGTH=\"50\"><BR>
+													<INPUT TYPE=\"text\" NAME=\"AMM_Register_Registrar_Last_Name\" MAXLENGTH=\"50\"><BR><BR>
+
 												* Registrar :: System Registration Age Requirement: $_GLOBAL_SYSTEM_SETTING_SECURITY_ACCOUNT_REGISTRATION_AGE_REQUIREMENT<BR>
 												* Registrar :: Current Age<BR>
 													<INPUT TYPE=\"number\" PLACEHOLDER=\"YY\" NAME=\"AMM_Register_Registrar_Age_Requirement\" MAXLENGTH=\"2\"><BR>
+											<B>Account Registration Note</B>: <I>The current system set age requirements to register a Member Account here is not less than: $_GLOBAL_SYSTEM_SETTING_SECURITY_ACCOUNT_REGISTRATION_AGE_REQUIREMENT years of age. How many years of age are you at this point-in-time ?</I><BR><BR>
+
 												* Registrar :: Birth-Date<BR>
-													<INPUT TYPE=\"date\" NAME=\"AMM_Register_Registrar_BirthDate\" MAXLENGTH=\"20\"><BR>
+													<INPUT TYPE=\"date\" NAME=\"AMM_Register_Registrar_BirthDate\" MAXLENGTH=\"20\"><BR><BR>
+
 												* Registrar :: Gender<BR>
 													<SELECT NAME=\"AMM_Register_Registrar_Gender\">
 														<OPTION VALUE=\"0\">Non-Specified</OPTION>
 														<OPTION VALUE=\"1\">Male</OPTION>
 														<OPTION VALUE=\"2\">Female</OPTION>
 													</SELECT><BR><BR>
-													
-											Registrar :: Contact Details<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+
+											<HR WIDTH=\"20%\" ALIGN=\"LEFT\">
+												<B>Registrar :: Contact Details</B>
+											<HR WIDTH=\"20%\" ALIGN=\"LEFT\">
 												* Registrar :: Electronic Mail Address<BR>
 													<INPUT TYPE=\"text\" NAME=\"AMM_Register_Registrar_Electronic_Mail_Address\" MAXLENGTH=\"250\"><BR><BR>
 
-											Registrar :: Authentication Details<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<HR WIDTH=\"20%\" ALIGN=\"LEFT\">
+												<B>Registrar :: Authentication Details</B>
+											<HR WIDTH=\"20%\" ALIGN=\"LEFT\">
 												* Desired UserName:<BR>
 												-> Cannot contain the following characters: [ ] { } ! @ # $ % ^ & * ( ) | \ ; : ' '' < > , . ? /<BR>
 													<INPUT TYPE=\"text\" NAME=\"AMM_Register_Registrar_UserName\" MAXLENGTH=\"50\"><BR><BR>
-													
-											Registrar :: Account Recovery Details<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+
+											<HR WIDTH=\"20%\" ALIGN=\"LEFT\">
+												<B>Registrar :: Account Recovery Details</B>
+											<HR WIDTH=\"20%\" ALIGN=\"LEFT\">
 												* Account Recovery Pictographs<BR>
 												$_Application_Module_Member_Register_POST_REGISTRAR_ACCOUNT_RECOVERY_PICTOGRAPH_1&nbsp;&nbsp;&nbsp;&nbsp;
 												$_Application_Module_Member_Register_POST_REGISTRAR_ACCOUNT_RECOVERY_PICTOGRAPH_2&nbsp;&nbsp;&nbsp;&nbsp;
 												$_Application_Module_Member_Register_POST_REGISTRAR_ACCOUNT_RECOVERY_PICTOGRAPH_3&nbsp;&nbsp;&nbsp;&nbsp;
 												$_Application_Module_Member_Register_POST_REGISTRAR_ACCOUNT_RECOVERY_PICTOGRAPH_4&nbsp;&nbsp;&nbsp;&nbsp;
-												$_Application_Module_Member_Register_POST_REGISTRAR_ACCOUNT_RECOVERY_PICTOGRAPH_5<BR><BR>
+												$_Application_Module_Member_Register_POST_REGISTRAR_ACCOUNT_RECOVERY_PICTOGRAPH_5<BR>
+												<B>Account Registration Note</B>: <I>Memorize and or write down this Account Recovery Pictograph Pattern in order to recover this Member Account in the future.</I><BR><BR>
 												
 												* Account Recovery Key<BR>
-												<TEXTAREA COLS=\"50\" ROWS=\"10\" NAME=\"AMM_Register_Registrar_Account_Recovery_Key\">$_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY</TEXTAREA><BR><BR>
+												<TEXTAREA COLS=\"50\" ROWS=\"10\" NAME=\"AMM_Register_Registrar_Account_Recovery_Key\">$_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY</TEXTAREA><BR>
+												<B>Account Registration Note</B>: <I>Memorize and or write down this Account Recovery Key in order to recover this Member Account in the future.</I><BR><BR>
 
 												* Prove that you are not a Robot by placing this Random String of Numbers into the next text field<BR>
 												Random Key: <B><I>$_Application_Module_Member_Register_RANDOM_KEY</I></B><BR>
@@ -271,7 +290,9 @@ echo ("
 													<INPUT TYPE=\"hidden\" NAME=\"AMM_Register_Registrar_Random_Key_Check\" VALUE=\"$_Application_Module_Member_Register_RANDOM_KEY\">
 													<INPUT TYPE=\"submit\" VALUE=\"Register Account\">
 											</FORM><BR>
-											<HR><CENTER>By clicking or pressing on `Register` you now agree to this Web Site :: <A HREF=\"TOS-PP.txt\" TITLE=\":: Open & Display The :: Terms of Service &amp; Privacy Policy ::\">Terms of Service and Privacy Policy</A></CENTER><HR>
+											<HR WIDTH=\"75%\" ALIGN=\"CENTER\">
+												<CENTER>By clicking or pressing on `Register` you now agree to this Web Site :: <A HREF=\"TOS-PP.txt\" TITLE=\":: Open & Display The :: Terms of Service &amp; Privacy Policy ::\">Terms of Service and Privacy Policy</A></CENTER>
+											<HR WIDTH=\"75%\" ALIGN=\"CENTER\">
 ");
 
 } else { // [ + ] IF: Member Account Registration Form Variables Have Executed, Check Random Key
@@ -478,19 +499,17 @@ Your Member Account undergoes scrutiny by the Automated Services Root Administra
 
 Further Member Account Registration Details
 ----------------------------------------------
-NETWORK CONNECTION DETAILS
-* The Connecting Device :: Internet Protocol Address Associated With This Member Account Registration Was: $_GLOBAL_REMOTE_SERVER_ADDRESS
-* The Connecting Device :: Internet Protocol Address Port Number Associated With This Member Account Registration Was: $_GLOBAL_REMOTE_SERVER_PORT
-* This Web Server :: Internet Protocol Address Associated With This Member Account Registration Was: $_GLOBAL_LOCAL_SERVER_ADDRESS
-* This Web Server :: Internet Protocol Address Port Number Associated With This Member Account Registration Was: $_GLOBAL_LOCAL_SERVER_PORT
-* This Web Server :: Request String That Was Used For This Member Account Registration Was: $_GLOBAL_LOCAL_SERVER_QUERY_STRING
+- NETWORKING INFORMATION
+* Internet Protocol Address :: This Web Server: $_GLOBAL_LOCAL_SERVER_ADDRESS :: $_GLOBAL_LOCAL_SERVER_PORT
+* Internet Protocol Address :: Connecting Device: $_GLOBAL_REMOTE_SERVER_ADDRESS :: $_GLOBAL_REMOTE_SERVER_PORT
+* Document Request String :: This Web Server: $_GLOBAL_LOCAL_SERVER_QUERY_STRING
 
-CONNECTING DEVICE DETAILS
-* The Connecting Device :: Reported Web Browser Used For This Member Account Registration Was: $_Application_Module_Background_Log_Visitor_GET_USER_AGENT
+- CONNECTING DEVICE DETAILS
+* The Connecting Device :: Web Browser User-Agent String: $_Application_Module_Background_Log_Visitor_GET_USER_AGENT
 
-TIMESTAMP DETAILS
-* This Web Server :: Registration Timestamp For This Member Account Registration :: Was: $_GLOBAL_LOCAL_SERVER_DATE_STANDARD
-* The Connecting Device :: Registration Timestamp For This Member Account Registration :: Was: $_GLOBAL_LOCAL_SERVER_TIME_UNIX
+- TIMESTAMP DETAILS
+* Timestamp :: Registration :: This Web Server: $_GLOBAL_LOCAL_SERVER_DATE_STANDARD
+* Timestamp :: Registration :: Connecting Device: $_GLOBAL_LOCAL_SERVER_TIME_UNIX
 -------------------------------------------------------------------
 Have a nice day,
 		~ $_GLOBAL_SYSTEM_SITE_TITLE
@@ -991,6 +1010,7 @@ echo ("* Register Message: Adding Registrar Electronic Mail Address To Master Li
 copy("./System/Default/Friend/Friend.cerberus","./Member/Master_List/Electronic_Mail_Addresses/$_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS");
 
 											echo ($_Application_Module_Member_Message_Register_REGISTRATION_SUCCESSFUL);
+											echo ("<META HTTP-EQUIV=\"REFRESH\" CONTENT=\"5; URL=?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Register\"/>");
 
 } else { // [ + ] IF: Insert Member Account Registration Variable Has Executed In Error: Display Error Message
 
