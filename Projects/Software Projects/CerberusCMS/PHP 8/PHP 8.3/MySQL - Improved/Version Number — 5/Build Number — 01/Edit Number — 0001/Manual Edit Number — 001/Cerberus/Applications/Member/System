@@ -431,18 +431,21 @@ if ($_GLOBAL_SETTING_SYSTEM_SECURITY_SETTING_STATUS_CACHE_CIRCUMVENTION != "1") 
 if ($_GET["Display"] == "Options") {
 
 echo ("
+<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 <B>System :: Settings</B>
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 * <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Settings&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: System :: Settings ::\">System :: Settings</A><BR>
 * <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Time&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: System :: Settings :: Date and Time ::\">System :: Settings :: Date and Time</A><BR>
 * <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Plug-Ins&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: System :: Settings :: Plug-Ins ::\">System :: Settings :: Plug-Ins</A><BR><BR>
 
+<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 <B>System :: Information</B>
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 * <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Networking&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: System :: Information :: Networking Information ::\">System :: Information :: Network Information</A><BR>
 * <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Software&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: System :: Information :: Software Information ::\">System :: Information :: Software Information</A><BR>
 * <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Statistics&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: System :: Information :: Statistics :: System-Wide :: \">System :: Information :: Statistics :: System-Wide</A><BR><BR>
 
+<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 <B>System :: Internal Documents</B>
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 * <A HREF=\"./About.txt?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Document :: About ::\">About</A><BR>
@@ -473,27 +476,43 @@ echo ("
 if ($_GET["Display"] == "Statistics") {
 
 echo ("
-											<B>System Statistical Information</B><HR>
-												*&nbsp;Project Installation Date: $_Application_Module_Member_System_LIST_INSTALLATION_DATE<BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"50%\">
+											<B>System Statistical Information</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"50%\"><BR>
+
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>Web Application Project Installation Information</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+												*&nbsp;Web Application Project Installation Date: $_Application_Module_Member_System_LIST_INSTALLATION_DATE<BR>
 												*&nbsp;Total Number of :: Web-Page Document Executions :: Unique: $_Application_Module_Member_System_LIST_TOTAL_NUMBER_OF_DOCUMENT_EXECUTIONS_UNIQUE<BR>
 												*&nbsp;Total Number of :: Web-Page Document Executions :: Non-Unique: $_Application_Module_Member_System_LIST_TOTAL_NUMBER_OF_DOCUMENT_EXECUTIONS_NON_UNIQUE<BR><BR>
 
-											<B>System-Wide Social Interaction Information & Statistics</B><HR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"50%\">
+											<B>System-Wide Social Interaction Information & Statistics</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"50%\"><BR>
 
-											<B>System-Wide :: Forum Information & Statistics</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>System-Wide :: Forum Information & Statistics</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 												*&nbsp;Total Number of Forums: $_Application_Module_Member_System_DB_Query_SELECT_ALL_FORUM_NUMBER_OF_ROWS<BR>
 												*&nbsp;Total Number of Forum' Topics: $_Application_Module_Member_System_DB_Query_SELECT_ALL_FORUM_NUMBER_OF_ROWS_TOPICS<BR>
 												*&nbsp;Total Number of Forum' Topic' Messages: $_Application_Module_Member_System_DB_Query_SELECT_ALL_FORUM_NUMBER_OF_ROWS_TOPIC_MESSAGES<BR><BR>
 
-											<B>System-Wide :: Commentation Information & Statistics</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>System-Wide :: Commentation Information & Statistics</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 												*&nbsp;Total Number of Comments: $_Application_Module_Member_System_DB_Query_SELECT_ALL_COMMENTS_NUMBER_OF_ROWS<BR><BR>
 
-											<B>System-Wide :: Registered Member Accounts Information & Statistics</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>System-Wide :: Registered Member Accounts Information & Statistics</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 												*&nbsp;Total Number of Registered Member Accounts: $_Application_Module_Member_System_DB_Query_SELECT_ALL_MEMBERS_NUMBER_OF_ROWS<BR>
 												*&nbsp;Total Number of Registered Member Accounts :: Currently Active: $_Application_Module_Member_System_DB_Query_SELECT_ALL_MEMBERS_NUMBER_OF_ROWS_ACTIVE<BR>
 												*&nbsp;Total Number of Registered Member Accounts :: Currently Inactive: $_Application_Module_Member_System_DB_Query_SELECT_ALL_MEMBERS_NUMBER_OF_ROWS_INACTIVE<BR><BR>
 
-											<B>System-Wide :: File System Information & Statistics</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>System-Wide :: File System Information & Statistics</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 												*&nbsp;Total Number of Files Within The File System: $_Application_Module_Member_System_DB_Query_SELECT_ALL_FILES_NUMBER_OF_ROWS<BR><BR>
 ");
 
@@ -862,9 +881,13 @@ if ($_GET["Display"] == "Networking") {
 
 echo ("
 
-											<B>Network Connection and Web Server Information</B><HR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"50%\">
+											<B>Network Connection and Web Server Information</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"50%\"><BR>
 
-											<B>Visitor' :: Network :: Connection Information</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>Visitor' :: Network :: Connection Information</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 												*&nbsp;Visitor' :: Network :: Server Request Method :: $_GLOBAL_LOCAL_SERVER_REQUEST_METHOD<BR>
 												*&nbsp;Visitor' :: Network :: Server Request Time :: $_GLOBAL_LOCAL_SERVER_REQUEST_TIME<BR>
 												*&nbsp;Visitor' :: Network :: Server Connection Type :: $_GLOBAL_LOCAL_SERVER_HTTP_CONNECTION_TYPE<BR>
@@ -877,7 +900,9 @@ echo ("
 												&nbsp;With Altitude Above Sea-Level:&nbsp;<A ID=\"getLocationOutputAltitude\" TITLE=\":: Global-Positioning-System :: Coordinates :: Altitude ::\"></A>
 												&nbsp;<SPAN ID=\"OutputLocation\"></SPAN><BR><BR>
 
-											<B>Local Web Server :: Information</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>Local Web Server :: Information</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 												*&nbsp;This Web Server :: Hyper-Text-Transfer-Protocol Host :: $_GLOBAL_LOCAL_SERVER_HTTP_HOST<BR>
 												*&nbsp;This Web Server :: Gateway Interface :: $_GLOBAL_LOCAL_SERVER_GATEWAY_INTERFACE<BR>
 												*&nbsp;This Web Server :: Address :: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_GLOBAL_LOCAL_SERVER_ADDRESS\" TITLE=\":: Open & Display :: The :: Who-Is Information :: For :: Internet Protocol Address: $_GLOBAL_LOCAL_SERVER_ADDRESS ::\" TARGET=\"_NEW\">$_GLOBAL_LOCAL_SERVER_ADDRESS</A><BR>
