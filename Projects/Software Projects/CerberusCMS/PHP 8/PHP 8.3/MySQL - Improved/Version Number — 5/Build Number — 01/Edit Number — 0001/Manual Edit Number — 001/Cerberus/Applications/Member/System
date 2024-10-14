@@ -974,7 +974,6 @@ echo ("
 												*&nbsp;This Web Server :: Time :: In Unix-Epoch :: Months: $_GLOBAL_LOCAL_SERVER_TIME_UNIX_MONTHS<BR>
 												*&nbsp;This Web Server :: Time :: In Unix-Epoch :: Years: ~ $_GLOBAL_LOCAL_SERVER_TIME_UNIX_YEARS<BR><BR>
 
-
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 												<B>Server :: This Web Server :: Time :: Unix-Epoch :: Manually Programmed</B>
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
@@ -1023,21 +1022,33 @@ echo ("
 if ($_GET["Display"] == "Software") {
 
 echo ("
-											<B>Web Server Software Technologies</B><HR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"50%\">
+											<B>Web Server Software Technologies</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"50%\"><BR>
 
-											<B>Hyper-Text-Transfer-Protocol Engine Information :: General</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>Hyper-Text-Transfer-Protocol Engine Information :: General</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 											*&nbsp;Apache Hyper-Text-Transfer-Protocol Engine, Currently Loaded :: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION<BR><BR>
 
-											<B>Hyper-Text-Transfer-Protocol Engine Information :: Apache</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>Hyper-Text-Transfer-Protocol Engine Information :: Apache</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 											*&nbsp;Apache Hyper-Text-Transfer-Protocol Engine, Currently Loaded :: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_APACHE<BR><BR>
 
-											<B>My-Structured-Query-Language Engine Information</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>My-Structured-Query-Language Engine Information</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 											*&nbsp;My-Structured-Query-Language Engine Version Number, Currently Loaded :: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_MYSQL<BR><BR>
 
-											<B>Operating System Environment Information</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>Operating System Environment Information</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 											*&nbsp;Operating System Environment, Currently Loaded :: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_OPERATING_SYSTEM<BR><BR>
 
-											<B>Pre-Hyper-Text-Post-Processor Engine Information</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>Pre-Hyper-Text-Post-Processor Engine Information</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 											*&nbsp;Pre-Hyper-Text-Post-Processor :: Parser Engine :: Version Number :: Configuration File :: $_ACCESS_PHP_ENGINE_VERSION<BR>
 											*&nbsp;Pre-Hyper-Text-Post-Processor :: Parser Engine :: Version Number :: Currently Loaded :: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_PHP<BR>
 											*&nbsp;Pre-Hyper-Text-Post-Processor :: Zend Engine :: Version Number, Currently Loaded :: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_PHP_ZEND<BR><BR>
