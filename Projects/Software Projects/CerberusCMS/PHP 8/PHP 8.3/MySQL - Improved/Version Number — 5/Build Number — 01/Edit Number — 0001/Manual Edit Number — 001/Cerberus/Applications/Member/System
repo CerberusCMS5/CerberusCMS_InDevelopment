@@ -882,40 +882,40 @@ if ($_GET["Display"] == "Networking") {
 echo ("
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"50%\">
-											<B>Network Connection and Web Server Information</B>
+											<B>Networking Connection and Web Server Information</B>
 										<HR ALIGN=\"LEFT\" WIDTH=\"50%\"><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											<B>Visitor' :: Network :: Connection Information</B>
+											<B>Networking :: Connected Device :: Connection Information</B>
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-												*&nbsp;Visitor' :: Network :: Server Request Method :: $_GLOBAL_LOCAL_SERVER_REQUEST_METHOD<BR>
-												*&nbsp;Visitor' :: Network :: Server Request Time :: $_GLOBAL_LOCAL_SERVER_REQUEST_TIME<BR>
-												*&nbsp;Visitor' :: Network :: Server Connection Type :: $_GLOBAL_LOCAL_SERVER_HTTP_CONNECTION_TYPE<BR>
-												*&nbsp;Visitor' :: Network :: Internet Protocol Address :: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_GLOBAL_REMOTE_SERVER_ADDRESS\" TITLE=\":: Open & Display :: The :: Who-Is Information :: For :: Internet Protocol Address: $_GLOBAL_REMOTE_SERVER_ADDRESS :: \" TARGET=\"_NEW\">$_GLOBAL_REMOTE_SERVER_ADDRESS</A><BR>
-												*&nbsp;Visitor' :: Network :: Internet Protocol Address :: Connecting Port Number :: $_GLOBAL_REMOTE_SERVER_PORT<BR>
-												*&nbsp;Visitor' :: Network :: Web-Browser :: User-Agent :: $_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT_DISPLAY<BR>
-												*&nbsp;Visitor' :: Location :: Global-Positioning-System :: Coordinates :: X, Y, Z ::
+												*&nbsp;Network :: Connected Device :: Server Request Method :: $_GLOBAL_LOCAL_SERVER_REQUEST_METHOD<BR>
+												*&nbsp;Network :: Connected Device :: Server Request Time :: $_GLOBAL_LOCAL_SERVER_REQUEST_TIME<BR>
+												*&nbsp;Network :: Connected Device :: Server Connection Type :: $_GLOBAL_LOCAL_SERVER_HTTP_CONNECTION_TYPE<BR>
+												*&nbsp;Network :: Connected Device :: Internet Protocol Address :: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_GLOBAL_REMOTE_SERVER_ADDRESS\" TITLE=\":: Open & Display :: The :: Who-Is Information :: For :: Internet Protocol Address: $_GLOBAL_REMOTE_SERVER_ADDRESS :: \" TARGET=\"_NEW\">$_GLOBAL_REMOTE_SERVER_ADDRESS</A><BR>
+												*&nbsp;Network :: Connected Device :: Internet Protocol Address :: Connecting Port Number :: $_GLOBAL_REMOTE_SERVER_PORT<BR>
+												*&nbsp;Network :: Connected Device :: Web-Browser :: User-Agent :: $_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT_DISPLAY<BR>
+												*&nbsp;Network :: Connected Device :: Location :: Global-Positioning-System :: Coordinates :: X, Y, Z ::
 												&nbsp;<A ID=\"getLocationOutputLatitude\" TITLE=\":: Global-Positioning-System :: Coordinates :: Latitude ::\"></A>,
 												<A ID=\"getLocationOutputLongitude\" TITLE=\":: Global-Positioning-System :: Coordinates ::: Longitude ::\"></A>
 												&nbsp;With Altitude Above Sea-Level:&nbsp;<A ID=\"getLocationOutputAltitude\" TITLE=\":: Global-Positioning-System :: Coordinates :: Altitude ::\"></A>
 												&nbsp;<SPAN ID=\"OutputLocation\"></SPAN><BR><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											<B>Local Web Server :: Information</B>
+											<B>Networking :: This Web Server :: Information</B>
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-												*&nbsp;This Web Server :: Hyper-Text-Transfer-Protocol Host :: $_GLOBAL_LOCAL_SERVER_HTTP_HOST<BR>
-												*&nbsp;This Web Server :: Gateway Interface :: $_GLOBAL_LOCAL_SERVER_GATEWAY_INTERFACE<BR>
-												*&nbsp;This Web Server :: Address :: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_GLOBAL_LOCAL_SERVER_ADDRESS\" TITLE=\":: Open & Display :: The :: Who-Is Information :: For :: Internet Protocol Address: $_GLOBAL_LOCAL_SERVER_ADDRESS ::\" TARGET=\"_NEW\">$_GLOBAL_LOCAL_SERVER_ADDRESS</A><BR>
-												*&nbsp;This Web Server :: Address :: Connecting Port Number: $_GLOBAL_LOCAL_SERVER_PORT<BR>
-												*&nbsp;This Web Server :: Software :: $_GLOBAL_LOCAL_SERVER_SOFTWARE<BR>
-												*&nbsp;This Web Server :: Request Time :: $_GLOBAL_LOCAL_SERVER_REQUEST_TIME<BR>
-												*&nbsp;This Web Server :: Request Time ( Float ) :: $_GLOBAL_LOCAL_SERVER_REQUEST_TIME_FLOAT<BR>
-												*&nbsp;This Web Server :: Document Root :: $_GLOBAL_LOCAL_SERVER_DOCUMENT_ROOT<BR>
-												*&nbsp;This Web Server :: Hyper-Text-Transfer-Protocol Accept Type :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT<BR>
-												*&nbsp;This Web Server :: Hyper-Text-Transfer-Protocol Character Set :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_CHARACTER_SET<BR>
-												*&nbsp;This Web Server :: Hyper-Text-Transfer-Protocol Encoding :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_ENCODING<BR>
-												*&nbsp;This Web Server :: Hyper-Text-Transfer-Protocol Loading Type :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_LOADING<BR>
-												*&nbsp;This Web Server :: Hyper-Text-Transfer-Protocol Language :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_LANGUAGE<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Host :: $_GLOBAL_LOCAL_SERVER_HTTP_HOST<BR>
+												*&nbsp;Network :: This Web Server :: Gateway Interface :: $_GLOBAL_LOCAL_SERVER_GATEWAY_INTERFACE<BR>
+												*&nbsp;Network :: This Web Server :: Address :: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_GLOBAL_LOCAL_SERVER_ADDRESS\" TITLE=\":: Open & Display :: The :: Who-Is Information :: For :: Internet Protocol Address: $_GLOBAL_LOCAL_SERVER_ADDRESS ::\" TARGET=\"_NEW\">$_GLOBAL_LOCAL_SERVER_ADDRESS</A><BR>
+												*&nbsp;Network :: This Web Server :: Address :: Connecting Port Number: $_GLOBAL_LOCAL_SERVER_PORT<BR>
+												*&nbsp;Network :: This Web Server :: Software :: $_GLOBAL_LOCAL_SERVER_SOFTWARE<BR>
+												*&nbsp;Network :: This Web Server :: Request Time :: $_GLOBAL_LOCAL_SERVER_REQUEST_TIME<BR>
+												*&nbsp;Network :: This Web Server :: Request Time ( Float ) :: $_GLOBAL_LOCAL_SERVER_REQUEST_TIME_FLOAT<BR>
+												*&nbsp;Network :: This Web Server :: Document Root :: $_GLOBAL_LOCAL_SERVER_DOCUMENT_ROOT<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Accept Type :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Character Set :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_CHARACTER_SET<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Encoding :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_ENCODING<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Loading Type :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_LOADING<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Language :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_LANGUAGE<BR>
 ");
 
 } // [ + ] IF: Internal Application: Display :: Networking :: Is: Activated
