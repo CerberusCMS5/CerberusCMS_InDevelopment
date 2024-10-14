@@ -713,92 +713,126 @@ echo ("
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 											<B>Settings :: System :: Plug-Ins :: Hardware Devices</B>
-										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
 
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Audio/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_AUDIO/Audio.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Audio ::\" TARGET=\"_NEW\">Audio</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Audio :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_AUDIO<BR>
 												*&nbsp;Plug-In :: Audio :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_AUDIO | $_Application_Module_Member_System_PlugIn_Status_Audio<BR>
 											<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Devices&amp;Display&#61;Options&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Application :: Devices ::\">Device :: Hardware :: Testing :: Audio</A><BR><BR>
 
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Camera/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_CAMERA/Camera.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Camera ::\" TARGET=\"_NEW\">Camera</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Camera :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_CAMERA<BR>
 												*&nbsp;Plug-In :: Camera :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_CAMERA | $_Application_Module_Member_System_PlugIn_Status_Camera<BR>
 											<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Devices&amp;Display&#61;Options&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Application :: Devices ::\">Device :: Hardware :: Testing :: Camera</A><BR><BR>
 
-											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Microphone/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_MICROPHONE/Microphone.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Microphone ::\" TARGET=\"_NEW\">Microphone</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Microphone/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_MICROPHONE/Microphone.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Microphone ::\" TARGET=\"_NEW\">Microphone</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Microphone :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_MICROPHONE<BR>
 												*&nbsp;Plug-In :: Microphone :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_MICROPHONE | $_Application_Module_Member_System_PlugIn_Status_Location<BR>
 											<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Devices&amp;Display&#61;Options&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Application :: Devices ::\">Device :: Hardware :: Testing :: Microphone</A><BR><BR>
 
-											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Location/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_LOCATION/Location.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Location ::\" TARGET=\"_NEW\">Location</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Location/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_LOCATION/Location.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Location ::\" TARGET=\"_NEW\">Location</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Location :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_LOCATION<BR>
 												*&nbsp;Plug-In :: Location :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_LOCATION | $_Application_Module_Member_System_PlugIn_Status_Location<BR><BR>
 
-											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Notifications/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_NOTIFICATIONS/Notifications.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Notifications ::\" TARGET=\"_NEW\">Notifications</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Notifications/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_NOTIFICATIONS/Notifications.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Notifications ::\" TARGET=\"_NEW\">Notifications</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Notifications :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_NOTIFICATIONS<BR>
 												*&nbsp;Plug-In :: Notifications :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_NOTIFICATIONS | $_Application_Module_Member_System_PlugIn_Status_Notifications<BR><BR>
 
-											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Video/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_VIDEO/Video.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Video ::\" TARGET=\"_NEW\">Video</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Video/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_VIDEO/Video.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Video ::\" TARGET=\"_NEW\">Video</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Video :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_VIDEO<BR>
 												*&nbsp;Plug-In :: Video :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_VIDEO | $_Application_Module_Member_System_PlugIn_Status_VIDEO<BR>
 											<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Devices&amp;Display&#61;Options&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Application :: Devices ::\">Device :: Hardware :: Testing :: Video</A><BR><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 											<B>Settings :: System :: Plug-Ins :: Data Processing</B>
-										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
 
-											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Encryption/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_ENCRYPTION/Encryption.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Encryption ::\" TARGET=\"_NEW\">Encryption</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Encryption/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_ENCRYPTION/Encryption.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Encryption ::\" TARGET=\"_NEW\">Encryption</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Encryption :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_ENCRYPTION<BR>
 												*&nbsp;Plug-In :: Encryption :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_ENCRYPTION | $_Application_Module_Member_System_PlugIn_Status_EncryptionL<BR><BR>
 
-											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Safe-HTML/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SAFEHTML/Safe-HTML.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Safe-HTML ::\" TARGET=\"_NEW\">Safe-HTML</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Safe-HTML/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SAFEHTML/Safe-HTML.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Safe-HTML ::\" TARGET=\"_NEW\">Safe-HTML</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Safe-HTML :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SAFEHTML<BR>
 												*&nbsp;Plug-In :: Safe-HTML :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_SAFEHTML | $_Application_Module_Member_System_PlugIn_Status_SafeHTML<BR><BR>
 
-											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Text-Editor/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_TEXT_EDITOR/Text-Editor.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Text-Editor ::\" TARGET=\"_NEW\">Text-Editor</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Text-Editor/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_TEXT_EDITOR/Text-Editor.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Text-Editor ::\" TARGET=\"_NEW\">Text-Editor</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Text-Editor :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_TEXT_EDITOR<BR>
 												*&nbsp;Plug-In :: Text-Editor :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_TEXT_EDITOR | $_Application_Module_Member_System_PlugIn_Status_Text_Editor<BR><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											<B>Settings :: System :: Plug-Ins ::</B> Data Sanitization
-										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+											<B>Settings :: System :: Plug-Ins :: Data Sanitization</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
 
-											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Secure-Delete/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SECURE_DELETE/Secure-Delete.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Secure-Delete ::\" TARGET=\"_NEW\">Secure-Delete</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Secure-Delete/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SECURE_DELETE/Secure-Delete.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Secure-Delete ::\" TARGET=\"_NEW\">Secure-Delete</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Secure-Delete :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SECURE_DELETE<BR>
 												*&nbsp;Plug-In :: Secure-Delete :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_SECURE_DELETE | $_Application_Module_Member_System_PlugIn_Status_Secure_Delete<BR><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 											<B>Settings :: System :: Plug-Ins :: Date and Time</B>
-										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
 
-											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Time/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_TIME/Time.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Time ::\" TARGET=\"_NEW\">Time</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Settings :: System :: Plug-Ins ::</B> <A HREF=\"./System/Plug-Ins/Time/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_TIME/Time.$_INTERNAL_FILE_EXTENSION\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Plug-In Application Module :: Time ::\" TARGET=\"_NEW\">Time</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Time :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_TIME<BR>
 												*&nbsp;Plug-In :: Time :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_TIME | $_Application_Module_Member_System_PlugIn_Status_Time<BR><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 											<B>Settings :: System :: Plug-Ins :: Terminal and Console</B>
-										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
 
-											<B>System :: Settings :: Plug-Ins :: Graphical</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>System :: Settings :: Plug-Ins :: Graphical</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Plug-In :: Smileys and Emojis :: Directory: $_GLOBAL_SYSTEM_SMILEYS_DIRECTORY<BR><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 											<B>System Services</B>
-										<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+										<HR ALIGN=\"LEFT\" WIDTH=\"40%\"><BR>
 
-											System :: Settings :: Services :: <A HREF=\"./System/Services/Commander\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Application Module :: Commander ::\" TARGET=\"_NEW\">Commander</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											System :: Settings :: Services :: <A HREF=\"./System/Services/Commander\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Application Module :: Commander ::\" TARGET=\"_NEW\">Commander</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;System :: Services :: Status :: Commander: $_GLOBAL_SETTING_SYSTEM_SERVICES_MODULE_STATUS_COMMANDER | $_Application_Module_Member_System_System_Services_Status_Commander<BR><BR>
 
-											System :: Settings :: Services :: <A HREF=\"./System/Services/Integrity\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Application Module :: Integrity ::\" TARGET=\"_NEW\">Integrity</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											System :: Settings :: Services :: <A HREF=\"./System/Services/Integrity\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Application Module :: Integrity ::\" TARGET=\"_NEW\">Integrity</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;System :: Services :: Status :: Integrity: $_GLOBAL_SETTING_SYSTEM_SERVICES_MODULE_STATUS_INTEGRITY | $_Application_Module_Member_System_System_Services_Status_Integrity<BR><BR>
 
-											System :: Settings :: Services :: <A HREF=\"./System/Services/Loops\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Application Module :: Loops ::\" TARGET=\"_NEW\">Loops</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											System :: Settings :: Services :: <A HREF=\"./System/Services/Loops\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Application Module :: Loops ::\" TARGET=\"_NEW\">Loops</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;System :: Services :: Status :: Loops: $_GLOBAL_SETTING_SYSTEM_SERVICES_MODULE_STATUS_LOOPS | $_Application_Module_Member_System_System_Services_Status_Loops<BR><BR>
 
-											System :: Settings :: Services :: <A HREF=\"./System/Services/Services\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Application Module :: Services ::\" TARGET=\"_NEW\">Services</A><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											System :: Settings :: Services :: <A HREF=\"./System/Services/Services\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Application Module :: Services ::\" TARGET=\"_NEW\">Services</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;System :: Services :: Status: Services: $_GLOBAL_SETTING_SYSTEM_SERVICES_MODULE_STATUS_SERVICES | $_Application_Module_Member_System_System_Services_Status_Services<BR><BR>
-												
-											System :: Settings :: Services :: <A HREF=\"./System/Services/Tasks\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Application Module :: Tasks ::\" TARGET=\"_NEW\">Tasks</A><BR>
+
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											System :: Settings :: Services :: <A HREF=\"./System/Services/Tasks\" TITLE=\":: Open & Display :: The Source Programming Code :: For :: The System Application Module :: Tasks ::\" TARGET=\"_NEW\">Tasks</A>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;System :: Services :: Status: Tasks: $_GLOBAL_SETTING_SYSTEM_SERVICES_MODULE_STATUS_TASKS | $_Application_Module_Member_System_System_Services_Status_Tasks<BR><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
