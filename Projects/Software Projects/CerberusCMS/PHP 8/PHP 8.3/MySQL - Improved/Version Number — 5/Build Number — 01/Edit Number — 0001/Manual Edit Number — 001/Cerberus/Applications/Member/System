@@ -481,7 +481,7 @@ echo ("
 										<HR ALIGN=\"LEFT\" WIDTH=\"50%\"><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											<B>Web Application Project Installation Information</B>
+											<B>Web Application Project Information</B>
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 												*&nbsp;Web Application Project Installation Date: $_Application_Module_Member_System_LIST_INSTALLATION_DATE<BR>
 												*&nbsp;Total Number of :: Web-Page Document Executions :: Unique: $_Application_Module_Member_System_LIST_TOTAL_NUMBER_OF_DOCUMENT_EXECUTIONS_UNIQUE<BR>
@@ -1066,27 +1066,24 @@ echo ("
 										<HR ALIGN=\"LEFT\" WIDTH=\"50%\"><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											<B>Hyper-Text-Transfer-Protocol Engine Information :: General</B>
+											<B>Hyper-Text-Transfer-Protocol Engine :: Information :: General</B>
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											*&nbsp;Apache Hyper-Text-Transfer-Protocol Engine, Currently Loaded :: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION<BR><BR>
+											*&nbsp;Hyper-Text-Transfer-Protocol Engine :: Type:  $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION<BR>
+											*&nbsp;Hyper-Text-Transfer-Protocol Engine :: Version Number: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION<BR><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											<B>Hyper-Text-Transfer-Protocol Engine Information :: Apache</B>
+											<B>Database Management System Server Database Engine :: Information</B>
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											*&nbsp;Apache Hyper-Text-Transfer-Protocol Engine, Currently Loaded :: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_APACHE<BR><BR>
+											*&nbsp;Database Management System Server Database :: Type: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_MYSQL<BR>
+											*&nbsp;Database Management System Server Database :: Version Number: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_MYSQL<BR><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											<B>My-Structured-Query-Language Engine Information</B>
+											<B>Operating System Environment :: Information</B>
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											*&nbsp;My-Structured-Query-Language Engine Version Number, Currently Loaded :: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_MYSQL<BR><BR>
+											*&nbsp;Operating System Environment: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_OPERATING_SYSTEM<BR><BR>
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											<B>Operating System Environment Information</B>
-										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											*&nbsp;Operating System Environment, Currently Loaded :: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_OPERATING_SYSTEM<BR><BR>
-
-										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-											<B>Pre-Hyper-Text-Post-Processor Engine Information</B>
+											<B>Pre-Hyper-Text-Post-Processor Engine :: Information</B>
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 											*&nbsp;Pre-Hyper-Text-Post-Processor :: Parser Engine :: Version Number :: Configuration File :: $_ACCESS_PHP_ENGINE_VERSION<BR>
 											*&nbsp;Pre-Hyper-Text-Post-Processor :: Parser Engine :: Version Number :: Currently Loaded :: $_PROJECT_WEB_SERVER_TECHNOLOGY_VERSION_PHP<BR>
