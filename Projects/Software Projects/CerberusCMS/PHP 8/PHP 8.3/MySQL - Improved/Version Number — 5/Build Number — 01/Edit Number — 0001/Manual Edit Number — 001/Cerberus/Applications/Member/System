@@ -902,20 +902,54 @@ echo ("
 
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 											<B>Networking :: This Web Server :: Information</B>
-										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Host :: $_GLOBAL_LOCAL_SERVER_HTTP_HOST<BR>
-												*&nbsp;Network :: This Web Server :: Gateway Interface :: $_GLOBAL_LOCAL_SERVER_GATEWAY_INTERFACE<BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
+
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Networking :: This Web Server :: Information :: Hyper-Text-Transfer-Protocol</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol :: Host :: $_GLOBAL_LOCAL_SERVER_HTTP_HOST<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol :: Accept Type :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol :: Character Set :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_CHARACTER_SET<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol :: Encoding :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_ENCODING<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol :: Loading Type :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_LOADING<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol :: Language :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_LANGUAGE<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol :: Connection Type :: $_GLOBAL_LOCAL_SERVER_HTTP_CONNECTION_TYPE<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol :: Host :: $_GLOBAL_LOCAL_SERVER_HTTP_HOST<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol :: Referrer :: $_GLOBAL_LOCAL_SERVER_HTTP_REFERRER<BR>
+												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol :: User-Agent :: $_GLOBAL_LOCAL_SERVER_HTTP_USER_AGENT<BR><BR>
+
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Networking :: This Web Server :: Information :: Gateway</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+												*&nbsp;Network :: This Web Server :: Gateway Interface :: $_GLOBAL_LOCAL_SERVER_GATEWAY_INTERFACE<BR><BR>
+
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Networking :: This Web Server :: Information :: Address</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Network :: This Web Server :: Address :: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_GLOBAL_LOCAL_SERVER_ADDRESS\" TITLE=\":: Open & Display :: The :: Who-Is Information :: For :: Internet Protocol Address: $_GLOBAL_LOCAL_SERVER_ADDRESS ::\" TARGET=\"_NEW\">$_GLOBAL_LOCAL_SERVER_ADDRESS</A><BR>
-												*&nbsp;Network :: This Web Server :: Address :: Connecting Port Number: $_GLOBAL_LOCAL_SERVER_PORT<BR>
+												*&nbsp;Network :: This Web Server :: Address :: Connecting Port Number: $_GLOBAL_LOCAL_SERVER_PORT<BR><BR>
+
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Networking :: This Web Server :: Information :: Identity</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+												*&nbsp;Network :: This Web Server :: Name :: $_GLOBAL_LOCAL_SERVER_NAME<BR>
+												*&nbsp;Network :: This Web Server :: Protocol :: $_GLOBAL_LOCAL_SERVER_PROTOCOL<BR>
 												*&nbsp;Network :: This Web Server :: Software :: $_GLOBAL_LOCAL_SERVER_SOFTWARE<BR>
-												*&nbsp;Network :: This Web Server :: Request Time :: $_GLOBAL_LOCAL_SERVER_REQUEST_TIME<BR>
-												*&nbsp;Network :: This Web Server :: Request Time ( Float ) :: $_GLOBAL_LOCAL_SERVER_REQUEST_TIME_FLOAT<BR>
+												*&nbsp;Network :: This Web Server :: Signature :: $_GLOBAL_LOCAL_SERVER_SIGNATURE<BR><BR>
+
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Networking :: This Web Server :: Information :: Request</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+												*&nbsp;Network :: This Web Server :: Request :: Time :: $_GLOBAL_LOCAL_SERVER_REQUEST_TIME<BR>
+												*&nbsp;Network :: This Web Server :: Request :: Time ( Float ) :: $_GLOBAL_LOCAL_SERVER_REQUEST_TIME_FLOAT<BR>
+												*&nbsp;Network :: This Web Server :: Request :: Method :: $_GLOBAL_LOCAL_SERVER_REQUEST_METHOD<BR><BR>
+
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+											<B>Networking :: This Web Server :: Information :: Document</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 												*&nbsp;Network :: This Web Server :: Document Root :: $_GLOBAL_LOCAL_SERVER_DOCUMENT_ROOT<BR>
-												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Accept Type :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT<BR>
-												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Character Set :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_CHARACTER_SET<BR>
-												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Encoding :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_ENCODING<BR>
-												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Loading Type :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_LOADING<BR>
-												*&nbsp;Network :: This Web Server :: Hyper-Text-Transfer-Protocol Language :: $_GLOBAL_LOCAL_SERVER_HTTP_ACCEPT_LANGUAGE<BR>
+												*&nbsp;Network :: This Web Server :: Directory :: Current :: $_GLOBAL_LOCAL_SERVER_DIRECTORY_CURRENT<BR>
+												*&nbsp;Network :: This Web Server :: Directory :: File :: Current :: $_GLOBAL_LOCAL_SERVER_DIRECTORY_FILE_CURRENT<BR>
 ");
 
 } // [ + ] IF: Internal Application: Display :: Networking :: Is: Activated
@@ -998,7 +1032,6 @@ echo ("
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 												<B>Server :: Connected Device</B>
 										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-
 												<B><A HREF=\"https://en.Wikipedia.org/wiki/Gregorian_calendar\" TITLE=\":: Open & Display :: The :: Official Wikipedia Article Entry :: For :: Gregorian Calendar ::\" TARGET=\"_NEW\">Gregorian Calendar</A> :: Non-Leap Year</B><BR>
 												*&nbsp;Number of Seconds In 365 Days With 24 Hours In Each Day: 60 Seconds * 60 Minutes * 24 Hours * 365 Days = 31,536,000 Seconds<BR>
 												*&nbsp;Number of Minutes In 365 Days With 24 Hours In Each Day: 60 Minutes * 24 Hours * 365 Days = 31,536,000 Minutes<BR>
@@ -1006,7 +1039,13 @@ echo ("
 												*&nbsp;Number of Days In 365 Days With 24 Hours In Each Day: 365 Days / 1 = 365 Days<BR>
 												*&nbsp;Number of Weeks In 365 Days With 24 Hours In Each Day: 365 / 7 = 52.1428571429 Weeks<BR><BR>
 
-												<B>Celestial</B><BR>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+												<B>Celestial</B>
+										<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+													<VIDEO WIDTH=\"325\" HEIGHT=\"240\" CONTROLS>
+														<SOURCE SRC=\"./Theme/Global/Video/Applications/System/720P/Celestial.mp4\" TYPE=\"video/mp4\">
+													</VIDEO> 
+
 ");
 												
 } // [ + ] IF: Internal Application: Display :: DateTime :: Is: Activated
