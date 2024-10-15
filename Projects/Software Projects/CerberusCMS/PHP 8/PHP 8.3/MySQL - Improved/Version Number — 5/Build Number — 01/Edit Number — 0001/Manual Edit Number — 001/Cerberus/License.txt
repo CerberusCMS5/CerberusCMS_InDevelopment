@@ -53,9 +53,7 @@ https://www.GITHub.com/CerberusCMS5
 DEMONSTRATION SERVERS :: FREE
 https://CerberusCMS5.SourceForge.net
 ============================================================================================================================================================
-LET ("Tinke Software, Inc.") REGISTERED DIGITALLY IN THE YEAR: 2016 IN: Rosedale, California, United States -- FORMERLY KNOWN AS RuneSoft, Inc. and Rune Software, Inc. OFFICIALLY REGISTERED IN THE YEAR: ~2001 IN: Rosedale, California, United States BY Gary Christopher Johnson -- BE KNOWN AS ONE OF THE LICENSE AND RIGHTS HOLDER OF CerberusCMS, Cerberus C.M.S.,
-Cerberus Content Management System AND THE REPRESENTOR, LICENSE AND RIGHTS HOLDER OF Gary Christopher Johnson ALSO KNOWN AS G.C. Johnson's SOFTWARE WORKS.
-RuneSoft, Inc. and Rune Software, Inc. CANNOT BE CONFUSED WITH Rune Software, GmbH IN Germany WHICH WAS OFFICIALLY REGISTERED AFTER THE YEAR ~2002.
+No Commercial Software License
 
 ***************************
 \
