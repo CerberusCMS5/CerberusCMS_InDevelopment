@@ -1122,13 +1122,21 @@ in the system itself where it is connected to the Database Management System or 
 
 ===Graphical User-Interface===
 Unix-Like with Modular appearance.
-CerberusCMS comes with a theme pack that contains 4 different quality levels of graphics.
+CerberusCMS comes with a theme pack that contains 11 different quality levels of graphics.
 * 8K or 7680 × 4320 or "4320P" Progessive / Interlaced
 * 4K or 3840 × 2160 or "2160P" Progressive / Interlaced
+* 2K or 2048x1556 or "2K" Progressive / Interlaced
+* 2040p/i 2048x1020 or "2040P" Progressive / Interlaced
 * 1440p/i or 2560 x 1440 or "1440P" Progressive / Interlaced
 * 1080p/i or 1920 x 1080 or "1080P" Progressive / Interlaced
 * 720p/i 1280 x 720 or "720P" Progressive / Interlaced
-* 480p/i 640 x 480 or "480P" Proressive / Interlaced
+* 640p/i 640x480 or "640P" Progressive / Interlaced
+* 540p/i 960 x 540 or "540P" Proressive / Interlaced
+* 480p/i 480x640 or "480P" Progressive / Interlaced
+* 340p/i 320x340 or "340P" Progressive / Interlaced
+* 240p/i 320x240 or "240P" Progressive / Interlaced
+* 144p/i 192x144 or "144P" Progressive / Interlaced
+
 CerberusCMS automatically detects the connection speed of the connection and optimizes the graphics quality to meet the connection speed. For network connection speed at ~ 800 KiloBytes it will choose to load the 1920 x 1080 resolution theme graphics. Faster connection speeds will automatically choose to load the 4K resolution theme graphics. The entire theme system uses percentages in the programming code so that it can be perfectly fit and rendered to any device resolution. Mobile cell phones, Mobile devices, computer monitors, laptops and other devices of different resolutions.
 
 ===Internet of Things Interface===
