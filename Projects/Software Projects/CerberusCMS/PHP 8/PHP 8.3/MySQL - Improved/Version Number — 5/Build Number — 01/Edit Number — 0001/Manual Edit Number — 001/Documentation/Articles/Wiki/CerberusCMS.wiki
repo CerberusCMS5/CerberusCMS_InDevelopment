@@ -33,8 +33,14 @@ CerberusCMS comes with several additional applications:
 ===Project Origins===
 CerberusCMS was the author's first software project started when the author was 13 and 14 years old. This Web Application was originally written and then used as a long distance communications platform through text messaging, pager messaging and instant messaging from the Internet web browser by small groups who used it for selling products from ~2000 to 2006. The project was later expanded upon to cater to a small V-TM:R and V-TM:B Personal Computer video game community to host expansion packs and video game mods on a web server for download to that community. This personal computer video game was mostly played with friends in Oildale, California and in Los Angeles, California. The first official edition of CerberusCMS was written on a Packard Bell Personal Computer and an IBM Laptop and it totaled around 2,000 lines of Pure Pre-Hyper-Text-Post-Processor Programming Code. It was designed after a Unix-Like interface. It was first released to FreshMeat.org
 
+===Use In The Orignal Raven Software Star Wars Jedi Knight II - Jedi Oucast P.C. Video Game Community===
+From the years of 2004 to 2006 this project was used in the original Star Wars Jedi Knight II - Jedi Outcast P.C. video game community to host video game modification pack files as well as to
+facilitate video game clan wars. Star Wars Jedi Knight II - Jedi Outcast could be modified through configuration files and by adding video game pack files to the video game directory. Dismemberment
+modifications allowed for dismembering the head, arms, hands, torso and legs with the lightsaber and additional high definition texture packs could be added to the video game to enhance the graphics into
+720P/i, 1080P/i, 1440P/i and 2K video resolution with tesselation and other graphical enhancements.
+
 ===Use In The Orignal Id Software Quake 3 - Arena P.C. Video Game Community===
-From the years of ~2000 and 2002 this project was used in the Original Quake 3 - Arena Internet Community to host video game modification pack files as well as to facilitate video game clan wars. Quake 3 - Arena allowed for some Internet Network loops where SEGA Dreamcast owners could also play this video game with those playing this video game on a Personal-Computer through the Id Software Quake 3 - Arena Internet servers.
+From the years of ~2000 and 2002 this project was used in the original Quake 3 - Arena Internet Community to host video game modification pack files as well as to facilitate video game clan wars. Quake 3 - Arena allowed for some Internet Network loops where SEGA Dreamcast owners could also play this video game with those playing this video game on a Personal-Computer through the Id Software Quake 3 - Arena Internet servers.
 
 ===Use In The Orignal Vampire The Masquerade - Redemption P.C. Video Game Community===
 The project was used in the original Vampire The Masquerade - Redemption Video Game Community to host video game modification pack files and video game expansion pack files for video game clan communities.
