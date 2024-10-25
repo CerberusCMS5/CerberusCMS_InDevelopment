@@ -438,7 +438,7 @@ echo ("
 													<INPUT TYPE=\"file\" name=\"AMM_Media_Player_Upload_File_Audio\"><BR>
 												<INPUT TYPE=\"submit\" VALUE=\"Upload Media\">
 											</FORM><BR>
-											Maximum File Upload Size :: Audio File :: In Kilo-BITS :: File: $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_AUDIO<BR><BR>
+											<B>Maximum File Upload Size :: Audio File :: In Kilo-BITS :: File: $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_AUDIO</B><BR><BR>
 ");
 
 /*
@@ -587,7 +587,7 @@ echo ("
 													<INPUT TYPE=\"file\" name=\"AMM_Media_Player_Upload_File_Video\"><BR>
 												<INPUT TYPE=\"submit\" VALUE=\"Upload Media\">
 											</FORM><BR>
-											Maximum File Upload Size :: Video File :: In Kilo-BITS :: File: $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_VIDEO<BR>
+											<B>Maximum File Upload Size :: Video File :: In Kilo-BITS :: File: $_Application_Module_Member_Media_Player_MAXIMUM_UPLOAD_LIMIT_FILE_VIDEO</B><BR>
 ");
 
 /*
@@ -728,7 +728,7 @@ if (filesize($_Application_Module_Member_Media_Player_SPECIFY_UPLOAD_FILE_VIDEO 
 
 } else {
 
-echo ("You must be logged in to upload media to the media player.");
+echo ("Media Player Message: Authentication Is Required In Order To Upload Media To This Media Player.");
 
 } // [ + ] IF: Registered Member Account Credentials Exist, ARE VALID AND Registered Member Account Access Level Is: Greater Than OR Equal To: Moderator
 
