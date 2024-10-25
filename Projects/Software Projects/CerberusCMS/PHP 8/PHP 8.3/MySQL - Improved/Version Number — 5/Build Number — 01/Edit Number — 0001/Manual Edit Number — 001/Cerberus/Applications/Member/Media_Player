@@ -563,7 +563,7 @@ if (filesize($_Application_Module_Member_Media_Player_SPECIFY_UPLOAD_FILE_AUDIO 
 
 											echo ("* Message: This Audio File Has Been Uploaded.<BR>");
 
-header("Location: ?$_APPLICATION_MODULE_MEMBER=Media_Player&Upload=Media");
+header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Media_Player&Upload=Media");
 
 } // [ + ] IF: Media :: File :: Audio :: File Already Exists Within Audio Directory :: Unlink Audio File
 
@@ -714,7 +714,7 @@ if (filesize($_Application_Module_Member_Media_Player_SPECIFY_UPLOAD_FILE_VIDEO 
 
 											echo ("* Message: This Video File Has Been Uploaded.<BR>");
 
-header("Location: ?$_APPLICATION_MODULE_MEMBER=Media_Player&Upload=Media");
+header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Media_Player&Upload=Media");
 
 } // [ + ] IF: Media :: File :: Video :: File Already Exists Within Video Directory :: Unlink Video File
 
