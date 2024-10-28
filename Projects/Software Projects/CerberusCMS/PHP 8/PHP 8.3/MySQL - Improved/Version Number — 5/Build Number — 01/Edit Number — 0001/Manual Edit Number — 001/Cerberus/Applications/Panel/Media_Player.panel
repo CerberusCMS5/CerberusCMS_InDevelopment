@@ -812,6 +812,8 @@ unlink("./Upload/Audio/Music/$_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUS
 
 header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Media_Player&Search=Media");
 
+} // [ + ] IF: File Exists: Audio :: Music :: File :: Is: Read Directory :: Audio :: Music
+
 } // [ + ] IF: Internal Application: Delete :: Media :: Audio :: Music :: File :: Is: Activated
 
 } // [ + ] IF: Specified Audio Directory AND Files ARE NOT Specified Audio Directory AND Files
