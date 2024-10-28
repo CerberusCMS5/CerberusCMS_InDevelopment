@@ -823,6 +823,16 @@ header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Media_Player&Search=Medi
 
 } // [ + ] WHILE: Reading :: Directory :: Audio :: Music
 
+/*
+ ============================================================================================================
+ + ELSE: Registered Member Account Credentials DO NOT Exist, ARE NOT Valid AND OR Registered Member Account Access Level Is: Less Than: Moderator
+ ============================================================================================================
+*/
+
+} else {
+
+echo ("Media Player Message: Authentication Is Required In Order To Delete Media.");
+
 } // [ + ] IF: Registered Member Account Credentials Exist, ARE VALID AND Registered Member Account Access Level Is: Greater Than OR Equal To: Moderator
 
 } // [ + ] IF: Internal Application: Delete :: Media :: Audio :: Music :: Is: Activated
