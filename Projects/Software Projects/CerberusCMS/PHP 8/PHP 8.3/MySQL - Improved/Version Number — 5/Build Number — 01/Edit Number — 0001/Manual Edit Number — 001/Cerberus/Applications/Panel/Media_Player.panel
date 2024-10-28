@@ -792,7 +792,7 @@ if ($_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUSIC == "." || $_Applicatio
  ============================================================================================================
 */
 
-if ($_GET["Music_File"] == "$_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUSIC")) {
+if ($_GET["Music_File"] == "$_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUSIC") {
 
 /*
  ============================================================================================================
@@ -800,7 +800,7 @@ if ($_GET["Music_File"] == "$_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUSI
  ============================================================================================================
 */
 
-if (file_exists("./Upload/Audio/Music/$_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUSIC") {
+if (file_exists("./Upload/Audio/Music/$_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUSIC")) {
 
 /*
  ============================================================================================================
