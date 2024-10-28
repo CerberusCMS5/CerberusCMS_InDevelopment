@@ -792,7 +792,7 @@ if ($_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUSIC == "." || $_Applicatio
  ============================================================================================================
 */
 
-if ($_GET["Music_File"] == "$_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUSIC") {
+if ($_GET["Music_File"] == "$_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUSIC")) {
 
 /*
  ============================================================================================================
