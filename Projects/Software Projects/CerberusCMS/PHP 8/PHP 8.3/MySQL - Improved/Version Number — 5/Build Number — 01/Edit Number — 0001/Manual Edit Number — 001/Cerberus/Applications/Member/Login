@@ -519,8 +519,8 @@ Keep the following information for your own records
 * The Authorization Token that is available now is: $_Application_Module_Member_Login_SECURITY_RANDOM_STRING_GENERATOR_LENGTH_NUMBER_HASH
 
 - Timestamp Information
-* This Electronic Mail Message Timestamp From This Web Server Was: $_GLOBAL_LOCAL_SERVER_DATE_STANDARD
-* This Electronic Mail Message Timestamp From The Connecting Device Was: $_GLOBAL_REMOTE_SERVER_DATE_STANDARD
+* This Electronic Mail Message Timestamp From This Web Server Was :: Standard Format: $_GLOBAL_LOCAL_SERVER_DATE_STANDARD
+* This Electronic Mail Message Timestamp From The Connecting Device Was :: Unix-Epoch: $_GLOBAL_LOCAL_SERVER_TIME_UNIX
 
 - Digital Fingerprint Information
 * This Electronic Mail Message Unique Digital Fingerprint Is: $_GLOBAL_SECURITY_RANDOM_NUMBER_GENERATOR_URL_DIGITS_HASH_OF_SHA1_OF_SHA256
