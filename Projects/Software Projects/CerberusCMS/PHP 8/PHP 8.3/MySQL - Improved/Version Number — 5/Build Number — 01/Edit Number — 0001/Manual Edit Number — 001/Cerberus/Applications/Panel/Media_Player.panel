@@ -785,6 +785,12 @@ if ($_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUSIC == "." || $_Applicatio
 **/
 } else {
 
+/*
+ ============================================================================================================
+ + UNLINK: Selected :: Media :: Audio :: Music AND Redirect To Media Player Media Search
+ ============================================================================================================
+*/
+
 unlink("./Upload/Audio/Music/$_Application_Module_Theme_READ_DIRECTORY_AUDIO_MUSIC");
 
 header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Media_Player&Search=Media");
@@ -795,5 +801,5 @@ header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Media_Player&Search=Medi
 
 } // [ + ] IF: Registered Member Account Credentials Exist, ARE VALID AND Registered Member Account Access Level Is: Greater Than OR Equal To: Moderator
 
-} // [ + ] IF: Internal Application: Delete :: Media :: Audio :: Is: Activated
+} // [ + ] IF: Internal Application: Delete :: Media :: Audio :: Music :: Is: Activated
 ?>
