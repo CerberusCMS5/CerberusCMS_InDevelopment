@@ -88,7 +88,7 @@ echo ("
 		 :: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;DisplayVideo&#61;FileName&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Display :: Video Stream :: From :: Video File ::\">Display Video From Video File</A> 
 		 :: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;PlayAudioStream&#61;FileName&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Play :: Audio Stream :: From File ::\">Play Audio From Audio File</A> 
 		 :: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;PlayAudioStream&#61;URL&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Play :: Audio Stream :: From :: Uniform-Resource-Location ::\">Play Audio From URL</A>
-		 :: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;Search&#61;Media&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Search :: Media ::\">Search Media</A> ::
+		 :: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;Search&#61;Media&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Search :: Media ::\">Search Media</A>
 		 :: <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;Upload&#61;Media&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Upload :: Media ::\">Upload Media</A> ::
 </CENTER><HR><BR><BR>
 ");
