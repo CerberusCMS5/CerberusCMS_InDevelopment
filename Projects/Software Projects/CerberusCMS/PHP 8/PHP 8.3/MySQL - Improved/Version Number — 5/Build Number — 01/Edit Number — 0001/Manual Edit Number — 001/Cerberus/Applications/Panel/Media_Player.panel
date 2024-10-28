@@ -406,7 +406,10 @@ echo ("
 											<CENTER>
 												<AUDIO CONTROLS AUTOPLAY>
 													<SOURCE SRC=\"$_Application_Module_Member_Media_Player_POST_AUDIO_FILE_NAME\" TYPE=\"AUDIO/MPEG\">
-													<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;DeleteMedia&#61;Audio&amp;Music_File&#61;$_Application_Module_Member_Media_Player_POST_AUDIO_FILE_NAME\" TITLE=\"\">Delete This Audio File</A>
+											</CENTER>
+
+											<CENTER>
+												<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Media_Player&amp;DeleteMedia&#61;Audio&amp;Music_File&#61;$_Application_Module_Member_Media_Player_POST_AUDIO_FILE_NAME\" TITLE=\":: Delete This Audio File ::\">Delete This Audio File</A>
 											</CENTER>
 ");
 
