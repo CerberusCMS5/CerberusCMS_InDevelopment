@@ -17,7 +17,7 @@
  +  ------
  + Theme Application
  + ----------------------------------------------------------------------------------------------------------
- + - This File, Location	 : Root Directory => Theme => Global => Theme.php
+ + - This File, Location	 : Root Directory => Theme => 720PI => Global => Theme.php
  + - This File, Version		 : 0.7.4
  + - This File, Programming Code : Pure Pre-Hyper-Text-Post-Processor
  + - Programming Code Model	 : Procedural, Functional, Object Oriented :: Pre-Order Algebraic
@@ -55,7 +55,7 @@
  ============================================================================================================
 */
 
-$_THIS_THEME_DIRECTORY					= "Global";
+$_THIS_THEME_DIRECTORY					= "720PI/Global";
 $_THIS_THEME_IMAGE_DIRECTORY				= "Image";
 
 /*
