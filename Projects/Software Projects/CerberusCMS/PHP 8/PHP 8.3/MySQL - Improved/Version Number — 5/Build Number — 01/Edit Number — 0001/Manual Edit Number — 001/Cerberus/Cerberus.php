@@ -76,7 +76,7 @@
  * Search These Keys With The Text-Editor Application Search Function
  *
  * *** Logical ***
- * [ ^ ], Document Name and Location
+ * [ ^ ], Directory Document File Name and Directory Location
  * [ @ ], Header of Programming Code Systems and Programming Code Blocks
  * [ = ], Programming Code Statement IF With Description
  * [ & ], Programming Code Statement While With Description
