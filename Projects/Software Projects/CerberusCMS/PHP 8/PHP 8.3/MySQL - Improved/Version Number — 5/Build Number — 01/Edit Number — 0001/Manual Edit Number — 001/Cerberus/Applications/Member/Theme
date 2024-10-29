@@ -67,12 +67,21 @@
 
 /*
  ============================================================================================================
- + Find and Open :: Directory :: Theme Directory
+ + Find and Open :: Directory :: Theme Directory :: 144P/I
  ============================================================================================================
 */
 
-$_Application_Module_Theme_FIND_DIRECTORY_THEME				= "./Theme/";
-$_Application_Module_Theme_OPEN_DIRECTORY_THEME				= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME);
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_144PI			= "./Theme/144PI";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_144PI			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_144PI);
+
+/*
+ ============================================================================================================
+ + Find and Open :: Directory :: Theme Directory :: 240P/I
+ ============================================================================================================
+*/
+
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_240PI			= "./Theme/240PI";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_240PI			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_240PI);
 
 /*
  ============================================================================================================
@@ -83,16 +92,16 @@ $_Application_Module_Theme_OPEN_DIRECTORY_THEME				= opendir($_Application_Modul
 echo ("
 												Theme Selection<HR>
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
-													<SELECT NAME=\"IAM_Set_Theme\">
+													<SELECT NAME=\"IAM_Set_Theme_144PI\">
 ");
 
 /*
  ============================================================================================================
- + WHILE: Reading :: Directory :: Theme Directory
+ + WHILE: Reading :: Directory :: Theme Directory :: 144PI
  ============================================================================================================
 */
 
-while (($_Application_Module_Theme_READ_DIRECTORY_THEME = readdir($_Application_Module_Theme_OPEN_DIRECTORY_THEME))) {
+while (($_Application_Module_Theme_READ_DIRECTORY_THEME_144PI = readdir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_144PI))) {
 
 /*
  ============================================================================================================
@@ -100,12 +109,12 @@ while (($_Application_Module_Theme_READ_DIRECTORY_THEME = readdir($_Application_
  ============================================================================================================
 */
 
-if ($_Application_Module_Theme_READ_DIRECTORY_THEME == "." || $_Application_Module_Theme_READ_DIRECTORY_THEME == ".." || $_Application_Module_Theme_READ_DIRECTORY_THEME == "index.php" || $_Application_Module_Theme_READ_DIRECTORY_THEME == "Global") {
+if ($_Application_Module_Theme_READ_DIRECTORY_THEME_144PI == "." || $_Application_Module_Theme_READ_DIRECTORY_THEME_144PI == ".." || $_Application_Module_Theme_READ_DIRECTORY_THEME_144PI == "index.php" || $_Application_Module_Theme_READ_DIRECTORY_THEME_144PI == "Global") {
 /**
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Theme_READ_DIRECTORY_THEME\">$_Application_Module_Theme_READ_DIRECTORY_THEME</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Theme_READ_DIRECTORY_THEME_144PI\">$_Application_Module_Theme_READ_DIRECTORY_THEME_144PI</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -113,7 +122,7 @@ if ($_Application_Module_Theme_READ_DIRECTORY_THEME == "." || $_Application_Modu
 
 /*
  ============================================================================================================
- + Set :: Specified Theme Directory
+ + SET :: Specified Theme Directory
  ============================================================================================================
 */
 
@@ -126,7 +135,7 @@ echo ("
 /*
  ============================================================================================================
  +
- + IF: Internal Application: Message
+ + [ @ ] IF: Internal Application: Message
  +
  ============================================================================================================
 */
@@ -139,9 +148,9 @@ if ($_GET["Message"] == "ThemeSet") {
 
 /*
  ============================================================================================================
- + Close Directory :: Theme Directory
+ + Close Directory :: Theme Directory :: 144PI
  ============================================================================================================
 */
 
-closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME);
+closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_144PI);
 ?>
