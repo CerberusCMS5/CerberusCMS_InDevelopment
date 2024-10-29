@@ -2501,6 +2501,8 @@ echo ("
 	<INPUT TYPE=\"password\" NAME=\"Architect_Administration_Account_Password_2\" MAXLENGTH=\"50\"><BR>
 			* <I>Administration Account :: Birth Date</I>:<BR>
 	<INPUT TYPE=\"date\" NAME=\"Architect_Administration_Account_BirthDate\" MAXLENGTH=\"50\"><BR>
+			* <I>Administration Account :: Recovery Key</I>
+	<INPUT TYPE=\"text\" VALUE=\"$_ARCHITECT_POST_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY\" MAXLENGTH=\"50\"><BR>
 	<INPUT TYPE=\"submit\" VALUE=\"Install Administrator\">
 	</FORM><BR>
 ");
