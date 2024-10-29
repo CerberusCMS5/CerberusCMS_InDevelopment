@@ -138,7 +138,7 @@ echo ("
 <HTML>
 	<HEAD>
 		<TITLE>$_PROJECT_STRING_NAME_EXTENDED - Pre-Installation ToolKit</TITLE>
-		<LINK REL=\"stylesheet\" HREF=\"../../Theme/Global/Style_Sheet/Style.css\" TYPE=\"text/css\">
+		<LINK REL=\"stylesheet\" HREF=\"../../Theme/720PI/Global/Style_Sheet/Style.css\" TYPE=\"text/css\">
 		<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html;charset=utf-8\">
 		</HEAD>
 		
@@ -153,6 +153,12 @@ echo ("
  +
  + [ @ ] Unpack Packages
  +
+ ============================================================================================================
+*/
+
+/*
+ ============================================================================================================
+ + IF: Internal Application: Application :: Unpack
  ============================================================================================================
 */
 	
@@ -172,17 +178,23 @@ echo ("ToolKit Message: The File: $_Installation_ToolKit_POST_ZIP_ARCHIVE_UNPACK
 
 } else {
 
-echo ("ToolKit Message: There was an error. I was not able to unpack the archive file.");
-
-}
+echo ("ToolKit Message: There was an error. I was not able to unpack this archive file.");
 
 } // [ + ] IF: System: Unzip Downloaded Archive Package
+
+} // [ + ] IF: Internal Application: Application :: Unpack :: Is: Activated
 
 /*
  ============================================================================================================
  +
  + [ @ ] Execute Terminal Commands
  +
+ ============================================================================================================
+*/
+
+/*
+ ============================================================================================================
+ + IF: Internal Application: Application :: Terminal
  ============================================================================================================
 */
 	 
