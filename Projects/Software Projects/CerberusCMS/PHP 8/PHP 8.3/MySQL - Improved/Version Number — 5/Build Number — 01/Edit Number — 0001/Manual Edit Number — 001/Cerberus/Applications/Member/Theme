@@ -85,6 +85,96 @@ $_Application_Module_Theme_OPEN_DIRECTORY_THEME_240PI			= opendir($_Application_
 
 /*
  ============================================================================================================
+ + Find and Open :: Directory :: Theme Directory :: 340P/I
+ ============================================================================================================
+*/
+
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_340PI			= "./Theme/340PI";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_340PI			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_340PI);
+
+/*
+ ============================================================================================================
+ + Find and Open :: Directory :: Theme Directory :: 480P/I
+ ============================================================================================================
+*/
+
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_480PI			= "./Theme/480PI";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_480PI			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_480PI);
+
+/*
+ ============================================================================================================
+ + Find and Open :: Directory :: Theme Directory :: 520P/I
+ ============================================================================================================
+*/
+
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_520PI			= "./Theme/520PI";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_520PI			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_520PI);
+
+/*
+ ============================================================================================================
+ + Find and Open :: Directory :: Theme Directory :: 640P/I
+ ============================================================================================================
+*/
+
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_640PI			= "./Theme/640PI";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_640PI			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_640PI);
+
+/*
+ ============================================================================================================
+ + Find and Open :: Directory :: Theme Directory :: 720P/I
+ ============================================================================================================
+*/
+
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_720PI			= "./Theme/720PI";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_720PI			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_720PI);
+
+/*
+ ============================================================================================================
+ + Find and Open :: Directory :: Theme Directory :: 1080P/I
+ ============================================================================================================
+*/
+
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_1080PI			= "./Theme/1080PI";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_1080PI			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_1080PI);
+
+/*
+ ============================================================================================================
+ + Find and Open :: Directory :: Theme Directory :: 2040P/I
+ ============================================================================================================
+*/
+
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_2040PI			= "./Theme/2040PI";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_2040PI			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_2040PI);
+
+/*
+ ============================================================================================================
+ + Find and Open :: Directory :: Theme Directory :: 2160P/I
+ ============================================================================================================
+*/
+
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_2160PI			= "./Theme/2160PI";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_2160PI			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_2160PI);
+
+/*
+ ============================================================================================================
+ + Find and Open :: Directory :: Theme Directory :: 4K
+ ============================================================================================================
+*/
+
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_4K			= "./Theme/4K";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_4K			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_4K);
+
+/*
+ ============================================================================================================
+ + Find and Open :: Directory :: Theme Directory :: 8K
+ ============================================================================================================
+*/
+
+$_Application_Module_Theme_FIND_DIRECTORY_THEME_8K			= "./Theme/8K";
+$_Application_Module_Theme_OPEN_DIRECTORY_THEME_8K			= opendir($_Application_Module_Theme_FIND_DIRECTORY_THEME_8K);
+
+/*
+ ============================================================================================================
  + List All Theme Directories
  ============================================================================================================
 */
