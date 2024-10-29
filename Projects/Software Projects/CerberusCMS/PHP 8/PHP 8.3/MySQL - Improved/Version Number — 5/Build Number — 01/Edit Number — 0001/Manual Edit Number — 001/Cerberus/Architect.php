@@ -886,7 +886,7 @@ $_ARCHITECT_INTEGRITY_FILES_FIND_PLUGIN_FILE_014								= hash_file('sha256', ".
  ============================================================================================================
 */
 
-include_once ("./Theme/Global/Theme.php");
+include_once ("./Theme/720PI/Global/Theme.php");
 
 /*
  ============================================================================================================
@@ -904,8 +904,8 @@ echo ("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http:/
 	<HEAD>
 		<TITLE>$_PROJECT_STRING_NAME_EXTENDED - Architect => Installation Process</TITLE>
 		<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html;charset=utf-8\">
-		<LINK REL=\"stylesheet\" HREF=\"./Theme/Global/Style_Sheet/Style.css\" TYPE=\"text/css\">
-		<Link REL=\"shortcut icon\" HREF=\"./Theme/Global/Image/Icon/FavIcon.ico\" TYPE=\"image/x-icon\">
+		<LINK REL=\"stylesheet\" HREF=\"./Theme/720PI/Global/Style_Sheet/Style.css\" TYPE=\"text/css\">
+		<Link REL=\"shortcut icon\" HREF=\"./Theme/720PI/Global/Image/Icon/FavIcon.ico\" TYPE=\"image/x-icon\">
 	</HEAD>
 
 	<BODY>
@@ -924,7 +924,7 @@ echo ("
 		<HR><CENTER><BIG><B>[ <A HREF=\"../Documentation/Manuals/Hyper-Text-Markup-Language/Installation.html\" TARGET=\"_NEW\" TITLE=\":: Open & Read :: The :: $_PROJECT_STRING_NAME_EXTENDED Architect Installation Documentation File ::\">Architect Installation Documentation</A> ]</B></BIG></CENTER><HR>
 		<BR>
 
-		<IMG SRC=\"./Theme/Global/Image/Icon_Architect/Compass.png\" WIDTH=\"125\" HEIGHT=\"125\" TITLE=\":: Architect :: Compass ::\"></IMG>
+		<IMG SRC=\"./Theme/720PI/Global/Image/Icon_Architect/Compass.png\" WIDTH=\"125\" HEIGHT=\"125\" TITLE=\":: Architect :: Compass ::\"></IMG>
 
 		<FORM ACTION=\"?\" METHOD=\"post\">
 		<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
