@@ -2461,6 +2461,20 @@ $_ARCHITECT_POST_ADMINISTRATOR_ACCOUNT_PASSWORD_HASHED					= password_hash($_ARC
 
 /*
  ============================================================================================================
+ + Internal Security => Administration Account :: Variables :: Recovery Key
+ ============================================================================================================
+*/
+
+$_ARCHITECT_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY_1								= rand(10, 99);
+$_ARCHITECT_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY_2								= rand(10, 99);
+$_ARCHITECT_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY_3								= rand(10, 99);
+$_ARCHITECT_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY_4								= rand(10, 99);
+$_ARCHITECT_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY_5								= rand(10, 99);
+
+$_ARCHITECT_POST_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY								= "$_ARCHITECT_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY_1 - $_ARCHITECT_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY_2 - $_ARCHITECT_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY_3 - $_ARCHITECT_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY_4 - $_ARCHITECT_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY_5";
+
+/*
+ ============================================================================================================
  + IF: Administrator Form Has Not Posted: Display :: Create New Administrator Form
  ============================================================================================================
 */
@@ -2934,8 +2948,8 @@ member_username
 '$_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT',
 '$_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT',
 '00:00:00:00:00:00',
-'00:00:00:00:00:00',
-'01-02-03-04-05',
+'00:00:00:00:00:00',$_ARCHITECT_INSTALL_FORM_POST_DATABASE_SERVER_HOSTNAME
+'$_ARCHITECT_POST_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY',
 '1',
 '2',
 '3',
@@ -3247,7 +3261,7 @@ member_username
 '$_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT',
 '00:00:00:00:00:00',
 '00:00:00:00:00:00',
-'01-02-03-04-05',
+'$_ARCHITECT_POST_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY',
 '1',
 '2',
 '3',
@@ -3563,7 +3577,7 @@ member_username
 '$_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT',
 '00:00:00:00:00:00',
 '00:00:00:00:00:00',
-'01-02-03-04-05',
+'$_ARCHITECT_POST_ADMINISTRATOR_ACCOUNT_RECOVERY_KEY',
 '1',
 '2',
 '3',
