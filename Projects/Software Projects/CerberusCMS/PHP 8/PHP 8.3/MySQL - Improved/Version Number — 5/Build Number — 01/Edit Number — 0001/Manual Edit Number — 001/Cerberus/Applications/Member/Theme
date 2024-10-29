@@ -180,7 +180,9 @@ $_Application_Module_Theme_OPEN_DIRECTORY_THEME_8K			= opendir($_Application_Mod
 */
 
 echo ("
-												Theme Selection :: 144 :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 144 :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_144PI\">
 ");
@@ -237,7 +239,9 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_144PI);
 */
 
 echo ("
-												Theme Selection :: 240 :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 240 :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_240PI\">
 ");
@@ -294,7 +298,9 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_240PI);
 */
 
 echo ("
-												Theme Selection :: 340 :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 340 :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_340PI\">
 ");
@@ -351,7 +357,9 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_340PI);
 */
 
 echo ("
-												Theme Selection :: 480 :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 480 :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_480PI\">
 ");
@@ -408,7 +416,9 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_480PI);
 */
 
 echo ("
-												Theme Selection :: 520 :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 520 :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_520PI\">
 ");
@@ -465,7 +475,9 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_520PI);
 */
 
 echo ("
-												Theme Selection :: 640 :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 640 :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_640PI\">
 ");
@@ -522,7 +534,9 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_640PI);
 */
 
 echo ("
-												Theme Selection :: 720 :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 720 :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_720PI\">
 ");
@@ -579,7 +593,9 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_720PI);
 */
 
 echo ("
-												Theme Selection :: 1080 :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 1080 :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_1080PI\">
 ");
@@ -636,7 +652,9 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_1080PI);
 */
 
 echo ("
-												Theme Selection :: 2040 :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 2040 :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_2040PI\">
 ");
@@ -693,7 +711,9 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_2040PI);
 */
 
 echo ("
-												Theme Selection :: 2160 :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 2160 :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_2160PI\">
 ");
@@ -750,7 +770,9 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_2160PI);
 */
 
 echo ("
-												Theme Selection :: 4K :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 4K :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_4K\">
 ");
@@ -807,7 +829,9 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_4K);
 */
 
 echo ("
-												Theme Selection :: 8K :: Progressive / Interlaced<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												Theme Selection :: 8K :: Progressive / Interlaced
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<SELECT NAME=\"IAM_Set_Theme_8K\">
 ");
