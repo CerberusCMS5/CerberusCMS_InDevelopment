@@ -305,8 +305,8 @@ echo ("
 <HTML>
 	<HEAD>
 		<TITLE>$_PROJECT_STRING_NAME_EXTENDED :: My-Structured-Query-Language Database-Tables Generator</TITLE>
-		<LINK REL=\"stylesheet\" HREF=\"../../Theme/Global/Style_Sheet/Style.css\" TYPE=\"text/css\">
-		<Link REL=\"shortcut icon\" HREF=\"../../Theme/Global/Image/Icon/FavIcon.ico\" TYPE=\"image/x-icon\">
+		<LINK REL=\"stylesheet\" HREF=\"../../Theme/720PI/Global/Style_Sheet/Style.css\" TYPE=\"text/css\">
+		<Link REL=\"shortcut icon\" HREF=\"../../Theme/720PI/Global/Image/Icon/FavIcon.ico\" TYPE=\"image/x-icon\">
 		<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html;charset=utf-8\">
 	</HEAD>
 
