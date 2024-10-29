@@ -460,6 +460,405 @@ closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_520PI);
 
 /*
  ============================================================================================================
+ + List All Theme Directories :: 640PI
+ ============================================================================================================
+*/
+
+echo ("
+												Theme Selection :: 640 :: Progressive / Interlaced<HR>
+												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
+													<SELECT NAME=\"IAM_Set_Theme_640PI\">
+");
+
+/*
+ ============================================================================================================
+ + WHILE: Reading :: Directory :: Theme Directory :: 640PI
+ ============================================================================================================
+*/
+
+while (($_Application_Module_Theme_READ_DIRECTORY_THEME_640PI = readdir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_640PI))) {
+
+/*
+ ============================================================================================================
+ + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Theme_READ_DIRECTORY_THEME_640PI == "." || $_Application_Module_Theme_READ_DIRECTORY_THEME_640PI == ".." || $_Application_Module_Theme_READ_DIRECTORY_THEME_640PI == "index.php" || $_Application_Module_Theme_READ_DIRECTORY_THEME_640PI == "Global") {
+/**
+ * Do Nothing
+**/
+} else {
+												echo ("<OPTION VALUE=\"$_Application_Module_Theme_READ_DIRECTORY_THEME_640PI\">$_Application_Module_Theme_READ_DIRECTORY_THEME_640PI</OPTION>");
+
+} // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
+
+} // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
+
+/*
+ ============================================================================================================
+ + SET :: Specified Theme Directory
+ ============================================================================================================
+*/
+
+echo ("
+														</SELECT><BR>
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+													</FORM><BR>
+");
+
+/*
+ ============================================================================================================
+ + Close Directory :: Theme Directory :: 640PI
+ ============================================================================================================
+*/
+
+closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_640PI);
+
+/*
+ ============================================================================================================
+ + List All Theme Directories :: 720PI
+ ============================================================================================================
+*/
+
+echo ("
+												Theme Selection :: 720 :: Progressive / Interlaced<HR>
+												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
+													<SELECT NAME=\"IAM_Set_Theme_720PI\">
+");
+
+/*
+ ============================================================================================================
+ + WHILE: Reading :: Directory :: Theme Directory :: 720PI
+ ============================================================================================================
+*/
+
+while (($_Application_Module_Theme_READ_DIRECTORY_THEME_720PI = readdir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_720PI))) {
+
+/*
+ ============================================================================================================
+ + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Theme_READ_DIRECTORY_THEME_720PI == "." || $_Application_Module_Theme_READ_DIRECTORY_THEME_720PI == ".." || $_Application_Module_Theme_READ_DIRECTORY_THEME_720PI == "index.php" || $_Application_Module_Theme_READ_DIRECTORY_THEME_720PI == "Global") {
+/**
+ * Do Nothing
+**/
+} else {
+												echo ("<OPTION VALUE=\"$_Application_Module_Theme_READ_DIRECTORY_THEME_720PI\">$_Application_Module_Theme_READ_DIRECTORY_THEME_720PI</OPTION>");
+
+} // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
+
+} // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
+
+/*
+ ============================================================================================================
+ + SET :: Specified Theme Directory
+ ============================================================================================================
+*/
+
+echo ("
+														</SELECT><BR>
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+													</FORM><BR>
+");
+
+/*
+ ============================================================================================================
+ + Close Directory :: Theme Directory :: 720PI
+ ============================================================================================================
+*/
+
+closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_720PI);
+
+/*
+ ============================================================================================================
+ + List All Theme Directories :: 1080PI
+ ============================================================================================================
+*/
+
+echo ("
+												Theme Selection :: 1080 :: Progressive / Interlaced<HR>
+												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
+													<SELECT NAME=\"IAM_Set_Theme_1080PI\">
+");
+
+/*
+ ============================================================================================================
+ + WHILE: Reading :: Directory :: Theme Directory :: 1080PI
+ ============================================================================================================
+*/
+
+while (($_Application_Module_Theme_READ_DIRECTORY_THEME_1080PI = readdir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_1080PI))) {
+
+/*
+ ============================================================================================================
+ + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Theme_READ_DIRECTORY_THEME_1080PI == "." || $_Application_Module_Theme_READ_DIRECTORY_THEME_1080PI == ".." || $_Application_Module_Theme_READ_DIRECTORY_THEME_1080PI == "index.php" || $_Application_Module_Theme_READ_DIRECTORY_THEME_1080PI == "Global") {
+/**
+ * Do Nothing
+**/
+} else {
+												echo ("<OPTION VALUE=\"$_Application_Module_Theme_READ_DIRECTORY_THEME_1080PI\">$_Application_Module_Theme_READ_DIRECTORY_THEME_1080PI</OPTION>");
+
+} // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
+
+} // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
+
+/*
+ ============================================================================================================
+ + SET :: Specified Theme Directory
+ ============================================================================================================
+*/
+
+echo ("
+														</SELECT><BR>
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+													</FORM><BR>
+");
+
+/*
+ ============================================================================================================
+ + Close Directory :: Theme Directory :: 1080PI
+ ============================================================================================================
+*/
+
+closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_1080PI);
+
+/*
+ ============================================================================================================
+ + List All Theme Directories :: 2040PI
+ ============================================================================================================
+*/
+
+echo ("
+												Theme Selection :: 2040 :: Progressive / Interlaced<HR>
+												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
+													<SELECT NAME=\"IAM_Set_Theme_2040PI\">
+");
+
+/*
+ ============================================================================================================
+ + WHILE: Reading :: Directory :: Theme Directory :: 2040PI
+ ============================================================================================================
+*/
+
+while (($_Application_Module_Theme_READ_DIRECTORY_THEME_2040PI = readdir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_2040PI))) {
+
+/*
+ ============================================================================================================
+ + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Theme_READ_DIRECTORY_THEME_2040PI == "." || $_Application_Module_Theme_READ_DIRECTORY_THEME_2040PI == ".." || $_Application_Module_Theme_READ_DIRECTORY_THEME_2040PI == "index.php" || $_Application_Module_Theme_READ_DIRECTORY_THEME_2040PI == "Global") {
+/**
+ * Do Nothing
+**/
+} else {
+												echo ("<OPTION VALUE=\"$_Application_Module_Theme_READ_DIRECTORY_THEME_2040PI\">$_Application_Module_Theme_READ_DIRECTORY_THEME_2040PI</OPTION>");
+
+} // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
+
+} // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
+
+/*
+ ============================================================================================================
+ + SET :: Specified Theme Directory
+ ============================================================================================================
+*/
+
+echo ("
+														</SELECT><BR>
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+													</FORM><BR>
+");
+
+/*
+ ============================================================================================================
+ + Close Directory :: Theme Directory :: 2040PI
+ ============================================================================================================
+*/
+
+closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_2040PI);
+
+/*
+ ============================================================================================================
+ + List All Theme Directories :: 2160PI
+ ============================================================================================================
+*/
+
+echo ("
+												Theme Selection :: 2160 :: Progressive / Interlaced<HR>
+												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
+													<SELECT NAME=\"IAM_Set_Theme_2160PI\">
+");
+
+/*
+ ============================================================================================================
+ + WHILE: Reading :: Directory :: Theme Directory :: 2160PI
+ ============================================================================================================
+*/
+
+while (($_Application_Module_Theme_READ_DIRECTORY_THEME_2160PI = readdir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_2160PI))) {
+
+/*
+ ============================================================================================================
+ + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Theme_READ_DIRECTORY_THEME_2160PI == "." || $_Application_Module_Theme_READ_DIRECTORY_THEME_2160PI == ".." || $_Application_Module_Theme_READ_DIRECTORY_THEME_2160PI == "index.php" || $_Application_Module_Theme_READ_DIRECTORY_THEME_2160PI == "Global") {
+/**
+ * Do Nothing
+**/
+} else {
+												echo ("<OPTION VALUE=\"$_Application_Module_Theme_READ_DIRECTORY_THEME_2160PI\">$_Application_Module_Theme_READ_DIRECTORY_THEME_2160PI</OPTION>");
+
+} // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
+
+} // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
+
+/*
+ ============================================================================================================
+ + SET :: Specified Theme Directory
+ ============================================================================================================
+*/
+
+echo ("
+														</SELECT><BR>
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+													</FORM><BR>
+");
+
+/*
+ ============================================================================================================
+ + Close Directory :: Theme Directory :: 2160PI
+ ============================================================================================================
+*/
+
+closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_2160PI);
+
+/*
+ ============================================================================================================
+ + List All Theme Directories :: 4K
+ ============================================================================================================
+*/
+
+echo ("
+												Theme Selection :: 4K :: Progressive / Interlaced<HR>
+												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
+													<SELECT NAME=\"IAM_Set_Theme_4K\">
+");
+
+/*
+ ============================================================================================================
+ + WHILE: Reading :: Directory :: Theme Directory :: 4K
+ ============================================================================================================
+*/
+
+while (($_Application_Module_Theme_READ_DIRECTORY_THEME_4K = readdir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_4K))) {
+
+/*
+ ============================================================================================================
+ + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Theme_READ_DIRECTORY_THEME_4K == "." || $_Application_Module_Theme_READ_DIRECTORY_THEME_4K == ".." || $_Application_Module_Theme_READ_DIRECTORY_THEME_4K == "index.php" || $_Application_Module_Theme_READ_DIRECTORY_THEME_4K == "Global") {
+/**
+ * Do Nothing
+**/
+} else {
+												echo ("<OPTION VALUE=\"$_Application_Module_Theme_READ_DIRECTORY_THEME_4K\">$_Application_Module_Theme_READ_DIRECTORY_THEME_4K</OPTION>");
+
+} // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
+
+} // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
+
+/*
+ ============================================================================================================
+ + SET :: Specified Theme Directory
+ ============================================================================================================
+*/
+
+echo ("
+														</SELECT><BR>
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+													</FORM><BR>
+");
+
+/*
+ ============================================================================================================
+ + Close Directory :: Theme Directory :: 4K
+ ============================================================================================================
+*/
+
+closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_4K);
+
+/*
+ ============================================================================================================
+ + List All Theme Directories :: 8K
+ ============================================================================================================
+*/
+
+echo ("
+												Theme Selection :: 8K :: Progressive / Interlaced<HR>
+												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_INTERNAL&#61;Theme&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
+													<SELECT NAME=\"IAM_Set_Theme_8K\">
+");
+
+/*
+ ============================================================================================================
+ + WHILE: Reading :: Directory :: Theme Directory :: 8K
+ ============================================================================================================
+*/
+
+while (($_Application_Module_Theme_READ_DIRECTORY_THEME_8K = readdir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_8K))) {
+
+/*
+ ============================================================================================================
+ + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Theme_READ_DIRECTORY_THEME_8K == "." || $_Application_Module_Theme_READ_DIRECTORY_THEME_8K == ".." || $_Application_Module_Theme_READ_DIRECTORY_THEME_8K == "index.php" || $_Application_Module_Theme_READ_DIRECTORY_THEME_8K == "Global") {
+/**
+ * Do Nothing
+**/
+} else {
+												echo ("<OPTION VALUE=\"$_Application_Module_Theme_READ_DIRECTORY_THEME_8K\">$_Application_Module_Theme_READ_DIRECTORY_THEME_8K</OPTION>");
+
+} // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
+
+} // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
+
+/*
+ ============================================================================================================
+ + SET :: Specified Theme Directory
+ ============================================================================================================
+*/
+
+echo ("
+														</SELECT><BR>
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+													</FORM><BR>
+");
+
+/*
+ ============================================================================================================
+ + Close Directory :: Theme Directory :: 8K
+ ============================================================================================================
+*/
+
+closedir($_Application_Module_Theme_OPEN_DIRECTORY_THEME_8K);
+
+/*
+ ============================================================================================================
  +
  + [ @ ] IF: Internal Application: Message
  +
