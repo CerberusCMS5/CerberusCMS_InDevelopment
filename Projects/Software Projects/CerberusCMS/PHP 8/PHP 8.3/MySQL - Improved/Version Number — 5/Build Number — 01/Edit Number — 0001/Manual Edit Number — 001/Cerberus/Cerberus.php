@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
  ============================================================================================================
  + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,6 +78,10 @@
  * *** Logical ***
  * [ ^ ], Document Name and Location
  * [ @ ], Header of Programming Code Systems and Programming Code Blocks
+ * [ = ], Programming Code Statement IF With Description
+ * [ & ], Programming Code Statement While With Description
+ * [ < ], Programming Code Statement Else With Description
+ * [ [ ], Programming Code Statement For With Description
  * [ + ], Programming Code Statement Ending With Description
  * [ C ], Programming Code Commented Out
  *
@@ -1360,6 +1364,7 @@ $_GLOBAL_LOCAL_SERVER_HTTP_REFERRER							= $_SERVER['HTTP_REFERER'];
 */
 
 $_GLOBAL_REMOTE_SERVER_ADDRESS								= $_SERVER['REMOTE_ADDR'];
+$_GLOBAL_REMOTE_SERVER_ADMIN								= $_SERVER['REMOTE_ADMIN'];
 $_GLOBAL_REMOTE_SERVER_HOSTNAME								= $_SERVER['REMOTE_HOST'];
 $_GLOBAL_REMOTE_SERVER_PORT								= $_SERVER['REMOTE_PORT'];
 $_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT							= $_SERVER['HTTP_USER_AGENT'];
