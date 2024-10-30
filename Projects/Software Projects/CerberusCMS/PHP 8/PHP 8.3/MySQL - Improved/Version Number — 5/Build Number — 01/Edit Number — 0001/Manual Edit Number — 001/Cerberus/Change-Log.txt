@@ -583,3 +583,13 @@ Much more than this. Will need to be documented.
 [ 09 - 13 - 2024 ]
 
 * Updated All Headers Within All Files To: CerberusCMS 5
+
+[ 09 - 14 - 2024 ~ 10 - 28 - 2024 ]
+
+* Added Over 500 New Features, Corrected Errors. All Features Need To Be Documented
+
+[ 10 - 29 - 2024 ]
+
+* Added Customized ASCII Unix-Style Additional Commentation Headers To Several Application Modules.
+* Updated: Theme System, Theme Programming Code, Theme Packages Programming Code To Support:
+  144P/I and Everything In Between To 8K Video Resoluton.
