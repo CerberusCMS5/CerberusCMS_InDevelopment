@@ -880,8 +880,9 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_8K == "." || $_Applica
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-													<CENTER><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Theme\" TITLE=\":: Open & Display :: The Application Module :: Themes ::\">All Themes</A></CENTER><HR>
+													</FORM>
+													<HR>
+														<CENTER>[&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Theme\" TITLE=\":: Open & Display :: The Application Module :: Themes ::\">All Themes</A>&nbsp;]</CENTER>
 ");
 
 /*
