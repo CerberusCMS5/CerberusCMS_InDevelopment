@@ -881,6 +881,7 @@ echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
+													<CENTER><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Theme\" TITLE=\":: Open & Display :: The Application Module :: Themes ::\"></A></CENTER><HR>
 ");
 
 /*
