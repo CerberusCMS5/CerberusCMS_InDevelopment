@@ -411,7 +411,8 @@ $_INTERNAL_FILE_ARCHITECT_INSTALL_ROOT_ACCOUNT_USERNAME			= "Cerberus";
 $_INTERNAL_FILE_ARCHITECT_INSTALL_ROOT_ACCOUNT_ELECTRONIC_MAIL_ADDRESS	= "cerberus@local.host";
 $_INTERNAL_FILE_ARCHITECT_INSTALL_ROOT_ACCOUNT_PROFILE_ABOUT		= "Hi ! My name is Cerberus ! I am the Automated Root Administration-Level Account ! If you are an Administrator of this system you can send commands to me by Short-Message-Service ( S.M.S. ) Text Message, Multimedia-Message-Service ( M.M.S. ) Message, from your Registered Member Account by Instant Messenger Private Message or from the Terminal Interface in the Administration-Level Control Panel. If you have setup an SIP / VoIP Server on this Web Server you can connect a Phone Number to this account. I can receive and send Commands. I am always at your Command. You can Login and Authenticate into this account by using the default Administration Account Password that was set during the Installation of this system with Electronic Mail Address: Cerberus@Local.host";
 $_INTERNAL_FILE_ARCHITECT_INSTALL_ROOT_ACCOUNT_PROFILE_SIGNATURE	= "I Guard The Entrance To Hades !";
-$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_NAME			= "720PI/2023_Cerberus_White";
+$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_NAME			= "2023_Cerberus_White";
+$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_VIDEO_RESOLUTION	= "720PI";
 
 /*
  ============================================================================================================
