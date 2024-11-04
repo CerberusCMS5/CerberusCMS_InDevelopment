@@ -593,7 +593,8 @@ $_GLOBAL_SYSTEM_STATUS_OFFILINE_MODE							= $_DB_Query_Kernel_Select_System_Set
 
 $_GLOBAL_SYSTEM_SITE_TITLE								= $_DB_Query_Kernel_Select_System_Settings_Fetch_Array['settings_system_website_title'];
 $_GLOBAL_SYSTEM_SOUND_EXTENSION								= $_DB_Query_Kernel_Select_System_Settings_Fetch_Array['settings_system_file_extension_audio'];
-$_GLOBAL_SYSTEM_THEME_DIRECTORY								= $_DB_Query_Kernel_Select_System_Settings_Fetch_Array['settings_system_directory_theme'];
+$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME						= $_DB_Query_Kernel_Select_System_Settings_Fetch_Array['settings_system_directory_theme'];
+$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION				= $_DB_Query_Kernel_Select_System_Settings_Fetch_Array['settings_system_directory_theme_video_resolution'];
 
 /*
  ============================================================================================================
@@ -1088,7 +1089,7 @@ $_GLOBAL_MEMBER_LEVEL_RANK								= $_DB_Query_Kernel_Select_Member_Credentials_
  ============================================================================================================
 */
 
-$_GLOBAL_MEMBER_THEME_DIRECTORY								= $_DB_Query_Kernel_Select_Member_Credentials_Fetch_Array['member_settings_theme_directory'];
+$_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME								= $_DB_Query_Kernel_Select_Member_Credentials_Fetch_Array['member_settings_theme_directory'];
 
 /*
  ============================================================================================================
@@ -1173,7 +1174,7 @@ $_GLOBAL_MEMBER_SECURITY_SETTING_FLAG_FORCE_LOGOUT					= $_DB_Query_Kernel_Selec
 
 if ($_GLOBAL_MEMBER_STATUS_ACCOUNT_BANNED >= 1) {
 
-	header("Location: ./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
+	header("Location: ./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
 	exit;
 
 } // [ + ] IF: Registered Member Account :: Is: Banned
@@ -2735,7 +2736,7 @@ if ($_DB_Query_Kernel_Networking_Status_Security_Check_Blocked_Networks_Number_o
 
 if ($_GLOBAL_LOCAL_SERVER_HTTP_USER_AGENT == "") {
 
-	header("Location: ./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION"); // Web Browser :: User-Agent :: Empty Data Found - Redirect To Internet Protocol Address and Network Banishment Notification
+	header("Location: ./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION"); // Web Browser :: User-Agent :: Empty Data Found - Redirect To Internet Protocol Address and Network Banishment Notification
 	exit;
 
 } // [ + ] IF: Web Browser :: User-Agent :: Is Null: Redirect
@@ -2748,7 +2749,7 @@ if ($_GLOBAL_LOCAL_SERVER_HTTP_USER_AGENT == "") {
 
 if ($_GLOBAL_LOCAL_SERVER_HTTP_USER_AGENT == null) {
 
-	header("Location: ./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION"); // Web Browser :: User-Agent :: Null Data Found - Redirect To Internet Protocol Address and Network Banishment Notification
+	header("Location: ./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION"); // Web Browser :: User-Agent :: Null Data Found - Redirect To Internet Protocol Address and Network Banishment Notification
 	exit;
 
 } // [ + ] IF: Web Browser :: User-Agent :: Is Null: Redirect
@@ -2785,7 +2786,7 @@ $_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT_DISPLAY	= "$_GLOBAL_REMOTE_SERVER_HTTP_US
 
 if (substr_count($_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT_DISPLAY,"<") == 1) {
 
-	header("Location: ./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION"); // Web Browser :: User-Agent :: String :: Is Tampered - Redirect To Internet Protocol Address and Network Banishment Notification
+	header("Location: ./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION"); // Web Browser :: User-Agent :: String :: Is Tampered - Redirect To Internet Protocol Address and Network Banishment Notification
 	exit;
 
 } // [ + ] IF: Web Browser :: User-Agent :: String :: Is Tampered: < :: Filter String and Redirect
@@ -2798,7 +2799,7 @@ if (substr_count($_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT_DISPLAY,"<") == 1) {
 
 if (substr_count($_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT_DISPLAY,">") == 1) {
 
-	header("Location: ./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION"); // Web Browser :: User-Agent :: String :: Is Tampered - Redirect To Internet Protocol Address and Network Banishment Notification
+	header("Location: ./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION"); // Web Browser :: User-Agent :: String :: Is Tampered - Redirect To Internet Protocol Address and Network Banishment Notification
 	exit;
 
 } // [ + ] IF: Web Browser :: User-Agent :: String :: Is Tampered: > :: Filter String and Redirect
@@ -2813,7 +2814,7 @@ if (substr_count($_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT_DISPLAY,">") == 1) {
 
 if ($_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT_DISPLAY == "") {
 
-	header("Location: ./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION"); // Web Browser :: User-Agent :: String :: Is Null - Redirect To Internet Protocol Address and Network Banishment Notification
+	header("Location: ./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/HTML/Banned.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION"); // Web Browser :: User-Agent :: String :: Is Null - Redirect To Internet Protocol Address and Network Banishment Notification
 	exit;
 
 } // [ + ] IF: Web Browser :: User-Agent :: String :: Is Empty
@@ -3311,9 +3312,9 @@ if ($_GLOBAL_COOKIE_MEMBER_USERNAME && $_GLOBAL_COOKIE_MEMBER_PASSWORD != null) 
  ============================================================================================================
 */
 
-if ($_GLOBAL_MEMBER_THEME_DIRECTORY == "") {
+if ($_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME == "") {
 
-$_GLOBAL_MEMBER_THEME_DIRECTORY								= $_GLOBAL_SYSTEM_THEME_DIRECTORY;
+$_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME								= $_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME;
 
 } // [ + ] IF: Registered Member Account :: Setings :: Theme Directory Settings Is Empty
 
@@ -3323,9 +3324,9 @@ $_GLOBAL_MEMBER_THEME_DIRECTORY								= $_GLOBAL_SYSTEM_THEME_DIRECTORY;
  ============================================================================================================
 */
 
-if ($_GLOBAL_MEMBER_THEME_DIRECTORY != null) {
+if ($_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME != null) {
 
-$_GLOBAL_SYSTEM_THEME_DIRECTORY								= $_GLOBAL_MEMBER_THEME_DIRECTORY;
+$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME								= $_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME;
 
 } // [ + ] IF: Registered Member Account :: Settings :: Theme Directory Settings Is Null
 
@@ -3337,9 +3338,9 @@ $_GLOBAL_SYSTEM_THEME_DIRECTORY								= $_GLOBAL_MEMBER_THEME_DIRECTORY;
  ============================================================================================================
 */
 
-if ($_GLOBAL_MEMBER_THEME_DIRECTORY == "") {
+if ($_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME == "") {
 
-$_GLOBAL_MEMBER_THEME_DIRECTORY								= $_GLOBAL_SYSTEM_THEME_DIRECTORY;
+$_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME								= $_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME;
 
 } // [ + ] IF: Non-Logged-In Visitor :: Settings :: Theme Is Empty, Set System Theme
 
@@ -3351,7 +3352,7 @@ $_GLOBAL_MEMBER_THEME_DIRECTORY								= $_GLOBAL_SYSTEM_THEME_DIRECTORY;
 
 if ($_GLOBAL_COOKIE_DIRECTORY_THEME != null) {
 
-$_GLOBAL_SYSTEM_THEME_DIRECTORY								= $_GLOBAL_COOKIE_DIRECTORY_THEME;
+$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME								= $_GLOBAL_COOKIE_DIRECTORY_THEME;
 
 } // [ + ] IF: Non-Logged-In Visitor :: Cookie :: Theme :: Exists
 
@@ -5424,7 +5425,7 @@ if ($_GLOBAL_COOKIE_MEMBER_USERNAME && $_GLOBAL_COOKIE_MEMBER_PASSWORD != null) 
  ============================================================================================================
 */
 
-	include_once "./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Theme.php";
+	include_once "./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/Theme.php";
 
 /*
  ============================================================================================================
@@ -5572,7 +5573,7 @@ if ($_GLOBAL_MEMBER_ACCESS_LEVEL >= 2) {
 
 } else {
 
-	header("Location: ./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/HTML/Offline.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
+	header("Location: ./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/HTML/Offline.html?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
 	exit;
 
 } // [ + ] IF: Web Site :: Status :: Offline Mode Status Is: On, Redirect Non-Administrator To Offline Mode Status Web Page AND Message
@@ -5725,7 +5726,7 @@ echo ("
 
 	<HEAD>
 		<TITLE>$_GLOBAL_SYSTEM_SITE_TITLE</TITLE>
-		<LINK REL=\"stylesheet\" HREF=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Style_Sheet/Style.css?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATION\" TYPE=\"text/css\">
+		<LINK REL=\"stylesheet\" HREF=\"./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/Style_Sheet/Style.css?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATION\" TYPE=\"text/css\">
 		$_THIS_THEME_META_DATA
 	</HEAD>
 
