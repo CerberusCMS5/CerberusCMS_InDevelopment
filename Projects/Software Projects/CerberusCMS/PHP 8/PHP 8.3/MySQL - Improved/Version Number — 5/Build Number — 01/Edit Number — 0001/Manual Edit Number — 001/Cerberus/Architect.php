@@ -886,7 +886,7 @@ $_ARCHITECT_INTEGRITY_FILES_FIND_PLUGIN_FILE_014								= hash_file('sha256', ".
  ============================================================================================================
 */
 
-include_once ("./Theme/720PI/Global/Theme.php");
+include_once ("./Theme/$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_VIDEO_RESOLUTION/Global/Theme.php");
 
 /*
  ============================================================================================================
@@ -904,8 +904,8 @@ echo ("<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http:/
 	<HEAD>
 		<TITLE>$_PROJECT_STRING_NAME_EXTENDED - Architect => Installation Process</TITLE>
 		<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html;charset=utf-8\">
-		<LINK REL=\"stylesheet\" HREF=\"./Theme/720PI/Global/Style_Sheet/Style.css\" TYPE=\"text/css\">
-		<Link REL=\"shortcut icon\" HREF=\"./Theme/720PI/Global/Image/Icon/FavIcon.ico\" TYPE=\"image/x-icon\">
+		<LINK REL=\"stylesheet\" HREF=\"./Theme/$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_VIDEO_RESOLUTION/Global/Style_Sheet/Style.css\" TYPE=\"text/css\">
+		<Link REL=\"shortcut icon\" HREF=\"./Theme/$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_VIDEO_RESOLUTION/Global/Image/Icon/FavIcon.ico\" TYPE=\"image/x-icon\">
 	</HEAD>
 
 	<BODY>
@@ -924,7 +924,7 @@ echo ("
 		<HR><CENTER><BIG><B>[ <A HREF=\"../Documentation/Manuals/Hyper-Text-Markup-Language/Installation.html\" TARGET=\"_NEW\" TITLE=\":: Open & Read :: The :: $_PROJECT_STRING_NAME_EXTENDED Architect Installation Documentation File ::\">Architect Installation Documentation</A> ]</B></BIG></CENTER><HR>
 		<BR>
 
-		<IMG SRC=\"./Theme/720PI/Global/Image/Icon_Architect/Compass.png\" WIDTH=\"125\" HEIGHT=\"125\" TITLE=\":: Architect :: Compass ::\"></IMG>
+		<IMG SRC=\"./Theme/$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_VIDEO_RESOLUTION/Global/Image/Icon_Architect/Compass.png\" WIDTH=\"125\" HEIGHT=\"125\" TITLE=\":: Architect :: Compass ::\"></IMG>
 
 		<FORM ACTION=\"?\" METHOD=\"post\">
 		<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
@@ -1981,6 +1981,7 @@ member_settings_encryption_pgp CHAR(1),
 member_settings_language VARCHAR(50),
 member_settings_newsletter CHAR(1),
 member_settings_theme_directory VARCHAR(25),
+settings_system_directory_theme_video_resolution VARCHAR(25),
 member_settings_visibility_profile_activity CHAR(1),
 member_settings_visibility_profile_authentication CHAR(1),
 member_settings_visibility_profile_contact CHAR(1),
@@ -2899,6 +2900,7 @@ member_settings_encryption_pgp,
 member_settings_language,
 member_settings_newsletter,
 member_settings_theme_directory,
+member_settings_theme_directory_video_resolution,
 member_settings_visibility_profile_activity,
 member_settings_visibility_profile_authentication,
 member_settings_visibility_profile_contact,
@@ -3051,6 +3053,7 @@ member_username
 'English',
 '0',
 '$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_NAME',
+'$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_VIDEO_RESOLUTION',
 '0',
 '0',
 '0',
@@ -3211,6 +3214,7 @@ member_settings_encryption_pgp,
 member_settings_language,
 member_settings_newsletter,
 member_settings_theme_directory,
+member_settings_theme_directory_video_resolution,
 member_settings_visibility_profile_activity,
 member_settings_visibility_profile_authentication,
 member_settings_visibility_profile_contact,
@@ -3363,6 +3367,7 @@ member_username
 'English',
 '0',
 '$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_NAME',
+'$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_VIDEO_RESOLUTION',
 '0',
 '0',
 '0',
@@ -3527,6 +3532,7 @@ member_settings_encryption_pgp,
 member_settings_language,
 member_settings_newsletter,
 member_settings_theme_directory,
+member_settings_theme_directory_video_resolution,
 member_settings_visibility_profile_activity,
 member_settings_visibility_profile_authentication,
 member_settings_visibility_profile_contact,
@@ -3679,6 +3685,7 @@ member_username
 'English',
 '0',
 '$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_NAME',
+'$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_VIDEO_RESOLUTION',
 '0',
 '0',
 '0',
@@ -4169,8 +4176,8 @@ copy("./Member/Setup/Indexes/Files/Image/Streams/Streams.php","./Member/$_PROJEC
  + Copy: Root Administration Personal Profile Image
 */
 
-copy("./Theme/$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_NAME/Image/Icon_Avatar/$_INTERNAL_FILE_ARCHITECT_INSTALL_ROOT_ACCOUNT_USERNAME.png","./Member/$_PROJECT_STRING_NAME_SHORT/Files/Image/Profile/Backup/Profile.png");
-copy("./Theme/$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_NAME/Image/Icon_Avatar/$_INTERNAL_FILE_ARCHITECT_INSTALL_ROOT_ACCOUNT_USERNAME.png","./Member/$_PROJECT_STRING_NAME_SHORT/Files/Image/Profile/Profile.png");
+copy("./Theme/$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_VIDEO_RESOLUTION/$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_NAME/Image/Icon_Avatar/$_INTERNAL_FILE_ARCHITECT_INSTALL_ROOT_ACCOUNT_USERNAME.png","./Member/$_PROJECT_STRING_NAME_SHORT/Files/Image/Profile/Backup/Profile.png");
+copy("./Theme/$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_VIDEO_RESOLUTION/$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_NAME/Image/Icon_Avatar/$_INTERNAL_FILE_ARCHITECT_INSTALL_ROOT_ACCOUNT_USERNAME.png","./Member/$_PROJECT_STRING_NAME_SHORT/Files/Image/Profile/Profile.png");
 	echo ("[ Done ]<BR><BR>");
 
 // Video
@@ -4314,6 +4321,7 @@ settings_system_file_extension_audio,
 settings_system_file_extension_image,
 settings_system_directory_language,
 settings_system_directory_theme,
+settings_system_directory_theme_video_resolution,
 settings_system_website_title,
 settings_system_upload_size_private_member_audio,
 settings_system_upload_size_private_member_document,
@@ -4376,6 +4384,7 @@ settings_system_services_module_status_tasks
 'png',
 'English',
 '$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_NAME',
+'$_INTERNAL_FILE_ARCHITECT_INSTALL_THEME_DIRECTORY_VIDEO_RESOLUTION',
 '$_PROJECT_STRING_NAME_EXTENDED',
 '25600000',
 '25600000',
