@@ -14,7 +14,7 @@ The direct Web Application project fork is named Fenrir Content Management Syste
 The Official Cerberus Content Managemet System Software Project follows the standard adoption of Greek culture in inherited Western-American Academia where Greek cultural ideas and symbols were adopted and are used today. Greek alphabet letters and Greek cultural things were reentered into Western-American Academia especially Mathematics around the year ~1800 and onward.
 
 ===Project Official Alternate Editions===
-Each release of CerberusCMS after CerberusCMS - Version Number: 5, Build Number: 01, Edit Number: 0,001, Manual Edit Number: 001 - Final comes with alternate editions named FenrirCMS, RuneCMS, RunicCMS, NativeCMS for installation where the entire system is themed around Heathen / Germanic Pagan Gods and Goddesses and Native American Gods and Goddesses respectively where in these alternate editions there is no mention of Cerberus and instead of Cerberus it is themed with the names and imagery of Heathen / Germanic Gods and Goddesses and Native American Gods and Goddesses complete with custom Heathen and Native American themed graphics and ascii art. Wodan / Odin, Freyja, Heimdallr and others.
+Each release of CerberusCMS after CerberusCMS - Version Number: 5, Build Number: 01, Edit Number: 0,001, Manual Edit Number: 001 - Final comes with alternate editions named FenrirCMS, RuneCMS and RunicCMS for installation where the entire system is themed around Heathen / Germanic Pagan Gods and Goddesses where in these alternate editions there is no mention of Cerberus and instead of Cerberus it is themed with the names of Heathen / Germanic Gods and Goddesses complete with custom Heathen themed graphics and ascii art. Wodan / Odin, Freyja, Heimdallr and others.
 
 ===Project Official Additional Applications===
 CerberusCMS comes with several additional applications:
@@ -33,14 +33,8 @@ CerberusCMS comes with several additional applications:
 ===Project Origins===
 CerberusCMS was the author's first software project started when the author was 13 and 14 years old. This Web Application was originally written and then used as a long distance communications platform through text messaging, pager messaging and instant messaging from the Internet web browser by small groups who used it for selling products from ~2000 to 2006. The project was later expanded upon to cater to a small V-TM:R and V-TM:B Personal Computer video game community to host expansion packs and video game mods on a web server for download to that community. This personal computer video game was mostly played with friends in Oildale, California and in Los Angeles, California. The first official edition of CerberusCMS was written on a Packard Bell Personal Computer and an IBM Laptop and it totaled around 2,000 lines of Pure Pre-Hyper-Text-Post-Processor Programming Code. It was designed after a Unix-Like interface. It was first released to FreshMeat.org
 
-===Use In The Orignal Raven Software Star Wars Jedi Knight II - Jedi Oucast P.C. Video Game Community===
-From the years of 2004 to 2006 this project was used in the original Star Wars Jedi Knight II - Jedi Outcast P.C. video game community to host video game modification pack files as well as to
-facilitate video game clan wars. Star Wars Jedi Knight II - Jedi Outcast could be modified through configuration files and by adding video game pack files to the video game directory. Dismemberment
-modifications allowed for dismembering the head, arms, hands, torso and legs with the lightsaber and additional high definition texture packs could be added to the video game to enhance the graphics into
-720P/i, 1080P/i, 1440P/i and 2K video resolution with tesselation and other graphical enhancements.
-
 ===Use In The Orignal Id Software Quake 3 - Arena P.C. Video Game Community===
-From the years of ~2000 and 2002 this project was used in the original Quake 3 - Arena Internet Community to host video game modification pack files as well as to facilitate video game clan wars. Quake 3 - Arena allowed for some Internet Network loops where SEGA Dreamcast owners could also play this video game with those playing this video game on a Personal-Computer through the Id Software Quake 3 - Arena Internet servers.
+From the years of ~2000 and 2002 this project was used in the Original Quake 3 - Arena Internet Community to host video game modification pack files as well as to facilitate video game clan wars. Quake 3 - Arena allowed for some Internet Network loops where SEGA Dreamcast owners could also play this video game with those playing this video game on a Personal-Computer through the Id Software Quake 3 - Arena Internet servers.
 
 ===Use In The Orignal Vampire The Masquerade - Redemption P.C. Video Game Community===
 The project was used in the original Vampire The Masquerade - Redemption Video Game Community to host video game modification pack files and video game expansion pack files for video game clan communities.
@@ -1128,21 +1122,13 @@ in the system itself where it is connected to the Database Management System or 
 
 ===Graphical User-Interface===
 Unix-Like with Modular appearance.
-CerberusCMS comes with a theme pack that contains 11 different quality levels of graphics.
+CerberusCMS comes with a theme pack that contains 4 different quality levels of graphics.
 * 8K or 7680 × 4320 or "4320P" Progessive / Interlaced
 * 4K or 3840 × 2160 or "2160P" Progressive / Interlaced
-* 2K or 2048x1556 or "2K" Progressive / Interlaced
-* 2040p/i 2048x1020 or "2040P" Progressive / Interlaced
 * 1440p/i or 2560 x 1440 or "1440P" Progressive / Interlaced
 * 1080p/i or 1920 x 1080 or "1080P" Progressive / Interlaced
 * 720p/i 1280 x 720 or "720P" Progressive / Interlaced
-* 640p/i 640x480 or "640P" Progressive / Interlaced
-* 540p/i 960 x 540 or "540P" Proressive / Interlaced
-* 480p/i 480x640 or "480P" Progressive / Interlaced
-* 340p/i 320x340 or "340P" Progressive / Interlaced
-* 240p/i 320x240 or "240P" Progressive / Interlaced
-* 144p/i 192x144 or "144P" Progressive / Interlaced
-
+* 480p/i 640 x 480 or "480P" Proressive / Interlaced
 CerberusCMS automatically detects the connection speed of the connection and optimizes the graphics quality to meet the connection speed. For network connection speed at ~ 800 KiloBytes it will choose to load the 1920 x 1080 resolution theme graphics. Faster connection speeds will automatically choose to load the 4K resolution theme graphics. The entire theme system uses percentages in the programming code so that it can be perfectly fit and rendered to any device resolution. Mobile cell phones, Mobile devices, computer monitors, laptops and other devices of different resolutions.
 
 ===Internet of Things Interface===
