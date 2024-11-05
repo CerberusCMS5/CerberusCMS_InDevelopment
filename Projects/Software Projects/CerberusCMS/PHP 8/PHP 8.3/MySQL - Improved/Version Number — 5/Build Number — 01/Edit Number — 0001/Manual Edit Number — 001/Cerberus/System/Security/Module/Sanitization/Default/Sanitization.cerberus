@@ -1847,6 +1847,8 @@ $_Kernel_Set_Member_Account_POST_SET_THEME_2040PI	 							= $_POST['IAM_Set_Them
 $_Kernel_Set_Member_Account_POST_SET_THEME_2160PI	 							= $_POST['IAM_Set_Theme_2160PI'];
 $_Kernel_Set_Member_Account_POST_SET_THEME_4K	 								= $_POST['IAM_Set_Theme_4K'];
 $_Kernel_Set_Member_Account_POST_SET_THEME_8K	 								= $_POST['IAM_Set_Theme_8K'];
+$_Kernel_Set_Member_Account_POST_SET_THEME_16K	 								= $_POST['IAM_Set_Theme_16K'];
+$_Kernel_Set_Member_Account_POST_SET_THEME_32K	 								= $_POST['IAM_Set_Theme_32K'];
 
 /*
  ============================================================================================================
