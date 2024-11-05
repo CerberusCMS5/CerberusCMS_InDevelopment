@@ -688,6 +688,150 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 
 /*
  ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 340PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_340PI) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_340PI";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 340 Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 480PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_480PI) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_480PI";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 480 Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 520PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_520PI) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_520PI";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 520 Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 640PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_640PI) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_640PI";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 640 Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 720PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_720PI) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_720PI";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 720 Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 1080PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_1080PI) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_1080PI";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 1080 Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 2040PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_2040PI) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_2040PI";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 2040 Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 2160PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_2160PI) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_2160PI";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 2160 Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 4K
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_4K) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_4K";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 4K Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 8K
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_8K) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_8K";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 8K Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 16K
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_16K) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_16K";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 16K Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ + IF: Input Form :: Update Theme Video Resolution :: Variables Have Executed, SET: Video Resolution Value :: 32K
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_32K) {
+
+$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_32K";
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 32K Progressive / Interlaced
+
+/*
+ ============================================================================================================
  +
  + ELSE: Update Input Form :: Variables Have Executed, Update :: Database Management System :: Settings Entry
  +
