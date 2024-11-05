@@ -129,7 +129,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_144PI);
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -178,7 +178,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_240PI);
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -228,7 +228,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_340PI);
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -278,7 +278,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_480PI);
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -328,7 +328,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_520PI);
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -378,7 +378,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_640PI);
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -428,7 +428,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_720PI);
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -478,7 +478,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_1080PI)
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -528,7 +528,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_2040PI)
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -578,7 +578,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_2160PI)
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -628,7 +628,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_4K);
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -678,7 +678,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_8K);
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -729,7 +729,7 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_16K);
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
@@ -779,13 +779,14 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_32K);
 
 echo ("
 														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
+														<INPUT TYPE=\"submit\" VALUE=\"Set Theme Directory\">
 													</FORM><BR><BR>
 ");
 
 echo ("
-
-															System :: Default Theme Directory :: Video Resolution<BR>
+														<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+															System :: Default Theme Directory :: Video Resolution
+														<HR ALIGN=\"LEFT\" WIDTH=\"40%\"><BR>
 														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 															<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_Video_Resolution\" MAXLENGTH=\"25\">
 															<OPTION VALUE=\"144PI\">Progressive / Interlaced: 144</OPTION>
@@ -803,7 +804,7 @@ echo ("
 															<OPTION VALUE=\"16K\">Progressive / Interlaced: 16K</OPTION>
 															<OPTION VALUE=\"32K\">Progressive / Interlaced: 32K</OPTION>
 														</SELECT><BR>
-															<INPUT TYPE=\"submit\" VALUE=\"Update Theme Settings\">
+															<INPUT TYPE=\"submit\" VALUE=\"Update Theme Video Resolution\">
 														</FORM><BR>
 													Options Note: <I>This Option can be changed to force a custom default Graphical-User-Interface Theme.</I><BR><BR>
 ");
