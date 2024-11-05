@@ -827,7 +827,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_144PI'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_144PI'
 WHERE id='1'");
 
 /*
@@ -867,7 +867,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_240PI'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_240PI'
 WHERE id='1'");
 
 /*
@@ -907,7 +907,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_340PI'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_340PI'
 WHERE id='1'");
 
 /*
@@ -948,7 +948,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_480PI'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_480PI'
 WHERE id='1'");
 
 /*
@@ -988,7 +988,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_520PI'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_520PI'
 WHERE id='1'");
 
 /*
@@ -1028,7 +1028,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_640PI'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_640PI'
 WHERE id='1'");
 
 /*
@@ -1068,7 +1068,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_720PI'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_720PI'
 WHERE id='1'");
 
 /*
@@ -1108,7 +1108,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_1080PI'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_1080PI'
 WHERE id='1'");
 
 /*
@@ -1148,7 +1148,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_2040PI'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_2040PI'
 WHERE id='1'");
 
 /*
@@ -1188,7 +1188,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_2160PI'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_2160PI'
 WHERE id='1'");
 
 /*
@@ -1228,7 +1228,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_4K'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_4K'
 WHERE id='1'");
 
 /*
@@ -1268,7 +1268,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_8K'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_8K'
 WHERE id='1'");
 
 /*
@@ -1308,7 +1308,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_16K'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_16K'
 WHERE id='1'");
 
 /*
@@ -1348,7 +1348,7 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 */
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_32K'
+settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_32K'
 WHERE id='1'");
 
 /*
