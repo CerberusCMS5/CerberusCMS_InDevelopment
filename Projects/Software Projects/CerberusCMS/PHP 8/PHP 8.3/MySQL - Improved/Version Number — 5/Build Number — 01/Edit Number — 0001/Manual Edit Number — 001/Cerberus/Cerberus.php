@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
  ============================================================================================================
  + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -5134,6 +5134,8 @@ $_Kernel_Set_Member_Account_POST_SET_THEME_2040PI	 							= $_POST['IAM_Set_Them
 $_Kernel_Set_Member_Account_POST_SET_THEME_2160PI	 							= $_POST['IAM_Set_Theme_2160PI'];
 $_Kernel_Set_Member_Account_POST_SET_THEME_4K	 								= $_POST['IAM_Set_Theme_4K'];
 $_Kernel_Set_Member_Account_POST_SET_THEME_8K	 								= $_POST['IAM_Set_Theme_8K'];
+$_Kernel_Set_Member_Account_POST_SET_THEME_16K	 								= $_POST['IAM_Set_Theme_16K'];
+$_Kernel_Set_Member_Account_POST_SET_THEME_32K	 								= $_POST['IAM_Set_Theme_32K'];
 
 /*
  ============================================================================================================
@@ -5314,6 +5316,40 @@ if ($_Kernel_Set_Member_Account_POST_SET_THEME_8K) {
 	exit;
 
 } // [ + ] IF: Internal Application: Theme :: SET :: Theme :: 8K :: Progressive / Interlaced
+
+} // [ + ] IF: Internal Application: Theme :: Is: Activated
+
+/*
+ ============================================================================================================
+ + IF: Internal Application: Theme :: SET :: Theme :: 16K :: Progressive / Interlaced
+ ============================================================================================================
+*/
+
+if ($_Kernel_Set_Member_Account_POST_SET_THEME_16K) {
+	
+	setcookie("kernel_visitor_directory_theme", "$_Kernel_Set_Member_Account_POST_SET_THEME_16K", time()+$_GLOBAL_SYSTEM_COOKIE_TIME);
+
+	header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Theme&Message=ThemeSet&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
+	exit;
+
+} // [ + ] IF: Internal Application: Theme :: SET :: Theme :: 16K :: Progressive / Interlaced
+
+} // [ + ] IF: Internal Application: Theme :: Is: Activated
+
+/*
+ ============================================================================================================
+ + IF: Internal Application: Theme :: SET :: Theme :: 32K :: Progressive / Interlaced
+ ============================================================================================================
+*/
+
+if ($_Kernel_Set_Member_Account_POST_SET_THEME_32K) {
+	
+	setcookie("kernel_visitor_directory_theme", "$_Kernel_Set_Member_Account_POST_SET_THEME_32K", time()+$_GLOBAL_SYSTEM_COOKIE_TIME);
+
+	header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Theme&Message=ThemeSet&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
+	exit;
+
+} // [ + ] IF: Internal Application: Theme :: SET :: Theme :: 32K :: Progressive / Interlaced
 
 } // [ + ] IF: Internal Application: Theme :: Is: Activated
 
