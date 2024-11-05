@@ -169,7 +169,7 @@ echo ("
 											</A><BR><BR>
 
 											<A HREF=\"https://www.Apache.org\" TITLE=\":: Apache Software Foundation ::\" TARGET=\"_NEW\">
-												<IMG SRC=\"Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Image/Badges/Apache.png?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" CLASS=\"PanelProjectBadge\" ALT=\":: Apache Software Foundation ::\">
+												<IMG SRC=\"Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/Image/Badges/Apache.png?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" CLASS=\"PanelProjectBadge\" ALT=\":: Apache Software Foundation ::\">
 											</A><BR>
 
 											<A HREF=\"https://www.MySQL.com\" TITLE=\":: MySQL Database Management System ::\" TARGET=\"_NEW\">
