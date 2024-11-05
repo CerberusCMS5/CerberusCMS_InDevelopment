@@ -82,9 +82,9 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_32K				= 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION			= $_POST['AMA_Themes_Update_Directory_Theme_Video_Resolution'];
 
 echo ("
-
-
-															System :: Settings :: Default Theme Directory<BR>
+														<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+															System :: Settings :: Default Theme Directory
+														<HR ALIGN=\"LEFT\" WIDTH=\"40%\"><BR>
 																Theme Video Resolution :: Progressive / Interlaced :: 144<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_144PI\">
 ");
@@ -129,7 +129,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_144PI);
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 																Theme Video Resolution :: Progressive / Interlaced :: 240<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_240PI\">
 ");
@@ -174,7 +177,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_240PI);
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 340<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_340PI\">
@@ -220,7 +226,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_340PI);
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 480<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_480PI\">
@@ -266,7 +275,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_480PI);
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 520<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_520PI\">
@@ -312,7 +324,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_520PI);
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 640<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_640PI\">
@@ -358,7 +373,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_640PI);
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 720<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_720PI\">
@@ -404,7 +422,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_720PI);
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 1080<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_1080PI\">
@@ -450,7 +471,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_1080PI)
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 2040<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_2040PI\">
@@ -496,7 +520,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_2040PI)
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 2160<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_2160PI\">
@@ -542,7 +569,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_2160PI)
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 4K<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_4K\">
@@ -588,7 +618,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_4K);
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 8K<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_8K\">
@@ -634,7 +667,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_8K);
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 16K<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_16K\">
@@ -681,8 +717,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_16K);
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
 
+echo ("
 																Theme Video Resolution :: Progressive / Interlaced :: 32K<BR>
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_32K\">
 ");
@@ -728,7 +766,10 @@ closedir($_Application_Module_Administration_Themes_OPEN_THEME_DIRECTORY_32K);
 echo ("
 														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
+													</FORM><BR><BR>
+");
+
+echo ("
 
 															System :: Default Theme Directory :: Video Resolution<BR>
 															<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_Video_Resolution\" MAXLENGTH=\"25\">
@@ -748,7 +789,7 @@ echo ("
 															<OPTION VALUE=\"32K\">Progressive / Interlaced: 32K</OPTION>
 														</SELECT><BR>
 															<INPUT TYPE=\"submit\" VALUE=\"Update Theme Settings\">
-														</FORM>
+														</FORM><BR>
 													Options Note: <I>This Option can be changed to force a custom default Graphical-User-Interface Theme.</I><BR><BR>
 ");
 
