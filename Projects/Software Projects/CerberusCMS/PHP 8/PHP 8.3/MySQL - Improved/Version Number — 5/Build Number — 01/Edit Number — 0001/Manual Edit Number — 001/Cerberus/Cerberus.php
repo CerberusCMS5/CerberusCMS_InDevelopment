@@ -5317,8 +5317,6 @@ if ($_Kernel_Set_Member_Account_POST_SET_THEME_8K) {
 
 } // [ + ] IF: Internal Application: Theme :: SET :: Theme :: 8K :: Progressive / Interlaced
 
-} // [ + ] IF: Internal Application: Theme :: Is: Activated
-
 /*
  ============================================================================================================
  + IF: Internal Application: Theme :: SET :: Theme :: 16K :: Progressive / Interlaced
@@ -5333,8 +5331,6 @@ if ($_Kernel_Set_Member_Account_POST_SET_THEME_16K) {
 	exit;
 
 } // [ + ] IF: Internal Application: Theme :: SET :: Theme :: 16K :: Progressive / Interlaced
-
-} // [ + ] IF: Internal Application: Theme :: Is: Activated
 
 /*
  ============================================================================================================
