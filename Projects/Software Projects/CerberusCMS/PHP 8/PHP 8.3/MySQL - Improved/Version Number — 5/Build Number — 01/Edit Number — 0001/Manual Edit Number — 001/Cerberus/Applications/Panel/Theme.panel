@@ -242,18 +242,6 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_144PI == "." || $_Appl
 
 /*
  ============================================================================================================
- + SET :: Specified Theme Directory
- ============================================================================================================
-*/
-
-echo ("
-														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-");
-
-/*
- ============================================================================================================
  + Close Directory :: Theme Directory :: 144PI
  ============================================================================================================
 */
@@ -299,17 +287,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_240PI == "." || $_Appl
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
 
-/*
- ============================================================================================================
- + SET :: Specified Theme Directory
- ============================================================================================================
-*/
-
-echo ("
-														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-");
+echo ("</SELECT><BR><BR>");
 
 /*
  ============================================================================================================
@@ -358,17 +336,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_340PI == "." || $_Appl
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
 
-/*
- ============================================================================================================
- + SET :: Specified Theme Directory
- ============================================================================================================
-*/
-
-echo ("
-														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-");
+echo ("</SELECT><BR><BR>");
 
 /*
  ============================================================================================================
@@ -417,17 +385,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_480PI == "." || $_Appl
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
 
-/*
- ============================================================================================================
- + SET :: Specified Theme Directory
- ============================================================================================================
-*/
-
-echo ("
-														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-");
+echo ("</SELECT><BR><BR>");
 
 /*
  ============================================================================================================
@@ -476,17 +434,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_520PI == "." || $_Appl
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
 
-/*
- ============================================================================================================
- + SET :: Specified Theme Directory
- ============================================================================================================
-*/
-
-echo ("
-														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-");
+echo ("</SELECT><BR><BR>");
 
 /*
  ============================================================================================================
@@ -535,17 +483,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_640PI == "." || $_Appl
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
 
-/*
- ============================================================================================================
- + SET :: Specified Theme Directory
- ============================================================================================================
-*/
-
-echo ("
-														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-");
+echo ("</SELECT><BR><BR>");
 
 /*
  ============================================================================================================
@@ -594,17 +532,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_720PI == "." || $_Appl
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
 
-/*
- ============================================================================================================
- + SET :: Specified Theme Directory
- ============================================================================================================
-*/
-
-echo ("
-														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-");
+echo ("</SELECT><BR><BR>");
 
 /*
  ============================================================================================================
@@ -653,17 +581,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_1080PI == "." || $_App
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
 
-/*
- ============================================================================================================
- + SET :: Specified Theme Directory
- ============================================================================================================
-*/
-
-echo ("
-														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-");
+echo ("</SELECT><BR><BR>");
 
 /*
  ============================================================================================================
@@ -712,17 +630,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_2040PI == "." || $_App
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
 
-/*
- ============================================================================================================
- + SET :: Specified Theme Directory
- ============================================================================================================
-*/
-
-echo ("
-														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-");
+echo ("</SELECT><BR><BR>");
 
 /*
  ============================================================================================================
@@ -771,17 +679,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_2160PI == "." || $_App
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
 
-/*
- ============================================================================================================
- + SET :: Specified Theme Directory
- ============================================================================================================
-*/
-
-echo ("
-														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-");
+echo ("</SELECT><BR><BR>");
 
 /*
  ============================================================================================================
@@ -830,17 +728,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_4K == "." || $_Applica
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
 
-/*
- ============================================================================================================
- + SET :: Specified Theme Directory
- ============================================================================================================
-*/
-
-echo ("
-														</SELECT><BR>
-														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
-													</FORM><BR>
-");
+echo ("</SELECT><BR><BR>");
 
 /*
  ============================================================================================================
@@ -889,6 +777,16 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_8K == "." || $_Applica
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
 
+echo ("</SELECT><BR><BR>");
+
+/*
+ ============================================================================================================
+ + Close Directory :: Theme Directory :: 8K
+ ============================================================================================================
+*/
+
+closedir($_Application_Module_Panel_Theme_OPEN_DIRECTORY_THEME_16K);
+
 /*
  ============================================================================================================
  + List All Theme Directories :: 16K
@@ -927,6 +825,16 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_16K == "." || $_Applic
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
 } // [ + ] WHILE: Reading :: Directory :: Specified Theme Directory AND Files
+
+echo ("</SELECT><BR><BR>");
+
+/*
+ ============================================================================================================
+ + Close Directory :: Theme Directory :: 16K
+ ============================================================================================================
+*/
+
+closedir($_Application_Module_Panel_Theme_OPEN_DIRECTORY_THEME_16K);
 
 /*
  ============================================================================================================
@@ -983,9 +891,9 @@ echo ("
 
 /*
  ============================================================================================================
- + Close Directory :: Theme Directory :: 8K
+ + Close Directory :: Theme Directory :: 32K
  ============================================================================================================
 */
 
-closedir($_Application_Module_Panel_Theme_OPEN_DIRECTORY_THEME_8K);
+closedir($_Application_Module_Panel_Theme_OPEN_DIRECTORY_THEME_32K);
 ?>
