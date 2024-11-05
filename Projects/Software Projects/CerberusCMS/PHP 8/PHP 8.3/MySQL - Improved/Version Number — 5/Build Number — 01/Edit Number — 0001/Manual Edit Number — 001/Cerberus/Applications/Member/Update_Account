@@ -1344,7 +1344,7 @@ echo ("
 														</SELECT><BR><BR>
 
 													<B>Settings :: Account :: Graphics :: Theme :: Video Resolution</B><BR>
-														* Member Account Theme:<BR>
+														* Member Account Theme :: Video Resolution:<BR>
 															<SELECT NAME=\"AMM_Update_Account_Member_Settings_Directory_Theme_Video_Resolution\" VALUE=\"$_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION\" MAXLENGTH=\"50\">
 															<OPTION VALUE=\"144PI\">Progressive / Interlaced: 144</OPTION>
 															<OPTION VALUE=\"240PI\">Progressive / Interlaced: 240</OPTION>
