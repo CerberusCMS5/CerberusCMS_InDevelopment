@@ -86,6 +86,7 @@ echo ("
 															System :: Settings :: Default Theme Directory
 														<HR ALIGN=\"LEFT\" WIDTH=\"40%\"><BR>
 																Theme Video Resolution :: Progressive / Interlaced :: 144<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_144PI\">
 ");
 
@@ -134,6 +135,7 @@ echo ("
 
 echo ("
 																Theme Video Resolution :: Progressive / Interlaced :: 240<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_240PI\">
 ");
 
@@ -183,6 +185,7 @@ echo ("
 echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 340<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_340PI\">
 ");
 
@@ -232,6 +235,7 @@ echo ("
 echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 480<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_480PI\">
 ");
 
@@ -281,6 +285,7 @@ echo ("
 echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 520<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_520PI\">
 ");
 
@@ -330,6 +335,7 @@ echo ("
 echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 640<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_640PI\">
 ");
 
@@ -379,6 +385,7 @@ echo ("
 echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 720<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_720PI\">
 ");
 
@@ -428,6 +435,7 @@ echo ("
 echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 1080<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_1080PI\">
 ");
 
@@ -477,6 +485,7 @@ echo ("
 echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 2040<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_2040PI\">
 ");
 
@@ -526,6 +535,7 @@ echo ("
 echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 2160<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_2160PI\">
 ");
 
@@ -575,6 +585,7 @@ echo ("
 echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 4K<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_4K\">
 ");
 
@@ -624,6 +635,7 @@ echo ("
 echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 8K<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_8K\">
 ");
 
@@ -673,6 +685,7 @@ echo ("
 echo ("
 
 																Theme Video Resolution :: Progressive / Interlaced :: 16K<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_16K\">
 ");
 
@@ -722,6 +735,7 @@ echo ("
 
 echo ("
 																Theme Video Resolution :: Progressive / Interlaced :: 32K<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 																<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_32K\">
 ");
 
@@ -772,6 +786,7 @@ echo ("
 echo ("
 
 															System :: Default Theme Directory :: Video Resolution<BR>
+														<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_ADMINISTRATOR&#61;Control_Panel&amp;Action&#61;Themes&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 															<SELECT NAME=\"AMA_Themes_Update_Directory_Theme_Video_Resolution\" MAXLENGTH=\"25\">
 															<OPTION VALUE=\"144PI\">Progressive / Interlaced: 144</OPTION>
 															<OPTION VALUE=\"240PI\">Progressive / Interlaced: 240</OPTION>
@@ -803,7 +818,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_144PI
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_144PI";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 144 Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 144PI
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_144PI'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 144PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 144PI :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 144PI :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -815,7 +858,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_240PI
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_240PI";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 240 Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 240PI
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_240PI'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 240PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 240PI :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 240PI :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -827,7 +898,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_340PI
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_340PI";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 340 Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 340PI
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_340PI'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 340PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 340PI :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 340PI :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -839,7 +938,36 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_480PI
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_480PI";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 480 Progressive / Interlaced
+
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 480PI
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_480PI'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 480PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 480PI :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 480PI :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -851,7 +979,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_520PI
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_520PI";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 520 Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 520PI
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_520PI'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 520PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 520PI :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 520PI :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -863,7 +1019,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_640PI
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_640PI";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 640 Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 640PI
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_640PI'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 640PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 640PI :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 640PI :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -875,7 +1059,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_720PI
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_720PI";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 720 Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 720PI
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_720PI'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 720PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 720PI :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 720PI :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -887,7 +1099,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_1080P
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_1080PI";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 1080 Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 1080PI
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_1080PI'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 1080PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 1080PI :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 1080PI :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -899,7 +1139,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_2040P
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_2040PI";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 2040 Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 2040PI
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_2040PI'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 2040PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 2040PI :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 2040PI :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -911,7 +1179,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_2160P
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_2160PI";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 2160 Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 2160PI
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_2160PI'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 2160PI
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 2160PI :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 2160PI :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -923,7 +1219,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_4K) {
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_4K";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 4K Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 4K
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_4K'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 4K
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 4K :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 4K :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -935,7 +1259,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_8K) {
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_8K";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 8K Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 8K
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_8K'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 8K
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 8K :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 8K :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -947,7 +1299,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_16K) 
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_16K";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 16K Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 16K
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_16K'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 16K
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 16K :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 16K :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -959,7 +1339,35 @@ if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_32K) 
 
 $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_32K";
 
-} // [ + ] IF: Application Module :: Administration :: Themes :: Update Form :: Theme Video Resolution :: Is: 32K Progressive / Interlaced
+/*
+ ============================================================================================================
+ +
+ + Database Management System Server :: Database Query :: Update :: Settings :: Themes Video Resolution :: 32K
+ +
+ ============================================================================================================
+*/
+
+$_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
+settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION_32K'
+WHERE id='1'");
+
+/*
+ ============================================================================================================
+ + IF: Database Management System Server Query: Update :: Settings :: Themes :: 32K
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS) {
+
+													echo ($_Application_Module_Administration_Message_Settings_SETTINGS_UPDATED_SUCCESSFULLY);
+
+} else {
+
+													echo ($_Message_ERROR_ACTION_UNIVERSAL);
+
+} // [ + ] IF: Database Management System Server :: Database Query: Update :: System Settings :: Themes :: Theme Video Resolution :: 32K :: Variable Has Executed
+
+} // [ + ] IF: Application Module :: Administration :: Themes :: Input Form :: Update :: Themes :: Theme Video Resolution :: 32K :: Variable Has Executed
 
 /*
  ============================================================================================================
@@ -972,7 +1380,6 @@ $_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME					= "$_
 if ($_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION) {
 
 $_Application_Module_Administration_Themes_DB_Query_UPDATE_SETTINGS					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_settings SET 
-settings_system_directory_theme='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME',
 settings_system_directory_theme_video_resolution='$_Application_Module_Administration_Themes_POST_UPDATE_DIRECTORY_THEME_VIDEO_RESOLUTION'
 WHERE id='1'");
 
