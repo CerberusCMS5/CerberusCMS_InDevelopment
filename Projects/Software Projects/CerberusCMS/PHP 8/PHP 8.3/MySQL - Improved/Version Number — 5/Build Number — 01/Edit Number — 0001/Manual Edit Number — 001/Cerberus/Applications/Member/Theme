@@ -237,7 +237,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_144PI == "." || $_App
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -296,7 +296,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_240PI == "." || $_App
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -355,7 +355,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_340PI == "." || $_App
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -414,7 +414,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_480PI == "." || $_App
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -473,7 +473,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_520PI == "." || $_App
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -532,7 +532,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_640PI == "." || $_App
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -591,7 +591,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_720PI == "." || $_App
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -650,7 +650,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_1080PI == "." || $_Ap
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -709,7 +709,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2040PI == "." || $_Ap
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -768,7 +768,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2160PI == "." || $_Ap
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -827,7 +827,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_4K == "." || $_Applic
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -886,7 +886,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_8K == "." || $_Applic
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -945,7 +945,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_16K == "." || $_Appli
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
@@ -1004,7 +1004,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_32K == "." || $_Appli
 */
 
 echo ("
-														</SELECT>
+														</SELECT><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Set Theme\">
 													</FORM><BR>
 ");
