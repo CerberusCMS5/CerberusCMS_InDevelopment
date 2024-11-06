@@ -1240,7 +1240,7 @@ echo ($_Application_Module_Member_Message_Profile_SECTION_MARKED_ONLYME);
 echo ("
 												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 													<B>Member' Account Details :: Location Information</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
 ");
 
 /*
@@ -1466,7 +1466,11 @@ echo ("$_Application_Module_Member_Message_Profile_SECTION_MARKED_ONLYME");
  ============================================================================================================
 */
 
-												echo ("<I>Member' Account Details :: Authentication Details</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">");
+echo ("
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+														<B>Member' Account Details :: Authentication Details</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
+");
 
 /*
  ============================================================================================================
@@ -1477,9 +1481,9 @@ echo ("$_Application_Module_Member_Message_Profile_SECTION_MARKED_ONLYME");
 if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VISIBILITY_DETAILS == "0") {
 
 echo ("
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Device: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: This Web Server: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Device: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A><BR><BR>
+												&nbsp;*&nbsp;<B>Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Device</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE</A></I><BR>
+												&nbsp;*&nbsp;<B>Account :: Internet Protocol Address :: Last Successful Authentication :: This Web Server</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL</A></I><BR>
+												&nbsp;*&nbsp;<B>Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Network Node ( IF Any )</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A></I><BR><BR>
 												
 ");
 
@@ -1502,9 +1506,9 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 if (file_exists("./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Friends/$_GLOBAL_COOKIE_MEMBER_USERNAME")) {
 
 echo ("
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Device: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: This Web Server: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Device: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A><BR><BR>
+												&nbsp;*&nbsp;<B>Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Device</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE</A></I><BR>
+												&nbsp;*&nbsp;<B>Account :: Internet Protocol Address :: Last Successful Authentication :: This Web Server</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL</A></I><BR>
+												&nbsp;*&nbsp;<B>Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Network Node ( IF Any )</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A></I><BR><BR>
 												
 ");
 
@@ -1539,9 +1543,9 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 if ($_GLOBAL_COOKIE_MEMBER_USERNAME == "$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME") {
 
 echo ("
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Device: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: This Web Server: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Device: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A><BR><BR>
+												&nbsp;*&nbsp;<B>Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Device</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE</A></I><BR>
+												&nbsp;*&nbsp;<B>Account :: Internet Protocol Address :: Last Successful Authentication :: This Web Server</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL</A></I><BR>
+												&nbsp;*&nbsp;<B>Account :: Internet Protocol Address :: Last Successful Authentication :: Connecting Network Node ( IF Any )</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A></I><BR><BR>
 												
 ");
 
@@ -1566,7 +1570,11 @@ echo ("$_Application_Module_Member_Message_Profile_SECTION_MARKED_ONLYME");
  ============================================================================================================
 */
 
-												echo ("<I>Member' Account Details :: Activity Information</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">");
+echo ("
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+														<B>Member' Account Details :: Activity Information</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
+");
 
 /*
  ============================================================================================================
@@ -1577,24 +1585,34 @@ echo ("$_Application_Module_Member_Message_Profile_SECTION_MARKED_ONLYME");
 if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VISIBILITY_DETAILS == "0") {
 
 echo ("
-												<B>Server :: This Web Server :: Date</B><BR>
-												&nbsp;*&nbsp;Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Year: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_YEARS<BR>
-												&nbsp;*&nbsp;Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Month: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MONTHS<BR>
-												&nbsp;*&nbsp;Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Day: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_DAYS<BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Server :: This Web Server :: Date</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Year</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_YEARS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Month</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MONTHS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Day</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_DAYS</I><BR><BR>
 
-												<B>Server :: This Web Server :: Time :: Timestamp</B><BR>
-												&nbsp;*&nbsp;Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Timestamp: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP<BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Server :: This Web Server :: Time :: Timestamp</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Timestamp</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP</I><BR><BR>
 
-												<B>Server :: This Web Server :: Time :: Timestamp</B><BR>
-												&nbsp;*&nbsp;Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Hour: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_HOURS<BR>
-												&nbsp;*&nbsp;Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Minute: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MINUTES<BR>
-												&nbsp;*&nbsp;Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Second: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_SECONDS<BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Server :: This Web Server :: Time :: Timestamp</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Hour</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_HOURS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Minute</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MINUTES</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Second</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_SECONDS</I><BR><BR>
 
-												<B>Server :: Connecting Device :: Time :: Timestamp</B><BR>
-												&nbsp;*&nbsp;Account :: Timestamp :: Last Active :: Time :: Connecting Device :: Timestamp :: Unix: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_TIMESTAMP_UNIX_EPOCH\" TITLE=\":: Open & Display :: The Official Web Server :: For :: This System' Unix Timestamp Converter ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP_UNIX</A><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Server :: Connecting Device :: Time :: Timestamp</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Connecting Device :: Timestamp :: Unix</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_TIMESTAMP_UNIX_EPOCH\" TITLE=\":: Open & Display :: The Official Web Server :: For :: This System' Unix Timestamp Converter ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP_UNIX</A></I><BR><BR>
 
-												<B>Server :: Connecting Device :: Last Web-Page Document Executed</B><BR>
-												&nbsp;*&nbsp;Account :: <A HREF=\"$_Application_Module_Member_Profile_LIST_MEMBER_LAST_REFERRER\" TITLE=\":: Last Web-Page Document Executed ::\">Last Web-Page Document Executed</A><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Server :: Connecting Device :: Last Web-Page Document Executed</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Member Account :: <I><A HREF=\"$_Application_Module_Member_Profile_LIST_MEMBER_LAST_REFERRER\" TITLE=\":: Last Web-Page Document Executed ::\">Last Web-Page Document Executed</I></A><BR><BR>
 ");
 
 } else {
