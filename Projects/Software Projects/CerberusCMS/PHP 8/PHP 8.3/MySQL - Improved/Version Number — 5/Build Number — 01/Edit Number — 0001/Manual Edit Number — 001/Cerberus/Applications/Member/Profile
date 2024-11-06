@@ -1201,16 +1201,20 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 if ($_GLOBAL_COOKIE_MEMBER_USERNAME == "$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME") {
 
 echo ("
-												<I>Member' Account Details :: Account Registration Information</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;Account Registered On: $_Application_Module_Member_Profile_LIST_MEMBER_REGISTRATION_DATE<BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+													<B>Member' Account Details :: Account Registration Information</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+												&nbsp;*&nbsp;<B>This Member Account Was Registered On</B>: $_Application_Module_Member_Profile_LIST_MEMBER_REGISTRATION_DATE<BR><BR>
 
-												<I>Member' Account Details :: Account Status</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;Is This Account Active ?: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_ACTIVE_DISPLAY<BR>
-												&nbsp;*&nbsp;Is This Account Activated ?: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_ACTIVATION_DISPLAY<BR>
-												&nbsp;*&nbsp;Is This Account Banned ?: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_BANNED_DISPLAY<BR>
-												&nbsp;*&nbsp;Is This Account Locked ?: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LOCKED_DISPLAY<BR>
-												&nbsp;*&nbsp;Is This Account a System Newsletter Recipient ?: $_Application_Module_Member_Profile_LIST_MEMBER_SETTINGS_NEWSLETTER_DISPLAY<BR>
-												&nbsp;*&nbsp;Account Access Level: $_Application_Module_Member_Profile_LIST_MEMBER_ACCESS_LEVEL_DISPLAY<BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+													<B>Member' Account Details :: Account Status</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+												&nbsp;*&nbsp;<B>Is This Account Active ?</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_ACTIVE_DISPLAY</I><BR>
+												&nbsp;*&nbsp;<B>Is This Account Activated ?</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_ACTIVATION_DISPLAY</I><BR>
+												&nbsp;*&nbsp;<B>Is This Account Banned ?</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_BANNED_DISPLAY</I><BR>
+												&nbsp;*&nbsp;<B>Is This Account Locked ?</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LOCKED_DISPLAY</I><BR>
+												&nbsp;*&nbsp;<B>Is This Account a System Newsletter Recipient ?</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_SETTINGS_NEWSLETTER_DISPLAY</I><BR>
+												&nbsp;*&nbsp;<B>Account Access Level</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ACCESS_LEVEL_DISPLAY</I><BR><BR>
 ");
 
 } else {
