@@ -104,7 +104,7 @@ $_Application_Module_Panel_Latest_Shouts_LIST_SHOUT_MESSAGE_TIMESTAMP			= $_Appl
 
 echo ("
 											<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Panel_Latest_Shouts_LIST_SHOUT_MESSAGE_AUTHOR\" TITLE=\":: Open & Display The Application Module :: Profile :: For :: $_Application_Module_Panel_Latest_Shouts_LIST_SHOUT_MESSAGE_AUTHOR&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\">$_Application_Module_Panel_Latest_Shouts_LIST_SHOUT_MESSAGE_AUTHOR</A> Shouted:<BR>
-											<B>&#34;</B><I>$_Application_Module_Panel_Latest_Shouts_LIST_SHOUT_MESSAGE_TEXT</I><B>&#34;</B><BR>
+											<B>&#34;</B>&nbsp;&nbsp;<I>$_Application_Module_Panel_Latest_Shouts_LIST_SHOUT_MESSAGE_TEXT</I>&nbsp;&nbsp;<B>&#34;</B><BR>
 											On: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_TIMESTAMP_UNIX_EPOCH\" TITLE=\":: Open & Display :: The Official Web Server :: For :: This System' Unix Timestamp Converter ::\" TARGET=\"_NEW\">$_Application_Module_Panel_Latest_Shouts_LIST_SHOUT_MESSAGE_TIMESTAMP</I></A><BR><BR>
 ");
 
