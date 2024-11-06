@@ -215,6 +215,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_144PI = readdir($
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 144PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_144PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_144PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -224,7 +232,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_144PI == "." || $_App
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_144PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_144PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_144PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_144PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -274,6 +282,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_240PI = readdir($
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 240PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_240PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_240PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -283,7 +299,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_240PI == "." || $_App
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_240PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_240PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_240PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_240PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -333,6 +349,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_340PI = readdir($
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 340PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_340PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_340PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -342,7 +366,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_340PI == "." || $_App
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_340PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_340PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_340PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_340PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -392,6 +416,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_480PI = readdir($
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 480PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_480PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_480PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -401,7 +433,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_480PI == "." || $_App
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_480PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_480PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_480PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_480PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -451,6 +483,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_520PI = readdir($
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 520PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_520PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_520PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -460,7 +500,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_520PI == "." || $_App
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_520PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_520PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_520PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_520PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -510,6 +550,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_640PI = readdir($
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 640PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_640PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_640PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -519,7 +567,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_640PI == "." || $_App
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_640PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_640PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_640PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_640PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -569,6 +617,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_720PI = readdir($
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 720PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_720PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_720PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -578,7 +634,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_720PI == "." || $_App
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_720PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_720PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_720PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_720PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -628,6 +684,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_1080PI = readdir(
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 1080PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_1080PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_1080PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -637,7 +701,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_1080PI == "." || $_Ap
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_1080PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_1080PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_1080PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_1080PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -687,6 +751,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2040PI = readdir(
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 2040PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2040PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2040PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -696,7 +768,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2040PI == "." || $_Ap
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2040PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2040PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2040PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2040PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -746,6 +818,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2160PI = readdir(
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 2160PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2160PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2160PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -755,7 +835,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2160PI == "." || $_Ap
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2160PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2160PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2160PI\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_2160PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -805,6 +885,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_4K = readdir($_Ap
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 4K
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_4K_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_4K");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -814,7 +902,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_4K == "." || $_Applic
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_4K\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_4K</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_4K\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_4K_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -864,6 +952,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_8K = readdir($_Ap
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 8K
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_8K_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_8K");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -873,7 +969,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_8K == "." || $_Applic
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_8K\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_8K</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_8K\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_8K_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -923,6 +1019,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_16K = readdir($_A
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 16K
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_16K_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_16K");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -932,7 +1036,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_16K == "." || $_Appli
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_16K\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_16K</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_16K\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_16K_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -982,6 +1086,14 @@ while (($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_32K = readdir($_A
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 32K
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_32K_FILTERED				= str_replace("_", " ", "$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_32K");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -991,7 +1103,7 @@ if ($_Application_Module_Member_Theme_READ_DIRECTORY_THEME_32K == "." || $_Appli
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_32K\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_32K</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_32K\">$_Application_Module_Member_Theme_READ_DIRECTORY_THEME_32K_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
