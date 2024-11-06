@@ -967,12 +967,16 @@ echo ("
 													<A HREF=\"$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display This Registered Member Account Image ::\"><IMG SRC=\"$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" TITLE=\":: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST :: $_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY ::\" ALT=\":: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST :: $_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY ::\" CLASS=\"MemberProfile\" WIDTH=\"120\" HEIGHT=\"120\"></A>
 													&nbsp;&nbsp;&nbsp;
 													<VIDEO ID=\"StreamVideo\" WIDTH=\"125\" HEIGHT=\"125\" CONTROLS=\"CONTROLS\" TYPE=\"VIDEO/MP4\" AUTOSTART=\"FALSE\" PRELOAD=\"NONE\"><SOURCE SRC=\"$_Application_Module_Member_Profile_LIST_MEMBER_IMAGE_VIDEO_DISPLAY?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATION\"></VIDEO><BR><BR>
-													
-													$_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_ABOUT
-												<HR>
-													Forum and Comment Signature:<BR>
-													$_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_SIGNATURE
-												<HR>
+
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+													<B>Registered Member Account :: Profile About</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+													$_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_ABOUT<BR><BR>
+
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+													<B>Registered Member Account :: Forum and Comment Signature</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+													<B><BIG>&quot;</BIG></B>&nbsp;&nbsp;<I>$_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_SIGNATURE</I>&nbsp;&nbsp;<B><BIG>&quot;</BIG></B>
 ");
 
 /*
@@ -992,7 +996,7 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCESS_LEVEL >= "5") {
 if (!$_Application_Module_Member_Profile_SERVICES_COMMAND_RECEIVE) {
 
 echo ("
-													This Registered Member Account Is Services Root-Administration Level. Send Command Now ?<BR>
+													<BR><BR><B>This Registered Member Account Is Services Root-Administration Level. Send Command Now ?</B><BR>
 													<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"POST\">
 														<SELECT NAME=\"AMM_Profile_Services_Command_Type\">
 															<OPTION VALUE=\"0\">Integrity :: Flash :: Server :: Local</OPTION>
@@ -1081,10 +1085,13 @@ echo ("Services Message: You are not Authenticated. Authentication is required i
 if ($_GET["Display"] == "AccountDetails") {
 
 echo ("
-											<BR><CENTER><B>:: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST :: Detailed Member Account Information ::</B></CENTER>
-											<HR><BR>
-												<B>Detailed Registered Member Account Information</B><HR><BR>
+											<HR ALIGN=\"CENTER\" WIDTH=\"40%\">
+												<CENTER><B> :: Detailed Member Account Information :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST, $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST</B></CENTER>
+											<HR ALIGN=\"CENTER\" WIDTH=\"40%\"><BR><BR>
 
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
+												<B>Detailed Registered Member Account Information</B>
+											<HR ALIGN=\"LEFT\" WIDTH=\"40%\"><BR><BR>
 ");
 
 /*
@@ -1096,7 +1103,9 @@ echo ("
 */
 
 echo ("
-												<I>Member' Account Details :: Personal Information</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
+											<HR ALIGN=\"LEFT\" WIDTH=\"35%\">
+												<B>Registered Member' Account Details :: Personal Information</B>
+											<HR ALIGN=\"LEFT\" WIDTH=\"35%\">
 ");
 
 /*
@@ -1108,19 +1117,21 @@ echo ("
 if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VISIBILITY_DETAILS == "0") {
 
 echo ("
-												&nbsp;*&nbsp;Name, First: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST<BR>
-												&nbsp;*&nbsp;Name, Last: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST<BR>
-												&nbsp;*&nbsp;Name, Middle: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_MIDDLE<BR>
-												&nbsp;*&nbsp;Name, Nickname: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_NICKNAME<BR>
-												&nbsp;*&nbsp;Birthdate: $_Application_Module_Member_Profile_LIST_MEMBER_BIRTHDATE<BR>
-												&nbsp;*&nbsp;Gender: $_Application_Module_Member_Profile_LIST_MEMBER_GENDER_DISPLAY<BR>
-												&nbsp;*&nbsp;Member Preferred Language: $_Application_Module_Member_Profile_LIST_MEMBER_SETTINGS_LANGUAGE<BR>
-												&nbsp;*&nbsp;Member Account Profile Image: <A TITLE=\":: Registered Member Account Profile Image :: $_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY ::\">$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY</A><BR>
-												&nbsp;*&nbsp;Member Account Avatar Image: <A HREF=\"./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME/Image/Icon_Avatar/$_Application_Module_Member_Profile_LIST_MEMBER_IMAGE_AVATAR?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display This Avatar Image ::\">$_Application_Module_Member_Profile_LIST_MEMBER_IMAGE_AVATAR</A><BR><BR>
+												&nbsp;*&nbsp;<B>Member :: Name, First</B>: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST<BR>
+												&nbsp;*&nbsp;<B>Member :: Name, Last</B>: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST<BR>
+												&nbsp;*&nbsp;<B>Member :: Name, Middle</B>: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_MIDDLE<BR>
+												&nbsp;*&nbsp;<B>Member :: Name, Nickname</B>: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_NICKNAME<BR>
+												&nbsp;*&nbsp;<B>Member :: Birthdate</B>: $_Application_Module_Member_Profile_LIST_MEMBER_BIRTHDATE<BR>
+												&nbsp;*&nbsp;<B>Member :: Gender</B>: $_Application_Module_Member_Profile_LIST_MEMBER_GENDER_DISPLAY<BR>
+												&nbsp;*&nbsp;<B>Member :: Preferred Language</B>: $_Application_Module_Member_Profile_LIST_MEMBER_SETTINGS_LANGUAGE<BR>
+												&nbsp;*&nbsp;<B>Member' :: Account Profile Image</B>: <A TITLE=\":: Registered Member Account Profile Image :: $_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY ::\">$_Application_Module_Member_Profile_IMAGE_PROFILE_PICTURE_DISPLAY</A><BR>
+												&nbsp;*&nbsp;<B>Member' :: Account Avatar Image</B>: <A HREF=\"./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME/Image/Icon_Avatar/$_Application_Module_Member_Profile_LIST_MEMBER_IMAGE_AVATAR?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display This Avatar Image ::\">$_Application_Module_Member_Profile_LIST_MEMBER_IMAGE_AVATAR</A><BR><BR>
 
-												<I>Member' Account Details :: Social :: Preferences</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;Member Marital Status: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIAL_PREFERENCE_MARITAL_STATUS_DISPLAY<BR>
-												&nbsp;*&nbsp;Member Sexual Orientation: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIAL_PREFERENCE_SEXUAL_ORIENTATION_DISPLAY<BR><BR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"35%\">
+												<B>Member' Account Details :: Social :: Preferences</B>
+											<HR ALIGN=\"LEFT\" WIDTH=\"35%\">
+												&nbsp;*&nbsp;<B>Member :: Marital Status: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIAL_PREFERENCE_MARITAL_STATUS_DISPLAY<BR>
+												&nbsp;*&nbsp;<B>Member :: Sexual Orientation: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIAL_PREFERENCE_SEXUAL_ORIENTATION_DISPLAY<BR><BR>
 ");
 
 } else {
