@@ -225,6 +225,14 @@ while (($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_144PI = readdir($_
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 144PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_144PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_144PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -234,7 +242,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_144PI == "." || $_Appl
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_144PI\">$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_144PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_144PI\">$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_144PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
@@ -579,6 +587,14 @@ while (($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_720PI = readdir($_
 
 /*
  ============================================================================================================
+ + FILTER: String Replace :: Read Directory Contents :: Theme Directory :: 720PI
+ ============================================================================================================
+*/
+
+$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_720PI_FILTERED				= str_replace("_", " ", "$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_720PI");
+
+/*
+ ============================================================================================================
  + IF: STOP: Exploit :: Local-File-Inclusion AND Remote-File-Inclusion
  ============================================================================================================
 */
@@ -588,7 +604,7 @@ if ($_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_720PI == "." || $_Appl
  * Do Nothing
 **/
 } else {
-												echo ("<OPTION VALUE=\"$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_720PI\">$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_720PI</OPTION>");
+												echo ("<OPTION VALUE=\"$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_720PI\">$_Application_Module_Panel_Theme_READ_DIRECTORY_THEME_720PI_FILTERED</OPTION>");
 
 } // [ + ] IF: Specified Theme Directory AND Files ARE NOT Specified Theme Directory AND Files
 
