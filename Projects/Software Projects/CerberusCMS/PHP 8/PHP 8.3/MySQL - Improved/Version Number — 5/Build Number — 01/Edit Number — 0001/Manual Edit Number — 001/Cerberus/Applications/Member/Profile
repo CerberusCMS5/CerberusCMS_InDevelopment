@@ -2054,9 +2054,9 @@ echo ("
 if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VISIBILITY_DETAILS == "0") {
 
 echo ("
-												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Account Digital Fingerprints</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\"><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 													&nbsp;*&nbsp;<B>Unique Pretty-Good-Privacy Key Panel, Public</B>
