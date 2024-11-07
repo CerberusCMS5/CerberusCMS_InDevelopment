@@ -237,7 +237,7 @@ $_Application_Module_Member_Forum_LIST_FORUM_ICON					= "Forum_Locked";
  ===============================================================================================================
 */
 
-echo ("														<IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME/Image/Forum/$_Application_Module_Member_Forum_LIST_FORUM_ICON.$_GLOBAL_SYSTEM_IMAGE_EXTENSION?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" ALT=\":: $_Application_Module_Member_Forum_LIST_FORUM_ICON_TEXT ::\" TITLE=\":: $_Application_Module_Member_Forum_LIST_FORUM_ICON_TEXT ::\">
+echo ("														<IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/Image/Forum/$_Application_Module_Member_Forum_LIST_FORUM_ICON.$_GLOBAL_SYSTEM_IMAGE_EXTENSION?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" ALT=\":: $_Application_Module_Member_Forum_LIST_FORUM_ICON_TEXT ::\" TITLE=\":: $_Application_Module_Member_Forum_LIST_FORUM_ICON_TEXT ::\">
 														<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Forum&amp;ForumID&#61;$_Application_Module_Member_Forum_LIST_FORUM_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: Forum Topic Entries :: Within The Forum :: $_Application_Module_Member_Forum_LIST_FORUM_TITLE ::\">&nbsp;$_Application_Module_Member_Forum_LIST_FORUM_TITLE</A>
 															<HR>
 																<B>Forum Description</B>
@@ -375,7 +375,7 @@ $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_ICON					= "Forum_Locked";
 } // [ + ] IF: Forum :: Topic :: Access Level Is: 6
 
 echo ("
-														<IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME/Image/Forum/$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_ICON.$_GLOBAL_SYSTEM_IMAGE_EXTENSION?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" ALT=\":: $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_ICON_TEXT ::\" TITLE=\":: $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_ICON_TEXT ::\">
+														<IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/Image/Forum/$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_ICON.$_GLOBAL_SYSTEM_IMAGE_EXTENSION?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" ALT=\":: $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_ICON_TEXT ::\" TITLE=\":: $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_ICON_TEXT ::\">
 															<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Forum&amp;TopicID&#61;$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: Forum Topic Message Entries :: Within Forum Topic :: $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_TITLE\">&nbsp;$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_TITLE</A>
 														<HR>
 															<B>Forum Topic Description</B><BR>
@@ -476,7 +476,7 @@ $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR_LOCATION 				=
 if ($_GET["TopicID"] == "$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_TOPIC_ID") {
 
 echo ("
-														<IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME/Image/Icon_Avatar/$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR_AVATAR?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" ALT=\":: Registered Member Account :: Image :: Avatar Image :: $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR ::\" CLASS=\"AMAForumTMAuthor\"></IMG>
+														<IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/Image/Icon_Avatar/$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR_AVATAR?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" ALT=\":: Registered Member Account :: Image :: Avatar Image :: $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR ::\" CLASS=\"AMAForumTMAuthor\"></IMG>
 														&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Member Account Profile For :: $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR\">$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR</A> Wrote:<BR><BR>
 
 																$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_DATA

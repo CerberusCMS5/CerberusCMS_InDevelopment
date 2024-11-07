@@ -180,7 +180,7 @@ if ($_Application_Module_Member_Active_Members_LIST_MEMBER_ACCESS_LEVEL == "5") 
 
 if (!file_exists("./Member/$_Application_Module_Member_Active_Members_LIST_MEMBER_USERNAME/Files/Image/Profile/$_Application_Module_Member_Active_Members_LIST_MEMBER_IMAGE_PICTURE")) {
 
-	$_Application_Module_Member_Active_Members_LIST_MEMBER_IMAGE_PICTURE_DISPLAY 	= "./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_MEMBER_SETTINGS_DIRECTORY_THEME/Image/Icon/No_Image.$_GLOBAL_SYSTEM_IMAGE_EXTENSION";
+	$_Application_Module_Member_Active_Members_LIST_MEMBER_IMAGE_PICTURE_DISPLAY 	= "./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/Image/Icon/No_Image.$_GLOBAL_SYSTEM_IMAGE_EXTENSION";
 
 } else {
 
