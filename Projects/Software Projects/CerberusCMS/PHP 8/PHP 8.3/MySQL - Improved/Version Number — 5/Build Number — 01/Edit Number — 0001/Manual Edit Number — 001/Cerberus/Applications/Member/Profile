@@ -1932,72 +1932,103 @@ echo ("$_Application_Module_Member_Message_Profile_SECTION_MARKED_ONLYME");
 */
 
 echo ("
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Member' Account Details :: Personal Servers</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													&nbsp;*&nbsp;<I>Personal :: <A HREF=\"$_Application_Module_Member_Profile_LIST_MEMBER_HOMEPAGE\" TITLE=\":: Open & Display :: This Registered Member Account :: Personal Web-Page ::\" TARGET=\"_NEW\">Web-Page Document :: External Server</A></I><BR>
+													&nbsp;*&nbsp;<I>Personal :: <A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: This Registered Member Account :: Home Web-Space ::\" TARGET=\"_NEW\">Web-Page Document :: Local Server</A></I><BR><BR>
 
-												<I>Member' Account Details :: Personal Servers</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;Personal :: <A HREF=\"$_Application_Module_Member_Profile_LIST_MEMBER_HOMEPAGE\" TITLE=\":: Open & Display :: This Registered Member Account :: Personal Web-Page ::\" TARGET=\"_NEW\">Web-Page Document :: External Server</A><BR>
-												&nbsp;*&nbsp;Personal :: <A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: This Registered Member Account :: Home Web-Space ::\" TARGET=\"_NEW\">Web-Page Document :: Local Server</A><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Member' Account Details :: Account Statistics</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													&nbsp;*&nbsp;<B>Experience Amount</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_EXPERIENCE_AMOUNT</I><BR>
+													&nbsp;*&nbsp;<B>Rank Level</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_RANK_LEVEL</I><BR>
+													&nbsp;*&nbsp;<B>Total Number of Posts System-Wide</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_NUMBER_OF_POSTS</I><BR>
+													&nbsp;*&nbsp;<B>Favorite Theme</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_SETTINGS_DIRECTORY_THEME</I><BR><BR>
 
-												<I>Member' Account Details :: Account Statistics</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;Experience Amount: $_Application_Module_Member_Profile_LIST_MEMBER_EXPERIENCE_AMOUNT<BR>
-												&nbsp;*&nbsp;Rank Level: $_Application_Module_Member_Profile_LIST_MEMBER_RANK_LEVEL<BR>
-												&nbsp;*&nbsp;Total Number of Posts System-Wide: $_Application_Module_Member_Profile_LIST_MEMBER_NUMBER_OF_POSTS<BR>
-												&nbsp;*&nbsp;Favorite Theme: $_Application_Module_Member_Profile_LIST_MEMBER_SETTINGS_DIRECTORY_THEME<BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Digital Social Media Networks, Digital Communications Networks</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\"><BR>
 
-												<B>Digital Social Media Networks, Digital Communications Networks</B><HR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Audio Streaming Platforms</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<I><A HREF=\"https://www.SoundCloud.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_AUDIO_SOUNDCLOUD\" TITLE=\"SoundCloud :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_AUDIO_SOUNDCLOUD\" TARGET=\"_NEW\">SoundCloud</A></I><BR>
+													&nbsp;*&nbsp;<I><A HREF=\"https://www.Spotify.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_AUDIO_SPOTIFY\" TITLE=\"Spotify :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_AUDIO_SPOTIFY\" TARGET=\"_NEW\">Spotify</A></I><BR><BR>
 
-												<I>Audio Streaming Platforms</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;<A HREF=\"https://www.SoundCloud.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_AUDIO_SOUNDCLOUD\" TITLE=\"SoundCloud :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_AUDIO_SOUNDCLOUD\" TARGET=\"_NEW\">SoundCloud</A><BR>
-												&nbsp;*&nbsp;<A HREF=\"https://www.Spotify.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_AUDIO_SPOTIFY\" TITLE=\"Spotify :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_AUDIO_SPOTIFY\" TARGET=\"_NEW\">Spotify</A><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Business Related Platforms</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<I><A HREF=\"https://www.Linkedin.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_BUSINESS_LINKEDIN\" TITLE=\"Linkedin :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_BUSINESS_LINKEDIN\" TARGET=\"_NEW\">LinkedIn</A></I><BR><BR>
 
-												<I>Business Related Platforms</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;<A HREF=\"https://www.Linkedin.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_BUSINESS_LINKEDIN\" TITLE=\"Linkedin :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_BUSINESS_LINKEDIN\" TARGET=\"_NEW\">LinkedIn</A><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Image Gallery Platforms</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<I><A HREF=\"https://www.Instagram.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_GALLERY_INSTAGRAM\" TITLE=\"Instagram :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_GALLERY_INSTAGRAM\" TARGET=\"_NEW\">Instagram</A></I><BR><BR>
 
-												<I>Image Gallery Platforms</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;<A HREF=\"https://www.Instagram.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_GALLERY_INSTAGRAM\" TITLE=\"Instagram :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_GALLERY_INSTAGRAM\" TARGET=\"_NEW\">Instagram</A><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Scroll Posting Platforms</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<I><A HREF=\"https://www.FaceBook.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_POSTING_FACEBOOK\" TITLE=\"Facebook :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_POSTING_FACEBOOK\" TARGET=\"_NEW\">Facebook</A></I><BR>
+													&nbsp;*&nbsp;<I><A HREF=\"https://www.Twitter.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_POSTING_TWITTER\" TITLE=\"Twitter :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_POSTING_TWITTER\" TARGET=\"_NEW\">Twitter</A></I><BR><BR>
 
-												<I>Scroll Posting Platforms</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;<A HREF=\"https://www.FaceBook.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_POSTING_FACEBOOK\" TITLE=\"Facebook :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_POSTING_FACEBOOK\" TARGET=\"_NEW\">Facebook</A><BR>
-												&nbsp;*&nbsp;<A HREF=\"https://www.Twitter.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_POSTING_TWITTER\" TITLE=\"Twitter :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_POSTING_TWITTER\" TARGET=\"_NEW\">Twitter</A><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Video Streaming Platforms</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<I><A HREF=\"https://www.YouTube.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_VIDEO_YOUTUBE\" TITLE=\"YouTube :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_VIDEO_YOUTUBE\" TARGET=\"_NEW\">YouTube</A></I><BR><BR>
 
-												<I>Video Streaming Platforms</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;<A HREF=\"https://www.YouTube.com/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_VIDEO_YOUTUBE\" TITLE=\"YouTube :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_VIDEO_YOUTUBE\" TARGET=\"_NEW\">YouTube</A><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Video Gaming Platforms</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<I><A HREF=\"https://www.SteamCommunity.com/id/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_VIDEO_GAMING_STEAM\" TITLE=\"Steam :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_VIDEO_GAMING_STEAM\" TARGET=\"_NEW\">Steam</A></I><BR><BR>
 
-												<I>Video Gaming Platforms</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;<A HREF=\"https://www.SteamCommunity.com/id/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_VIDEO_GAMING_STEAM\" TITLE=\"Steam :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_VIDEO_GAMING_STEAM\" TARGET=\"_NEW\">Steam</A><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Digital Communications Networks</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<I><A TITLE=\"Discord :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_COMMUNICATIONS_DISCORD\">Discord</A></I><BR>
+													&nbsp;*&nbsp;<I><A TITLE=\"ICQ :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_COMMUNICATIONS_ICQ\">ICQ</A></I><BR>
+													&nbsp;*&nbsp;<I><A TITLE=\"Skype :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_COMMUNICATIONS_SKYPE\">Skype</A></I><BR>
+													&nbsp;*&nbsp;<I><A TITLE=\"Snapchat :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_COMMUNICATIONS_SNAPCHAT\">Snapchat</A></I><BR><BR>
 
-												<I>Digital Communications Networks</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;<A TITLE=\"Discord :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_COMMUNICATIONS_DISCORD\">Discord</A><BR>
-												&nbsp;*&nbsp;<A TITLE=\"ICQ :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_COMMUNICATIONS_ICQ\">ICQ</A><BR>
-												&nbsp;*&nbsp;<A TITLE=\"Skype :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_COMMUNICATIONS_SKYPE\">Skype</A><BR>
-												&nbsp;*&nbsp;<A TITLE=\"Snapchat :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_COMMUNICATIONS_SNAPCHAT\">Snapchat</A><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Security Accounts</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<I><A HREF=\"https://www.KeyBase.io/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_SECURITY_KEYBASE\" TITLE=\"KeyBase :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_SECURITY_KEYBASE\" TARGET=\"_NEW\">KeyBase</A></I><BR><BR>
 
-												<I>Security Accounts</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;<A HREF=\"https://www.KeyBase.io/$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_SECURITY_KEYBASE\" TITLE=\"KeyBase :: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_SECURITY_KEYBASE\" TARGET=\"_NEW\">KeyBase</A><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+													<B>Software Development Platforms</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 
-												<B>Software Development Platforms</B><HR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>GIT</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>BITBucket</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_PROGRAMMING_BITBUCKET</I><BR>
+													&nbsp;*&nbsp;<B>GITHub</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_PROGRAMMING_GITHUB</I><BR>
+													&nbsp;*&nbsp;<B>LaunchPad</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_PROGRAMMING_LAUNCHPAD</I><BR><BR>
 
-												<I>GIT</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;BITBucket: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_PROGRAMMING_BITBUCKET<BR>
-												&nbsp;*&nbsp;GITHub: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_PROGRAMMING_GITHUB<BR>
-												&nbsp;*&nbsp;LaunchPad: $_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_PROGRAMMING_LAUNCHPAD<BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>Mercurial</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;CodeBase: <I>$_Application_Module_Member_Profile_LIST_MEMBER_SOCIALMEDIA_PROGRAMMING_CODEBASE</I><BR><BR>
 
-												<I>Mercurial</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;CodeBase:<BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+													<B>CryptoCurrency Platforms</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 
-												<B>CryptoCurrency Platforms</B><HR><BR>
-
-												<I>CryptoCurrency BlockChains</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												* BitCoin: $_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_BITCOIN<BR>
-												* BitCoin Gold: $_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_BITCOIN_GOLD<BR>
-												* DogeCoin: $_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_DOGECOIN<BR>
-												* Ethereum: $_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_ETHEREUM<BR>
-												* LiteCoin: $_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_LITECOIN<BR>
-												* MazaCoin: $_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_MAZACOIN<BR>
-												* NameCoin: $_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_NAMECOIN<BR>
-												* PeerCoin: $_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_PEERCOIN<BR>
-												* PrimeCoin: $_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_PRIMECOIN<BR>
-												* TronCoin: $_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_TRONCOIN<BR>
-												* ZCash: $_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_ZCASH<BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													<B>CryptoCurrency BlockChains</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>BitCoin</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_BITCOIN</I><BR>
+													&nbsp;*&nbsp;<B>BitCoin Gold</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_BITCOIN_GOLD</I><BR>
+													&nbsp;*&nbsp;<B>DogeCoin</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_DOGECOIN</I><BR>
+													&nbsp;*&nbsp;<B>Ethereum</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_ETHEREUM</I><BR>
+													&nbsp;*&nbsp;<B>LiteCoin</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_LITECOIN</I><BR>
+													&nbsp;*&nbsp;<B>MazaCoin</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_MAZACOIN</I><BR>
+													&nbsp;*&nbsp;<B>NameCoin</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_NAMECOIN</I><BR>
+													&nbsp;*&nbsp;<B>PeerCoin</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_PEERCOIN</I><BR>
+													&nbsp;*&nbsp;<B>PrimeCoin</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_PRIMECOIN</I><BR>
+													&nbsp;*&nbsp;<B>TronCoin</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_TRONCOIN</I><BR>
+													&nbsp;*&nbsp;<B>ZCash</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_ADDRESS_ZCASH</I><BR><BR>
 ");
 
 /*
