@@ -2511,9 +2511,9 @@ echo ("$_Application_Module_Member_Message_Profile_SECTION_MARKED_ONLYME");
 */
 
 echo ("
-												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													<B>Physical Dimensions and Biometrics</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+													<B>Member' Account Details :: Physical Dimensions and Biometrics</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
 ");
 
 /*
