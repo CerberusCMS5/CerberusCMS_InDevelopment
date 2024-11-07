@@ -976,7 +976,7 @@ echo ("
 												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 													<B>Registered Member Account :: Forum and Comment Signature</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
-													<B><BIG>&quot;</BIG></B>&nbsp;&nbsp;<I>$_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_SIGNATURE</I>&nbsp;&nbsp;<B><BIG>&quot;</BIG></B>
+													<B><BIG>&quot;</BIG></B>&nbsp;&nbsp;<I>$_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_SIGNATURE</I>&nbsp;&nbsp;<B><BIG>&quot;</BIG></B><BR><BR>
 ");
 
 /*
