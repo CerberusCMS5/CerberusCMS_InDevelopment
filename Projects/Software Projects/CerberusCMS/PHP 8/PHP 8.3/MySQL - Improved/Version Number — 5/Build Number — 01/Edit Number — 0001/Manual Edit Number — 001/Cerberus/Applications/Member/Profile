@@ -1765,7 +1765,7 @@ echo ("
 echo ("
 												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
 													<B>Member' Account Details :: Contact Information</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
 ");
 
 /*
