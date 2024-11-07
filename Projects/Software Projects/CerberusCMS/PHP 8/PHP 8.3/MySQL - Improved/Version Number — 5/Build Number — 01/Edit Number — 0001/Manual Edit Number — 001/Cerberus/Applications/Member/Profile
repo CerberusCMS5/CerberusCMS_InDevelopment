@@ -2326,9 +2326,9 @@ echo ("
 if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VISIBILITY_DETAILS == "0") {
 
 echo ("
-												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Member' Account Details :: Emergency Contact Information</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\"><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
 													&nbsp;*&nbsp;<B>Emergency Contact Information, #1</B>
@@ -2383,27 +2383,38 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 if (file_exists("./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Friends/$_GLOBAL_COOKIE_MEMBER_USERNAME")) {
 
 echo ("
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Member' Account Details :: Emergency Contact Information</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\"><BR>
 
-												<BR><I>Member' Account Details :: Emergency Contact Information</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\"><BR>
-
-												&nbsp;*&nbsp;Emergency Contact Information, #1:<BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Emergency Contact Information, #1</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
 													<FORM>
 														<TEXTAREA ROWS=\"10\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_CONTACT_EMERGENCY_1</TEXTAREA>
 													</FORM><BR><BR>
 
-												&nbsp;*&nbsp;Emergency Contact Information, #2:<BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Emergency Contact Information, #2</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
 													<FORM>
 														<TEXTAREA ROWS=\"10\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_CONTACT_EMERGENCY_2</TEXTAREA>
 													</FORM><BR><BR>
 
-												&nbsp;*&nbsp;Emergency Contact Information, #3:<BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Emergency Contact Information, #3</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
 													<FORM>
 														<TEXTAREA ROWS=\"10\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_CONTACT_EMERGENCY_3</TEXTAREA>
 													</FORM><BR><BR>
 
-												<I>Member' Account Details :: Emergency Medical Information</I><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+													<B>Member' Account Details :: Emergency Medical Information</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
 
-												&nbsp;*&nbsp;Emergency Medical Information:<BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Emergency Medical Information</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
 													<FORM>
 														<TEXTAREA ROWS=\"10\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_EMERGENCY_MEDICAL</TEXTAREA>
 													</FORM><BR><BR>
@@ -2441,27 +2452,38 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 if ($_GLOBAL_COOKIE_MEMBER_USERNAME == "$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME") {
 
 echo ("
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Member' Account Details :: Emergency Contact Information</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\"><BR>
 
-												<BR><I>Member' Account Details :: Emergency Contact Information</I><HR WIDTH=\"50%\" ALIGN=\"LEFT\"><BR>
-
-												&nbsp;*&nbsp;Emergency Contact Information, #1:<BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Emergency Contact Information, #1</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
 													<FORM>
 														<TEXTAREA ROWS=\"10\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_CONTACT_EMERGENCY_1</TEXTAREA>
 													</FORM><BR><BR>
 
-												&nbsp;*&nbsp;Emergency Contact Information, #2:<BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Emergency Contact Information, #2</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
 													<FORM>
 														<TEXTAREA ROWS=\"10\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_CONTACT_EMERGENCY_2</TEXTAREA>
 													</FORM><BR><BR>
 
-												&nbsp;*&nbsp;Emergency Contact Information, #3:<BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Emergency Contact Information, #3</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
 													<FORM>
 														<TEXTAREA ROWS=\"10\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_CONTACT_EMERGENCY_3</TEXTAREA>
 													</FORM><BR><BR>
 
-												<I>Member' Account Details :: Emergency Medical Information</I><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\">
+													<B>Member' Account Details :: Emergency Medical Information</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"30%\"><BR>
 
-												&nbsp;*&nbsp;Emergency Medical Information:<BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+													&nbsp;*&nbsp;<B>Emergency Medical Information</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
 													<FORM>
 														<TEXTAREA ROWS=\"10\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_EMERGENCY_MEDICAL</TEXTAREA>
 													</FORM><BR><BR>
@@ -2488,7 +2510,11 @@ echo ("$_Application_Module_Member_Message_Profile_SECTION_MARKED_ONLYME");
  ============================================================================================================
 */
 
-												echo ("<B>Physical Dimensions and Biometrics</B><HR>");
+echo ("
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Physical Dimensions and Biometrics</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+");
 
 /*
  ============================================================================================================
@@ -2499,16 +2525,19 @@ echo ("$_Application_Module_Member_Message_Profile_SECTION_MARKED_ONLYME");
 if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VISIBILITY_DETAILS == "0") {
 
 echo ("
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Member' Physical Details :: Biometrics</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Blood-Type</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_BLOOD_TYPE</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Eye Color :: Primary</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_1</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Eye Color :: Secondary</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_2</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Hair Color</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_HAIR</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Height</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_HEIGHT CM</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Weight</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_WEIGHT KG</I><BR><BR>
 
-												<BR>&nbsp;*&nbsp;<I><B>Member' Physical Details :: Biometrics</B></I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;Personal :: Biometrics :: Blood-Type: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_BLOOD_TYPE<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Eye Color :: Primary: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_1<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Eye Color :: Secondary: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_2<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Hair Color: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_HAIR<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Height: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_HEIGHT CM<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Weight: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_WEIGHT KG<BR><BR>
-
-												&nbsp;*&nbsp;<I>Member' Physical Details :: Physical Dimensions</I><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Member' Physical Details :: Physical Dimensions</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<FORM>
 														<TEXTAREA ROWS=\"10\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_DIMENSIONS</TEXTAREA>
 													</FORM>
@@ -2533,16 +2562,19 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 if (file_exists("./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Friends/$_GLOBAL_COOKIE_MEMBER_USERNAME")) {
 
 echo ("
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Member' Physical Details :: Biometrics</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Blood-Type</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_BLOOD_TYPE</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Eye Color :: Primary</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_1</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Eye Color :: Secondary</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_2</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Hair Color</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_HAIR</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Height</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_HEIGHT CM</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Weight</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_WEIGHT KG</I><BR><BR>
 
-												<BR>&nbsp;*&nbsp;<I><B>Member' Physical Details :: Biometrics</B></I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;Personal :: Biometrics :: Blood-Type: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_BLOOD_TYPE<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Eye Color :: Primary: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_1<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Eye Color :: Secondary: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_2<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Hair Color: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_HAIR<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Height: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_HEIGHT CM<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Weight: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_WEIGHT KG<BR><BR>
-
-												&nbsp;*&nbsp;<I>Member' Physical Details :: Physical Dimensions</I><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Member' Physical Details :: Physical Dimensions</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<FORM>
 														<TEXTAREA ROWS=\"10\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_DIMENSIONS</TEXTAREA>
 													</FORM>
@@ -2579,16 +2611,19 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 if ($_GLOBAL_COOKIE_MEMBER_USERNAME == "$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME") {
 
 echo ("
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Member' Physical Details :: Biometrics</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Blood-Type</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_BLOOD_TYPE</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Eye Color :: Primary</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_1</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Eye Color :: Secondary</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_2</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Hair Color</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_HAIR</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Height</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_HEIGHT CM</I><BR>
+												&nbsp;*&nbsp;<B>Personal :: Biometrics :: Weight</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_WEIGHT KG</I><BR><BR>
 
-												<BR>&nbsp;*&nbsp;<I><B>Member' Physical Details :: Biometrics</B></I><HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												&nbsp;*&nbsp;Personal :: Biometrics :: Blood-Type: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_BLOOD_TYPE<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Eye Color :: Primary: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_1<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Eye Color :: Secondary: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_2<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Hair Color: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_HAIR<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Height: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_HEIGHT CM<BR>
-												&nbsp;*&nbsp;Personal :: Biometrics :: Weight: $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_WEIGHT KG<BR><BR>
-
-												&nbsp;*&nbsp;<I>Member' Physical Details :: Physical Dimensions</I><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													<B>Member' Physical Details :: Physical Dimensions</B>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<FORM>
 														<TEXTAREA ROWS=\"10\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_DIMENSIONS</TEXTAREA>
 													</FORM>
