@@ -1086,7 +1086,7 @@ if ($_GET["Display"] == "AccountDetails") {
 
 echo ("
 											<HR ALIGN=\"CENTER\" WIDTH=\"40%\">
-												<CENTER><B> :: Detailed Member Account Information :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST, $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST</B></CENTER>
+												<CENTER><B>:: Detailed Member Account Information :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_NAME_LAST, $_Application_Module_Member_Profile_LIST_MEMBER_NAME_FIRST</B></CENTER>
 											<HR ALIGN=\"CENTER\" WIDTH=\"40%\"><BR>
 
 											<HR ALIGN=\"LEFT\" WIDTH=\"40%\">
