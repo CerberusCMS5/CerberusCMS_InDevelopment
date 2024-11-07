@@ -143,7 +143,7 @@ if ($_GET["Flash"] == "Applications") {
  ============================================================================================================
 */
 
-echo ("<IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Image/Icon_Integrity/Integrity.png\" TITLE=\":: Integrity ::\" WIDTH=\"50\" HEIGHT=\"50\"></IMG> Integrity Message:<HR ALIGN=\"LEFT\" WIDTH=\"25%\">");
+echo ("<IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION/$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME/Image/Icon_Integrity/Integrity.png\" TITLE=\":: Integrity ::\" WIDTH=\"50\" HEIGHT=\"50\"></IMG> Integrity Message:<HR ALIGN=\"LEFT\" WIDTH=\"25%\">");
 
 /*
  ============================================================================================================
