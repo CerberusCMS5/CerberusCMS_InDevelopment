@@ -2061,7 +2061,7 @@ echo ("
 												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 													&nbsp;*&nbsp;<B>Unique Pretty-Good-Privacy Key Panel, Public</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
-													=> <I>Digital Fingerprint :: Secure-Hash-Algorithm, 256 - Signature</I>:<BR>
+													=> <I>Digital Fingerprint :: Secure-Hash-Algorithm, 256 - Signature</I><BR>
 													<FORM>
 														<TEXTAREA ROWS=\"7\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_PGP_KEY_PANEL_PUBLIC_SIGNATURE_SHA_256</TEXTAREA>
 													</FORM><BR><BR>
@@ -2069,7 +2069,7 @@ echo ("
 												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 													&nbsp;*&nbsp;<B>Unique Pretty-Good-Privacy Key Panel, Private</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
-													=> <I>Digital Fingerprint :: Secure-Hash-Algorithm, 256 - Signature</I>:<BR>
+													=> <I>Digital Fingerprint :: Secure-Hash-Algorithm, 256 - Signature</I><BR>
 													<FORM>
 														<TEXTAREA ROWS=\"7\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_PGP_KEY_PANEL_PRIVATE_SIGNATURE_SHA_256</TEXTAREA>
 													</FORM><BR><BR>
@@ -2077,7 +2077,7 @@ echo ("
 												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 													&nbsp;*&nbsp;<B>Custom Password Panel, Private</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
-													=> <I>Digital Fingerprint :: Secure-Hash-Algorithm, 256 - Signature</I>:<BR>
+													=> <I>Digital Fingerprint :: Secure-Hash-Algorithm, 256 - Signature</I><BR>
 													<FORM>
 														<TEXTAREA ROWS=\"7\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_CUSTOM_PASSWORD_PANEL_SIGNATURE_SHA_256</TEXTAREA>
 													</FORM><BR><BR>
@@ -2085,7 +2085,7 @@ echo ("
 												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 													&nbsp;*&nbsp;<B>Unique Account Fingerprint, Public</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"20%\">
-													=> <I>Digital Fingerprint :: Secure-Hash-Algorithm, 512 - Signature</I>:<BR>
+													=> <I>Digital Fingerprint :: Secure-Hash-Algorithm, 512 - Signature</I><BR>
 													<FORM>
 														<TEXTAREA ROWS=\"7\" COLS=\"50\">$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_UNIQUE_DIGITAL_FINGERPRINT_HASHED</TEXTAREA>
 													</FORM><BR><BR>
