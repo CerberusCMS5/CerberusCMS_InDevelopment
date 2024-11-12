@@ -73,6 +73,7 @@
 */
 
 $_GLOBAL_LOCAL_SERVER_DATE_STANDARD		= date("l-F-j-Y-g-i-s-A");
+$_GLOBAL_LOCAL_SERVER_TIME_UNIX			= time();
 
 /*
  ============================================================================================================
@@ -97,7 +98,7 @@ var_dump($_FILES);
  ============================================================================================================
 */
 
-move_uploaded_file($_FILES['blobFile']['tmp_name'], "../../../../../../Temporary/Shouts/Video/Live/$_GLOBAL_LOCAL_SERVER_DATE_STANDARD.mp4");
+move_uploaded_file($_FILES['blobFile']['tmp_name'], "../../../../../../Temporary/Shouts/Video/Live/File - $_GLOBAL_LOCAL_SERVER_TIME_UNIX.mp4");
 
 /*
  ============================================================================================================
@@ -105,5 +106,5 @@ move_uploaded_file($_FILES['blobFile']['tmp_name'], "../../../../../../Temporary
  ============================================================================================================
 */
 
-copy("../../../../../../Temporary/Shouts/Video/Live/$_GLOBAL_LOCAL_SERVER_DATE_STANDARD.mp4","../../../../../../Temporary/Shouts/Video/Live/$_GLOBAL_LOCAL_SERVER_DATE_STANDARD.mp4");
+copy("../../../../../../Temporary/Shouts/Video/Live/File - $_GLOBAL_LOCAL_SERVER_TIME_UNIX.mp4","../../../../../../Temporary/Shouts/Video/Live/File - $_GLOBAL_LOCAL_SERVER_TIME_UNIX.mp4");
 ?>
