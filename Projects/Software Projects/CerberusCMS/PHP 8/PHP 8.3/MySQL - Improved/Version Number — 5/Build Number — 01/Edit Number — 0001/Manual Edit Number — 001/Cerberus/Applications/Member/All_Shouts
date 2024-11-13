@@ -158,7 +158,7 @@ $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_EXTENSION_TYPE					= path
 $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_PRERECORDED				= "./Temporary/Upload/";
 $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_NAME					= $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_PRERECORDED . basename($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded"]["name"]);
 $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_LOWERCASE					= strtolower(pathinfo($_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_NAME, PATHINFO_EXTENSION));
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED				= ['mp4', 'wmv', 'webm', 'wma'];
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED				= ['3gp','mp4', 'wmv', 'webm', 'wma'];
 
 $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_PATHINFO	 			= pathinfo($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded']['name']);
 $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION				= $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_PATHINFO['extension'];
@@ -431,23 +431,23 @@ unlink("./Temporary/Shouts/Image/$_Application_Module_Member_All_Shouts_LIST_SHO
 if (!$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_TEXT) {
 
 echo ("
-											<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"75%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Image&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\" ENCTYPE=\"multipart/form-data\">
 												* Shout Message Entry :: Password :: Deletion<BR>
 												[ Maximum Shout Message Entry Text Length: 250 Characters ]<BR>
 													<INPUT TYPE=\"password\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_Password_Deletion\" MAXLENGTH=\"250\"><BR><BR>
 
 												* Shout Message Entry :: Message :: Text<BR>
-												[ Maximum Shout Message Entry Text Length: 250 Characters ]<BR>
+												[ Maximum Shout Message Entry Text Length: 250 Characters ]
 												<TEXTAREA NAME=\"AMM_All_Shouts_Shout_Message_Entry_Text\" MAXLENGTH=\"500\" ROWS=\"7\" COLS=\"50\"></TEXTAREA><BR><BR>
 
-												* Shout Message Entry :: Message :: Image File<BR>
+												* Shout Message Entry :: Message :: Image File
 												[ Maximum Shout Message Entry Image File Name Length: 250 Characters ]<BR>
 												Allowed Image File Extensions: .bmp, .gif, .heif ( Apple OS ), .jpg, .jpeg, .png, .svg, .tiff, .webp<BR> 
 													<INPUT TYPE=\"file\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_File_Image\" MAXLENGTH=\"250\"><BR>
 													<INPUT TYPE=\"submit\" VALUE=\"Post Shout Message\">
 												</FORM>
-											<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"75%\">
 ");
 
 } else {
@@ -808,7 +808,7 @@ unlink("./Temporary/Shouts/Video/Video_PreRecorded/$_Application_Module_Member_A
 if (!$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_TEXT) {
 
 echo ("
-											<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"75%\">
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Video_PreRecorded&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\" ENCTYPE=\"multipart/form-data\">
 												* Shout Message Entry :: Password :: Deletion<BR>
 												[ Maximum Shout Message Entry Text Length: 250 Characters ]<BR>
@@ -820,11 +820,11 @@ echo ("
 
 												* Shout Message Entry :: Message :: Video :: Pre-Recorded Video File<BR>
 												[ Maximum Shout Message Entry Pre-Recorded Video File Name Length: 250 Characters ]<BR>
-												Allowed Image File Extensions: .mp4, .wmv, .webm, .wma<BR> 
+												Allowed Video :: Pre-Recorded Video File Extensions: .3gp, .mp4, .wmv, .webm, .wma<BR> 
 													<INPUT TYPE=\"file\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded\" MAXLENGTH=\"250\"><BR>
 													<INPUT TYPE=\"submit\" VALUE=\"Post Shout Message\">
 												</FORM>
-											<HR>
+											<HR ALIGN=\"LEFT\" WIDTH=\"75%\">
 ");
 
 } else {
