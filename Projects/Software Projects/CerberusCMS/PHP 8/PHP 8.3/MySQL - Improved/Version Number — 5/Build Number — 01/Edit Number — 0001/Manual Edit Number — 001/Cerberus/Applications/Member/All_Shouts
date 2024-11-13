@@ -906,13 +906,13 @@ if (move_uploaded_file($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_Pr
  ============================================================================================================
 */
 
-if (!in_array($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded"]["type"], $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED)) {
+//if (!in_array($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded"]["type"], $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED)) {
 
-	echo ("* Cerberus: The Pre-Recorded Video File: $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_VIDEO_PRERECORDED Has A File Extension Of: $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION_TYPE -- This File Extension Type Is Not Allowed.<BR>");
-	echo ("[ Done ]<BR><BR>");
+	//echo ("* Cerberus: The Pre-Recorded Video File: $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_VIDEO_PRERECORDED Has A File Extension Of: $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION_TYPE -- This File Extension Type Is Not Allowed.<BR>");
+	//echo ("[ Done ]<BR><BR>");
 
-	header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_PreRecorded&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
-	exit;
+	//header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_PreRecorded&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
+	//exit;
 
 /*
  ============================================================================================================
@@ -920,7 +920,7 @@ if (!in_array($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded
  ============================================================================================================
 */
 
-} else {
+//} else {
 
 	echo ("* Cerberus: The Pre-Recorded Video File: $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_VIDEO_PRERECORDED Has A File Extension Of: $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION_TYPE -- This File Extension Type Is Allowed.<BR>");
 
@@ -958,7 +958,7 @@ unlink("./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MES
 
 	echo ("* Cerberus: Inserting This Shout Message Entry Data Into The Database Management System Server Database... Wait.<BR>");
 
-} // [ + ] IF: File :: Video :: Pre-Recorded Video File :: Extension Type :: Is: Allowed
+//} // [ + ] IF: File :: Video :: Pre-Recorded Video File :: Extension Type :: Is: Allowed
 
 } // [ + ] IF: Move Uploaded File: Shout Message Entry :: File :: Video :: Pre-Recorded Video File
 
@@ -1035,7 +1035,7 @@ if ($_Application_Module_Member_All_Shouts_DB_Query_INSERT_SHOUT_MESSAGE_DATA) {
 
 	echo ("* Cerberus: Automatically Directing Headers To: ?$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_PreRecorded In 5 Seconds... Wait.<BR>");
 
-	//header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_PreRecorded&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
+	header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_PreRecorded&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
 	exit;
 
 } // [ + ] IF: Internal Application: Display :: Shout Message Enties :: With Video :: Pre-Recorded Video Files :: Input Form Variable :: HAS Executed Successfully
