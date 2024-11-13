@@ -137,15 +137,15 @@ $_Application_Module_Member_All_Shouts_DB_Query_SELECT_ALL_SHOUT_MESSAGE_ENTRIES
  ============================================================================================================
 */
 
-$_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_IMAGE						= "./Temporary/Upload/";
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME							= $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_IMAGE . basename($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Image"]["name"]);
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME_LOWERCASE					= strtolower(pathinfo($_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME, PATHINFO_EXTENSION));
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED					= ['bmp', 'gif', 'heif', 'jpg', 'jpeg', 'png', 'svg', 'tiff', 'webp'];
+$_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_IMAGE								= "./Temporary/Upload/";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME									= $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_IMAGE . basename($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Image"]["name"]);
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME_LOWERCASE							= strtolower(pathinfo($_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME, PATHINFO_EXTENSION));
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED							= ['bmp', 'gif', 'heif', 'jpg', 'jpeg', 'png', 'svg', 'tiff', 'webp'];
 
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_PATHINFO						= pathinfo($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Image']['name']);
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_EXTENSION					= $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_PATHINFO['extension'];
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_BASENAME						= $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_PATHINFO['basename'];
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_EXTENSION_TYPE					= pathinfo($_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_BASENAME, PATHINFO_EXTENSION);
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_PATHINFO								= pathinfo($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Image']['name']);
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_EXTENSION							= $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_PATHINFO['extension'];
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_BASENAME								= $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_PATHINFO['basename'];
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_EXTENSION_TYPE							= pathinfo($_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_BASENAME, PATHINFO_EXTENSION);
 
 /*
  ============================================================================================================
@@ -155,15 +155,27 @@ $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_EXTENSION_TYPE					= path
  ============================================================================================================
 */
 
-$_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_PRERECORDED				= "./Temporary/Upload/";
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_NAME					= $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_PRERECORDED . basename($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded"]["name"]);
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_LOWERCASE					= strtolower(pathinfo($_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_NAME, PATHINFO_EXTENSION));
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED				= ['3gp','mp4', 'wmv', 'webm', 'wma'];
+$_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_PRERECORDED						= "./Temporary/Upload/";
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_NAME							= $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_PRERECORDED . basename($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded"]["name"]);
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_LOWERCASE							= strtolower(pathinfo($_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_NAME, PATHINFO_EXTENSION));
 
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_PATHINFO	 			= pathinfo($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded']['name']);
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION				= $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_PATHINFO['extension'];
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_BASENAME				= $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_PATHINFO['basename'];
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION_TYPE			= pathinfo($_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_BASENAME, PATHINFO_EXTENSION);
+/*
+ ============================================================================================================
+ + Allowed File Extensions
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED						= array();
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED[0]					= "3gp";
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED[1]					= "mp4";
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED[2]					= "wmv";
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED[3]					= "webm";
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED[4]					= "wma";
+
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_PATHINFO	 					= pathinfo($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded']['name']);
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION						= $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_PATHINFO['extension'];
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_BASENAME						= $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_PATHINFO['basename'];
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION_TYPE					= pathinfo($_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_BASENAME, PATHINFO_EXTENSION);
 
 /*
  ============================================================================================================
@@ -173,33 +185,15 @@ $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION_TYP
  ============================================================================================================
 */
 
-$_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_LIVE					= "./Temporary/Upload/";
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_NAME					= $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_PRERECORDED . basename($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded"]["name"]);
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_LOWERCASE					= strtolower(pathinfo($_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_NAME, PATHINFO_EXTENSION));
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED				= ['mp4', 'wmv', 'webm', 'wma'];
+$_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_LIVE							= "./Temporary/Upload/";
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_NAME								= $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_LIVE . basename($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_Live"]["name"]);
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_LOWERCASE							= strtolower(pathinfo($_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_NAME, PATHINFO_EXTENSION));
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_EXTENSION_ALLOWED						= ['mp4', 'wmv', 'webm', 'wma'];
 
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_PATHINFO	 			= pathinfo($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded']['name']);
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION				= $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_PATHINFO['extension'];
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_BASENAME				= $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_PATHINFO['basename'];
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION_TYPE			= pathinfo($_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_BASENAME, PATHINFO_EXTENSION);
-
-/*
- ============================================================================================================
- +
- + Shout Message :: File :: Video File :: Live Video File :: Specifications
- +
- ============================================================================================================
-*/
-
-$_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_LIVE					= "./Temporary/Upload/";
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_NAME						= $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_VIDEO_LIVE . basename($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_Live"]["name"]);
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_LOWERCASE					= strtolower(pathinfo($_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_NAME, PATHINFO_EXTENSION));
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_EXTENSION_ALLOWED				= ['mp4', 'wmv', 'webm', 'wma'];
-
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_PATHINFO	 				= pathinfo($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Video_Live']['name']);
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_EXTENSION					= $_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_PATHINFO['extension'];
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_BASENAME					= $_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_PATHINFO['basename'];
-$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_EXTENSION_TYPE				= pathinfo($_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_BASENAME, PATHINFO_EXTENSION);
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_PATHINFO	 						= pathinfo($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Video_Live']['name']);
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_EXTENSION							= $_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_PATHINFO['extension'];
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_BASENAME							= $_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_PATHINFO['basename'];
+$_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_EXTENSION_TYPE						= pathinfo($_Application_Module_Member_All_Shouts_FILE_VIDEO_LIVE_FILE_BASENAME, PATHINFO_EXTENSION);
 
 /*
  ============================================================================================================
@@ -870,7 +864,7 @@ if (move_uploaded_file($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_Pr
  ============================================================================================================
 */
 
-if ($_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED != $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION) {
+if (!in_array($_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION, $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED)) {
 
 	echo ("* Cerberus: The Pre-Recorded Video File: $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_VIDEO_PRERECORDED Has A File Extension Of: $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION_TYPE -- This File Extension Type Is Not Allowed.<BR>");
 	echo ("[ Done ]<BR><BR>");
