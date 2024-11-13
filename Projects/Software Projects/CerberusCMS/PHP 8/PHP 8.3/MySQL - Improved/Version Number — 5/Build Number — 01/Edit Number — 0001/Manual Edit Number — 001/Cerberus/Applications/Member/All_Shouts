@@ -140,7 +140,23 @@ $_Application_Module_Member_All_Shouts_DB_Query_SELECT_ALL_SHOUT_MESSAGE_ENTRIES
 $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_IMAGE								= "./Temporary/Upload/";
 $_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME									= $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_IMAGE . basename($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Image"]["name"]);
 $_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME_LOWERCASE							= strtolower(pathinfo($_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME, PATHINFO_EXTENSION));
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED							= ['bmp', 'gif', 'heif', 'jpg', 'jpeg', 'png', 'svg', 'tiff', 'webp'];
+
+/*
+ ============================================================================================================
+ + Allowed File Extensions
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED							= array();
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED[0]							= "bmp";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED[1]							= "gif";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED[2]							= "heif";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED[3]							= "jpg";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED[4]							= "jpeg";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED[5]							= "png";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED[6]							= "svg";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED[7]							= "tiff";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED[8]							= "web";
 
 $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_PATHINFO								= pathinfo($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Image']['name']);
 $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_EXTENSION							= $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_PATHINFO['extension'];
@@ -472,6 +488,30 @@ $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_PROCESSED	
 
 /*
  ============================================================================================================
+ + IF: Upload :: Shout Message Entry :: Image :: Image File :: File Extension Type :: Is: Not Allowed
+ ============================================================================================================
+*/
+
+//if (!in_array($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Image"]["type"], $_Application_Module_Member_All_Shouts_FILE_IMAGE_EXTENSION_ALLOWED)) {
+
+	//echo ("* Cerberus: The Image: $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE Has A File Extension Of: $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_EXTENSION_TYPE -- This File Extension Type Is Not Allowed.<BR>");
+	//echo ("[ Done ]<BR><BR>");
+
+	//header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Image&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
+	//exit;
+
+/*
+ ============================================================================================================
+ + ELSE: Upload :: Shout Message Entry :: Image :: Image File :: File Extension Type :: Is: Allowed, Proceed
+ ============================================================================================================
+*/
+
+//} else {
+
+	echo ("* Cerberus: The Image File: $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE Has A File Extension Of: $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_EXTENSION_TYPE -- This File Extension Type Is Allowed.<BR>");
+
+/*
+ ============================================================================================================
  + IF: Upload :: Shout Message Entry :: Image File
  ============================================================================================================
 */
@@ -511,6 +551,8 @@ unlink("./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MES
 	echo ("[ Done ]<BR><BR>");
 
 	echo ("* Cerberus: Inserting This Shout Message Entry Data Into The Database Management System Server Database... Wait.<BR>");
+
+//} // [ + ] IF: File :: Image :: Image File :: Extension Type :: Is: Allowed
 
 } // [ + ] IF: Move Uploaded File: Shout Message Entry :: File :: Image File
 
@@ -864,10 +906,13 @@ if (move_uploaded_file($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_Pr
  ============================================================================================================
 */
 
-if (!in_array($_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION, $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED)) {
+if (!in_array($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Video_PreRecorded"]["type"], $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_EXTENSION_ALLOWED)) {
 
 	echo ("* Cerberus: The Pre-Recorded Video File: $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_VIDEO_PRERECORDED Has A File Extension Of: $_Application_Module_Member_All_Shouts_FILE_VIDEO_PRERECORDED_FILE_EXTENSION_TYPE -- This File Extension Type Is Not Allowed.<BR>");
 	echo ("[ Done ]<BR><BR>");
+
+	header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_PreRecorded&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
+	exit;
 
 /*
  ============================================================================================================
@@ -990,7 +1035,7 @@ if ($_Application_Module_Member_All_Shouts_DB_Query_INSERT_SHOUT_MESSAGE_DATA) {
 
 	echo ("* Cerberus: Automatically Directing Headers To: ?$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_PreRecorded In 5 Seconds... Wait.<BR>");
 
-	header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_PreRecorded&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
+	//header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_PreRecorded&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
 	exit;
 
 } // [ + ] IF: Internal Application: Display :: Shout Message Enties :: With Video :: Pre-Recorded Video Files :: Input Form Variable :: HAS Executed Successfully
@@ -1423,7 +1468,7 @@ copy("./System/Plug-Ins/Secure-Delete/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SECURE_DE
 
 unlink("./Temporary/Shouts/Video/Live/$_Application_Module_Member_All_Shouts_READ_DIRECTORY_VIDEO_LIVE");
 
-	header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_Live_Raw");
+	header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_Live_Raw&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
 	exit;
 
 /*
@@ -1434,7 +1479,7 @@ unlink("./Temporary/Shouts/Video/Live/$_Application_Module_Member_All_Shouts_REA
 
 } else {
 
-	header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_Live_Raw");
+	header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Video_Live_Raw&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
 	exit;
 
 } // [ + ] IF: Registered Member Account Credentials Exist AND ARE Valid AND Registered Member Account Access Level Is: Greater Than 2, Moderator
