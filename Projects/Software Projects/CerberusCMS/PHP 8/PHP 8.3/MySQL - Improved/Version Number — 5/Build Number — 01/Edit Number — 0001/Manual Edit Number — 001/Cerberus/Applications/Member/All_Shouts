@@ -438,7 +438,7 @@ echo ("
 													<INPUT TYPE=\"password\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_Password_Deletion\" MAXLENGTH=\"250\"><BR><BR>
 
 												* Shout Message Entry :: Message :: Text<BR>
-												[ Maximum Shout Message Entry Text Length: 250 Characters ]
+												[ Maximum Shout Message Entry Text Length: 250 Characters ]<BR>
 												<TEXTAREA NAME=\"AMM_All_Shouts_Shout_Message_Entry_Text\" MAXLENGTH=\"500\" ROWS=\"7\" COLS=\"50\"></TEXTAREA><BR><BR>
 
 												* Shout Message Entry :: Message :: Image File
