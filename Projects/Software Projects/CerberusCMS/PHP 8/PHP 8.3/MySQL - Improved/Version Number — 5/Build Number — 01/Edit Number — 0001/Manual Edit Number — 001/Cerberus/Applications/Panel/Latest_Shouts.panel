@@ -96,7 +96,7 @@ if ($_Application_Module_Panel_Latest_Shouts_DB_Query_SELECT_SHOUTS_NUMBER_OF_RO
 
 /*
  ============================================================================================================
- + List Latest Shout Entries
+ + WHILE: Retrieving Latest Shout Message Entries From The Database Management System Server Database
  ============================================================================================================
 */
 
