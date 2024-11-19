@@ -122,7 +122,7 @@ $_Application_Module_Member_All_Shouts_DB_Query_SELECT_ALL_SHOUT_MESSAGE_ENTRIES
 /*
  ============================================================================================================
  +
- + Database Management System Server :: Database Query :: Retrieve All Shout Message Entries :: With Video :: Pre-Recorded Video
+ + Database Management System Server :: Database Query :: Retrieve All Shout Message Entries :: With Video :: Pre-Recorded Video :: Single Pre-Recorded Video
  +
  ============================================================================================================
 */
@@ -284,25 +284,29 @@ Shout Message :: Options
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 Shout Message :: Options :: Text Message
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Text&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application Module :: Shout Message Entry :: Text Messages ::\">Shout Message Entry :: Text</A><BR><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Text&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application Module :: Shout Message Entry :: Text Messages ::\">Shout Message Entry :: Text</A><BR>
+<B>Application Note</B>: <I>This Option allows for sending a non-encrypted, publicly viewable Shout Text Message.</I><BR><BR>
 
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 Shout Message :: Options :: Image
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 * <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Image_Single&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application Module :: Shout Message Entry :: Image :: Single Image ::\">Shout Message Entry :: Image :: Single Image</A><BR>
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Image_Multiple&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application Module :: Shout Message Entry :: Image :: Multiple Images ::\">Shout Message Entry :: Image :: Multiple Images</A><BR><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Image_Multiple&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application Module :: Shout Message Entry :: Image :: Multiple Images ::\">Shout Message Entry :: Image :: Multiple Images</A><BR>
+<B>Application Note</B>: <I>These Options allow for sending non-encrypted, publicly viewable Shout Text Message with Single Image Upload or Multiple Image Uploads.</I><BR><BR>
 
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 Shout Message :: Options :: Video :: Pre-Recorded Video
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 * <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Video_PreRecorded_Single&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application Module :: Shout Message Entry :: Video :: Pre-Recorded Video :: Single Video ::\">Shout Message Entry :: Video :: Pre-Recorded Video :: Single Video</A><BR>
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Video_PreRecorded_Multiple&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application Module :: Shout Message Entry :: Video :: Pre-Recorded Video :: Multiple Videos ::\">Shout Message Entry :: Video :: Pre-Recorded Video :: Multiple Videos</A><BR><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Video_PreRecorded_Multiple&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application Module :: Shout Message Entry :: Video :: Pre-Recorded Video :: Multiple Videos ::\">Shout Message Entry :: Video :: Pre-Recorded Video :: Multiple Videos</A><BR>
+<B>Application Note</B>: <I>These Options allow for sending non-encrypted, publicly viewable Shout Text Message with Single Pre-Recorded Video Upload or Multiple Pre-Recorded Video Uploads.</I><BR><BR>
 
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 Shout Message :: Options :: Video :: Live Video
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 * <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Video_Live&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application Module :: Shout Message Entry :: Video :: Live Video ::\">Shout Message Entry :: Video :: Live Video</A><BR>
 * <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Video_Live_Raw&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application Module :: Shout Message Entry :: Video :: Live Video :: Raw Video Files ::\">Shout Message Entry :: Video :: Live Video :: Raw Video Files</A><BR>
+<B>Application Note</B>: <I>These Options allow for sending non-encrypted, publicly viewable Shout Text Message with Live Video that is findable after the live video is ended and with Live Video that is viewable while it is being recorded.</I><BR><BR>
 ");
 
 } // [ + ] IF: Internal Application: Display :: Options :: Is: Activated
