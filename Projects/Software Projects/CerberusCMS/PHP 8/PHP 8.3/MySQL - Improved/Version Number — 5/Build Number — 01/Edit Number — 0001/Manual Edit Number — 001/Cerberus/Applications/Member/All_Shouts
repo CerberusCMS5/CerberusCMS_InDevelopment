@@ -173,50 +173,8 @@ $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_SINGLE_EXTENSION_TYPE				
 */
 
 $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_IMAGE_MULTIPLE								= "./Temporary/Upload/";
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME_MULTIPLE									= $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_IMAGE_MULTIPLE . basename($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple"]["name"]);
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME_MULTIPLE_LOWERCASE							= strtolower(pathinfo($_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME_MULTIPLE, PATHINFO_EXTENSION));
-
-/*
- ============================================================================================================
- + Shout Message :: File :: Image :: Multiple Image :: Allowed File Extensions
- ============================================================================================================
-*/
-
-/*
- ============================================================================================================
- + Shout Message :: File :: Image :: Multiple Image :: Count Files
- ============================================================================================================
-*/
-
-$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_COUNT_FILES					= count($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple']['name']);
-$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_COUNT_FILES_TOTAL				= 0;
-
-/*
- ============================================================================================================
- + FOR: Total Number of Files Uploaded: Compared To Files Counted: To Be Less Than: Zero, Increment
- ============================================================================================================
-*/
-
-for ($i=0; $i < $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_COUNT_FILES; $i++) {
-
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED								= array();
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[0]								= "bmp";
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[1]								= "gif";
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[2]								= "heif";
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[3]								= "jpg";
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[4]								= "jpeg";
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[5]								= "png";
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[6]								= "svg";
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[7]								= "tiff";
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[8]								= "web";
-
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES								= $_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple']['name'][$i];
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_PATHINFO							= pathinfo($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple']['name']);
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_EXTENSION							= $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_PATHINFO['extension'];
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_BASENAME							= $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_PATHINFO['basename'];
-$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_EXTENSION_TYPE							= pathinfo($_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_BASENAME, PATHINFO_EXTENSION);
-
-} // [ + ] FOR: 
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME_MULTIPLE									= $_Application_Module_Member_All_Shouts_DIRECTORY_UPLOAD_IMAGE_MULTIPLE . basename($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple"]["name"][$i]);
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME_MULTIPLE_LOWERCASE							= strtolower(pathinfo($_Application_Module_Member_All_Shouts_FILE_IMAGE_NAME_MULTIPLE[$i], PATHINFO_EXTENSION));
 
 /*
  ============================================================================================================
@@ -382,7 +340,6 @@ echo ("
 
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Text&amp;DeleteID&#61;$_Application_Module_Member_All_Shouts_LIST_SHOUT_MESSAGE_ENTRY_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 												~ Shout Message Entry :: Password :: Deletion<BR>
-												[ Maximum Shout Message Entry Text Length: 250 Characters ]<BR>
 													<INPUT TYPE=\"password\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_Password_Deletion_2\" MAXLENGTH=\"250\"><BR>
 													<INPUT TYPE=\"submit\" VALUE=\"Delete Shout Message\">
 												</FORM>
@@ -700,7 +657,6 @@ echo ("
 
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Image_Single&amp;DeleteID&#61;$_Application_Module_Member_All_Shouts_LIST_SHOUT_MESSAGE_ENTRY_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 												~ Shout Message Entry :: Password :: Deletion<BR>
-												[ Maximum Shout Message Entry Text Length: 250 Characters ]<BR>
 													<INPUT TYPE=\"password\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_Password_Deletion_2\" MAXLENGTH=\"250\"><BR>
 													<INPUT TYPE=\"submit\" VALUE=\"Delete Shout Message\">
 												</FORM>
@@ -1030,7 +986,6 @@ echo ("
 
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Image_Multiple&amp;DeleteID&#61;$_Application_Module_Member_All_Shouts_LIST_SHOUT_MESSAGE_ENTRY_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"POST\">
 												~ Shout Message Entry :: Password :: Deletion<BR>
-												[ Maximum Shout Message Entry Text Length: 250 Characters ]<BR>
 													<INPUT TYPE=\"password\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_Password_Deletion_2\" MAXLENGTH=\"250\"><BR>
 													<INPUT TYPE=\"submit\" VALUE=\"Delete Shout Message\">
 												</FORM>
@@ -1060,7 +1015,7 @@ if (!$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_TEXT) {
 
 echo ("
 											<HR ALIGN=\"LEFT\" WIDTH=\"75%\">
-												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Image_Multiple&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"POST\"ENCTYPE=\"MULTIPART/FORM-DATA\" >
+												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Image_Multiple&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"POST\" ENCTYPE=\"MULTIPART/FORM-DATA\">
 												* Shout Message Entry :: Password :: Deletion<BR>
 												[ Maximum Shout Message Entry Text Length: 250 Characters ]<BR>
 													<INPUT TYPE=\"password\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_Password_Deletion\" MAXLENGTH=\"250\"><BR><BR>
@@ -1072,7 +1027,7 @@ echo ("
 												* Shout Message Entry :: Message :: Image :: Multiple Image Files<BR>
 												[ Multiple Images :: Maximum Shout Message Entry :: Image File Name Lengths: 250 Characters ]<BR>
 												Allowed Image File Extensions: .bmp, .gif, .heif ( Apple OS ), .jpg, .jpeg, .png, .svg, .tiff, .webp<BR> 
-													<INPUT TYPE=\"file\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple\" MAXLENGTH=\"250\" MULTIPLE><BR>
+													<INPUT TYPE=\"file\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple[]\" MAXLENGTH=\"250\" MULTIPLE><BR>
 													<INPUT TYPE=\"submit\" VALUE=\"Post Shout Message\">
 												</FORM>
 											<HR ALIGN=\"LEFT\" WIDTH=\"75%\">
@@ -1082,13 +1037,22 @@ echo ("
 
 /*
  ============================================================================================================
+ + Shout Message :: File :: Image :: Multiple Image :: Count Files
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_COUNT_FILES					= count($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple']['name']);
+$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_COUNT_FILES_TOTAL				= 0;
+
+/*
+ ============================================================================================================
  + IF: Registered Member Account :: Is: Logged-In, UserName Is: Cookie UserName
  ============================================================================================================
 */
 
 if ($_GLOBAL_COOKIE_MEMBER_USERNAME && $_GLOBAL_COOKIE_MEMBER_PASSWORD != null) {
     
-$_Application_Module_Member_All_Shouts_DEFINE_SHOUT_MESSAGE_USERNAME						= "$_GLOBAL_COOKIE_MEMBER_USERNAME";
+$_Application_Module_Member_All_Shouts_DEFINE_SHOUT_MESSAGE_USERNAME								= "$_GLOBAL_COOKIE_MEMBER_USERNAME";
 
 /*
  ============================================================================================================
@@ -1098,11 +1062,11 @@ $_Application_Module_Member_All_Shouts_DEFINE_SHOUT_MESSAGE_USERNAME						= "$_G
 
 } else {
     
-$_Application_Module_Member_All_Shouts_DEFINE_SHOUT_MESSAGE_USERNAME						= "Non-Registered Visitor";
+$_Application_Module_Member_All_Shouts_DEFINE_SHOUT_MESSAGE_USERNAME								= "Non-Registered Visitor";
 
 } // [ + ] IF: Registered Member Account :: Credentials Exist AND ARE Valid, Else: Define UserName AS Non-Registered Visitor
 
-$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED			= "File - $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE - $_GLOBAL_LOCAL_SERVER_TIME_UNIX.$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_EXTENSION_TYPE";
+$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED					= "File - $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE - $_GLOBAL_LOCAL_SERVER_TIME_UNIX.$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_EXTENSION_TYPE";
 
 /*
  ============================================================================================================
@@ -1110,7 +1074,32 @@ $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_P
  ============================================================================================================
 */
 
-	echo ("* Application Module Message: These Shout Message Entry Image Files:$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED Have File Extensions Of: $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_EXTENSION_TYPE -- These File Extension Types Are Allowed.<BR>");
+	echo ("* Application Module Message: These Shout Message Entry Image Files: $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED[$i] Have File Extensions Of: $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_EXTENSION_TYPE -- These File Extension Types Are Allowed.<BR>");
+
+/*
+ ============================================================================================================
+ + FOR: Total Number of Files Uploaded: Compared To Files Counted: To Be Less Than: Zero, Increment
+ ============================================================================================================
+*/
+
+for ($i=0; $i < $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_COUNT_FILES; $i++) {
+
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED								= array();
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[0]								= "bmp";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[1]								= "gif";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[2]								= "heif";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[3]								= "jpg";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[4]								= "jpeg";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[5]								= "png";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[6]								= "svg";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[7]								= "tiff";
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_MULTIPLE_ALLOWED[8]								= "web";
+
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES								= $_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple']['name'][$i];
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_PATHINFO							= pathinfo($_FILES['AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple']['name']);
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_EXTENSION							= $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_PATHINFO['extension'];
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_BASENAME							= $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_PATHINFO['basename'];
+$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_EXTENSION_TYPE							= pathinfo($_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_BASENAME, PATHINFO_EXTENSION);
 
 /*
  ============================================================================================================
@@ -1118,25 +1107,27 @@ $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_P
  ============================================================================================================
 */
 
-if (move_uploaded_file($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple"]["tmp_name"][$i], "./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED")) {
+if (move_uploaded_file($_FILES["AMM_All_Shouts_Shout_Message_Entry_File_Image_Multiple"]["tmp_name"][$i], "./Temporary/Upload/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES")) {
 
-	echo ("* Application Module Message: These Shout Message Entry Image Files: $_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED Successfully.<BR><BR>");
+	$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_COUNT_FILES_TOTAL++;
 
-	echo ("* Application Module Message: Copying These Shout Message Entry Image Files, From: ./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED To: ./Temporary/Upload/Shouts/Image/Backup/Multiple/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED ... Wait.<BR>");
+	echo ("* Application Module Message: These Shout Message Entry Image Files: $_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES Successfully.<BR><BR>");
 
-copy("./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED","./Temporary/Shouts/Image/Backup/Multiple/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED");
+	echo ("* Application Module Message: Copying These Shout Message Entry Image Files, From: ./Temporary/Upload/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES To: ./Temporary/Upload/Shouts/Image/Backup/Multiple/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES ... Wait.<BR>");
 
-	echo ("[ Done ]<BR><BR>");
-
-	echo ("* Application Module Message: Copying These Shout Message Entry Image Files, From: ./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED To: ./Temporary/Upload/Shouts/Image/Multiple/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED ... Wait.<BR>");
-
-copy("./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED","./Temporary/Shouts/Image/Multiple/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED");
+copy("./Temporary/Upload/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES","./Temporary/Shouts/Image/Backup/Multiple/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES");
 
 	echo ("[ Done ]<BR><BR>");
 
-	echo ("* Application Module Message: Secure-Unlinking These Shout Message Entry Image Files: ./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED ... Wait.<BR>");
+	echo ("* Application Module Message: Copying These Shout Message Entry Image Files, From: ./Temporary/Upload/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES To: ./Temporary/Upload/Shouts/Image/Multiple/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES ... Wait.<BR>");
 
-unlink("./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED");
+copy("./Temporary/Upload/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES","./Temporary/Shouts/Image/Multiple/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES");
+
+	echo ("[ Done ]<BR><BR>");
+exit;
+	echo ("* Application Module Message: Secure-Unlinking These Shout Message Entry Image Files: ./Temporary/Upload/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES ... Wait.<BR>");
+
+unlink("./Temporary/Upload/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES");
 
 	echo ("[ Done ]<BR><BR>");
 
@@ -1148,13 +1139,13 @@ unlink("./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MES
  ============================================================================================================
 */
 
-copy("./System/Plug-Ins/Secure-Delete/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SECURE_DELETE/Zero_10MB","./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED");
+copy("./System/Plug-Ins/Secure-Delete/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SECURE_DELETE/Zero_10MB","./Temporary/Upload/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES");
 
-unlink("./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE");
+unlink("./Temporary/Upload/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES");
 
-copy("./System/Plug-Ins/Secure-Delete/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SECURE_DELETE/Zero_10MB","./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED");
+copy("./System/Plug-Ins/Secure-Delete/$_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SECURE_DELETE/Zero_10MB","./Temporary/Upload/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES");
 
-unlink("./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MESSAGE_ENTRY_IMAGE_MULTIPLE_PROCESSED");
+unlink("./Temporary/Upload/$_Application_Module_Member_All_Shouts_FILE_IMAGE_FILE_MULTIPLE_NAMES");
 
 	echo ("[ Done ]<BR><BR>");
 
@@ -1169,9 +1160,11 @@ unlink("./Temporary/Upload/$_Application_Module_Member_All_Shouts_POST_SHOUT_MES
 */
 
 	echo ("* Application Module Message: Automatically Directing Headers To: ?$_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Image_Multiple&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION In 5 Seconds... Wait.<BR>");
-exit;
+
 	header("Location: $_INTERNAL_FILE_KERNEL?$_INTERNAL_APPLICATION_MODULE_MEMBER=All_Shouts&Display=Image_Multiple&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
 	//exit;
+
+} // [ + ] FOR: 
 
 } // [ + ] IF: Internal Application: Display :: Shout Message Entries :: Image :: With Multiple Image Files :: Input Form Variable :: HAS Executed Successfully
 
@@ -1264,7 +1257,6 @@ echo ("
 
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Video_PreRecorded_Single&amp;DeleteID&#61;$_Application_Module_Member_All_Shouts_LIST_SHOUT_MESSAGE_ENTRY_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 												~ Shout Message Entry :: Password :: Deletion<BR>
-												[ Maximum Shout Message Entry Text Length: 250 Characters ]<BR>
 													<INPUT TYPE=\"password\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_Password_Deletion_2\" MAXLENGTH=\"250\"><BR>
 													<INPUT TYPE=\"submit\" VALUE=\"Delete Shout Message\">
 												</FORM>
@@ -1637,7 +1629,6 @@ echo ("
 
 												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;All_Shouts&amp;Display&#61;Video_Live&amp;DeleteID&#61;$_Application_Module_Member_All_Shouts_LIST_SHOUT_MESSAGE_ENTRY_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 												~ Shout Message Entry :: Password :: Deletion<BR>
-												[ Maximum Shout Message Entry Text Length: 250 Characters ]<BR>
 													<INPUT TYPE=\"password\" NAME=\"AMM_All_Shouts_Shout_Message_Entry_Password_Deletion_2\" MAXLENGTH=\"250\"><BR>
 													<INPUT TYPE=\"submit\" VALUE=\"Delete Shout Message\">
 												</FORM>
