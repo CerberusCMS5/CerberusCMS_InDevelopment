@@ -1352,7 +1352,7 @@ if (unlink("./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Profile/$_Appli
 */
 
 $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_PROFILE_FIND_DIRECTORY_TEMPORARY_UPLOAD				= "./Temporary/Upload/";
-$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_PROFILE_DATA											= $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_PROFILE_FIND_DIRECTORY_TEMPORARY_UPLOAD . basename($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Profile_Multiple']['name']);
+$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_PROFILE_DATA							= $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_PROFILE_FIND_DIRECTORY_TEMPORARY_UPLOAD . basename($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Profile_Multiple']['name']);
 
 /*
  ============================================================================================================
@@ -1397,7 +1397,7 @@ echo ("
 */
 
 $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_PROFILE_FILE_COUNT_FILES						= count($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Profile_Multiple']['name']);
-$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_PROFILE_FILE_TOTAL_FILES_UPLOADED				= 0;
+$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_PROFILE_FILE_TOTAL_FILES_UPLOADED					= 0;
 
 /*
  ============================================================================================================
@@ -1433,28 +1433,6 @@ if (move_uploaded_file($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Profi
                         $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_PROFILE_FILE_TOTAL_FILES_UPLOADED++;
 						
 copy("./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Profile/Backup/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL - $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_PROFILE_FILE_NAME","./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Profile/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL - $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_PROFILE_FILE_NAME");
-
-/*
- ============================================================================================================
- + Watermark
- ============================================================================================================
-*/
-
-/*
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP				= imagecreatefrompng("./Theme/2023_Cerberus_Blue/Image/Watermark/Watermark.png");
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM					= imagecreatefromjpeg("./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Profile/Backup/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL - $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_PROFILE_FILE_NAME");
-
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_MARGIN_RIGHT		= 10;
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_MARGIN_BOTTOM		= 10;
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_SX					= imagesx($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP);
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_SY					= imagesy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP);
-
-imagecopy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM, $_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP, imagesx($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM) - $_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_SX - $_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_MARGIN_RIGHT, imagesy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM) - $_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_SY - $_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_MARGIN_BOTTOM, 0, 0, imagesx($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP), imagesy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP));
-
-header('Content-type: image/png');
-imagepng($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM);
-imagedestroy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM);
-*/
 
 											header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Account_Data&Display=Gallery&Type=Image&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
 											exit();
@@ -1492,7 +1470,7 @@ imagedestroy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALL
 */
 
 $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FIND_DIRECTORY_TEMPORARY_UPLOAD				= "./Temporary/Upload/";
-$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_DATA										= $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FIND_DIRECTORY_TEMPORARY_UPLOAD . basename($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Multiple']['name']);
+$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_DATA							= $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FIND_DIRECTORY_TEMPORARY_UPLOAD . basename($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Multiple']['name']);
 
 /*
  ============================================================================================================
@@ -1500,10 +1478,10 @@ $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_DATA				
  ============================================================================================================
 */
 
-$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_EXTENSIONS_ALLOWED					    = "jpg gif png bmp jpeg";
-$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIRECTORY_TEMPORARY				    = $_POST['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Directory_Temporary'];
-$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIRECTORY          				    = $_POST['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Directory'];
-$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_MULTIPLE                               = $_POST['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Multiple'];
+$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_EXTENSIONS_ALLOWED					= "jpg gif png bmp jpeg";
+$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIRECTORY_TEMPORARY				= $_POST['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Directory_Temporary'];
+$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIRECTORY          				= $_POST['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Directory'];
+$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_MULTIPLE                              		= $_POST['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Multiple'];
 
 /*
  ============================================================================================================
@@ -1557,6 +1535,7 @@ if ($_Application_Module_Member_Account_Data_UPLOAD_READ_DIRECTORY_MEMBER_GALLER
 closedir($_Application_Module_Member_Account_Data_DELETE_OPEN_DIRECTORY_MEMBER_GALLERY_IMAGE);
 
 echo ("
+						</SELECT>
                                                 <INPUT TYPE=\"hidden\" NAME=\"AMM_Account_Data_Upload_File_Gallery_Image_Selection_Directory_Temporary\" VALUE=\"1\"><BR>
 												<INPUT TYPE=\"submit\" VALUE=\"Upload File\">
 											</FORM><BR>
@@ -1577,7 +1556,7 @@ echo ("
 */
 
 $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_COUNT_FILES						= count($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Multiple']['name']);
-$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_TOTAL_FILES_UPLOADED				= 0;
+$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_TOTAL_FILES_UPLOADED					= 0;
 
 /*
  ============================================================================================================
@@ -1591,8 +1570,8 @@ $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FIL
 $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_LOCATION					= "./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Gallery/Backup/$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIRECTORY/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL - $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_NAME";
 $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_EXTENSION					= pathinfo($_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_LOCATION,PATHINFO_EXTENSION);
 $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_EXTENSION					= strtolower($_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_EXTENSION);
-$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_EXTENSION_VALID			= array("bmp","gif","jpg","jpeg","png");
-$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_MAXIMUM_FILE_SIZE			= $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_IMAGE / 1024;
+$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_EXTENSION_VALID				= array("bmp","gif","jpg","jpeg","png");
+$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_MAXIMUM_FILE_SIZE				= $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_IMAGE / 1024;
 
 /*
  ============================================================================================================
@@ -1613,28 +1592,6 @@ if (move_uploaded_file($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Selec
                         $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_TOTAL_FILES_UPLOADED++;
 
 copy("./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Gallery/Backup/$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIRECTORY/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL - $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_NAME","./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Gallery/$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIRECTORY/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL - $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_NAME");
-
-/*
- ============================================================================================================
- + Watermark
- ============================================================================================================
-*/
-
-/*
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP				= imagecreatefrompng("./Theme/2023_Cerberus_Blue/Image/Watermark/Watermark.png");
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM					= imagecreatefromjpeg("./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Profile/Backup/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL - $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_NAME");
-
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_MARGIN_RIGHT		= 10;
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_MARGIN_BOTTOM		= 10;
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_SX					= imagesx($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP);
-$_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_SY					= imagesy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP);
-
-imagecopy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM, $_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP, imagesx($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM) - $_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_SX - $_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_MARGIN_RIGHT, imagesy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM) - $_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_SY - $_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_MARGIN_BOTTOM, 0, 0, imagesx($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP), imagesy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_STAMP));
-
-header('Content-type: image/png');
-imagepng($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM);
-imagedestroy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALLERY_IMAGE_IM);
-*/
 
 											header("Location: ?$_INTERNAL_APPLICATION_MODULE_MEMBER=Account_Data&Display=Gallery&Type=Image&$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION");
 											exit();
@@ -1672,11 +1629,12 @@ imagedestroy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALL
 */
 
 echo ("
-												<B>Gallery :: Image :: Directory :: Create<HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-											<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Account_Data&amp;Display&#61;Gallery&amp;Type&#61;Image&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\" ENCTYPE=\"multipart/form-data\">
+												<B>Gallery :: Image :: Directory :: Create</B>
+											<HR WIDTH=\"50%\" ALIGN=\"LEFT\">
+												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Account_Data&amp;Display&#61;Gallery&amp;Type&#61;Image&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
 													<INPUT TYPE=\"text\" NAME=\"AMM_Account_Data_Create_Directory_Gallery_Image\" MAXLENGTH=\"50\"><BR>
-												<INPUT TYPE=\"submit\" VALUE=\"Create Gallery\">
-											</FORM><BR>
+													<INPUT TYPE=\"submit\" VALUE=\"Create Gallery\">
+												</FORM><BR>
 ");
 
 /*
