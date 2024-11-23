@@ -154,12 +154,12 @@ $_Application_Module_Member_Register_POST_REGISTRAR_ACCOUNT_RECOVERY_KEY							=
  ============================================================================================================
 */
 
-// Name :: First Name
+// Name :: Name, First
 $_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST									= str_replace(".", "", $_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST);
 $_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST									= str_replace("`", "", $_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST);
 $_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST									= stripslashes($_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST);
 
-// Name :: Last Name
+// Name :: Name, Last
 $_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST									= str_replace(".", "", $_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST);
 $_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST									= str_replace("`", "", $_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST);
 $_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST									= stripslashes($_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST);
@@ -190,11 +190,11 @@ $_Application_Module_Member_Register_GET_STRING_LENGTH_REGISTRAR_USERNAME							
 // Electronic Mail Address
 $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS							= strtolower($_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS);
 
-// Name :: First Name
+// Name :: Name, First
 $_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST									= strtolower($_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST);
 $_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST									= ucfirst($_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST);
 
-// Name :: Last Name
+// Name :: Name, Last
 $_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST									= strtolower($_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST);
 $_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST									= ucfirst($_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST);
 
