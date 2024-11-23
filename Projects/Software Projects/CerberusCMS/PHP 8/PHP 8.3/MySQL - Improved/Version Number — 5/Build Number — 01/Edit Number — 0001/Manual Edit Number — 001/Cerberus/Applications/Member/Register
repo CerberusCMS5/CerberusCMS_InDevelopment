@@ -75,7 +75,13 @@ if ($_GLOBAL_COOKIE_MEMBER_USERNAME && $_GLOBAL_COOKIE_MEMBER_PASSWORD != null) 
 
 											echo ($_Application_Module_Member_Message_Register_REGISTRATION_ERROR_DENIED);
 
-} else { // [ + ] [ 1 ] IF: Member Account UserName AND Password Are Not Null, Display Member Account Registration Form
+/*
+ ============================================================================================================
+ + ELSE: Registered Member Account Credentials DO NOT Exist :: Display Member Registration Input Form
+ ============================================================================================================
+*/
+
+} else { // [ + ] [ 1 ] ELSE: Member Account UserName AND Password Are Not Null, Display Member Account Registration Form
 
 /*
  ============================================================================================================
@@ -105,7 +111,6 @@ $_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY_2									= rand(10, 9
 $_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY_3									= rand(10, 99);
 $_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY_4									= rand(10, 99);
 $_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY_5									= rand(10, 99);
-
 $_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY									= "$_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY_1 - $_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY_2 - $_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY_3 - $_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY_4 - $_Application_Module_Member_Register_ACCOUNT_RECOVERY_KEY_5";
 
 /*
@@ -128,12 +133,12 @@ $_Application_Module_Member_Register_POST_REGISTRAR_ACCOUNT_RECOVERY_PICTOGRAPH_
 
 /*
  ============================================================================================================
- + Internal Security => String Santization :: Member Account Registration Form :: Post Variables :: Post Variables
+ + Internal Security => String Santization :: Member Account Registration Form :: Variables :: Post Variables
  ============================================================================================================
 */
 
-$_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME									= $_POST['AMM_Register_Registrar_First_Name'];
-$_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME									= $_POST['AMM_Register_Registrar_Last_Name'];
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST									= $_POST['AMM_Register_Registrar_First_Name'];
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST									= $_POST['AMM_Register_Registrar_Last_Name'];
 $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS							= $_POST['AMM_Register_Registrar_Electronic_Mail_Address'];
 $_Application_Module_Member_Register_POST_REGISTRAR_AGE_REQUIREMENT								= $_POST['AMM_Register_Registrar_Age_Requirement'];
 $_Application_Module_Member_Register_POST_REGISTRAR_BIRTHDATE									= $_POST['AMM_Register_Registrar_BirthDate'];
@@ -145,32 +150,32 @@ $_Application_Module_Member_Register_POST_REGISTRAR_ACCOUNT_RECOVERY_KEY							=
 
 /*
  ============================================================================================================
- + Internal Security => String Santization :: Member Account Registration Form :: Post Variables :: Replace Characters
+ + Internal Security => String Santization :: Member Account Registration Form :: Post Variables :: Replace Characters AND Strip Slashes
  ============================================================================================================
 */
 
-// First Name
-$_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME									= str_replace(".", "", $_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME);
-$_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME									= str_replace("`", "", $_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME);
-$_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME									= stripslashes($_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME);
+// Name :: First Name
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST									= str_replace(".", "", $_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST);
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST									= str_replace("`", "", $_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST);
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST									= stripslashes($_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST);
 
-// Last Name
-$_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME									= str_replace(".", "", $_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME);
-$_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME									= str_replace("`", "", $_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME);
-$_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME									= stripslashes($_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME);
+// Name :: Last Name
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST									= str_replace(".", "", $_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST);
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST									= str_replace("`", "", $_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST);
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST									= stripslashes($_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST);
 
 // Electronic Mail Address
 $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS							= str_replace("`", "", $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS);
 $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS							= stripslashes($_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS);
 
-// UserName
+// Name :: UserName
 $_Application_Module_Member_Register_POST_REGISTRAR_USERNAME									= str_replace(".", "", $_Application_Module_Member_Register_POST_REGISTRAR_USERNAME);
 $_Application_Module_Member_Register_POST_REGISTRAR_USERNAME									= str_replace("`", "", $_Application_Module_Member_Register_POST_REGISTRAR_USERNAME);
 $_Application_Module_Member_Register_POST_REGISTRAR_USERNAME									= stripslashes($_Application_Module_Member_Register_POST_REGISTRAR_USERNAME);
 
 /*
  ============================================================================================================
- + Internal Security => Member Account Registration Form :: String Counting :: Post Variables
+ + Internal Security => Member Account Registration Form :: String Counting :: Variables :: Post Variables
  ============================================================================================================
 */
 
@@ -185,15 +190,15 @@ $_Application_Module_Member_Register_GET_STRING_LENGTH_REGISTRAR_USERNAME							
 // Electronic Mail Address
 $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS							= strtolower($_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS);
 
-// First Name
-$_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME									= strtolower($_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME);
-$_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME									= ucfirst($_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME);
+// Name :: First Name
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST									= strtolower($_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST);
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST									= ucfirst($_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST);
 
-// Last Name
-$_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME									= strtolower($_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME);
-$_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME									= ucfirst($_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME);
+// Name :: Last Name
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST									= strtolower($_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST);
+$_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST									= ucfirst($_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST);
 
-// UserName
+// Name :: UserName
 $_Application_Module_Member_Register_POST_REGISTRAR_USERNAME									= strtolower($_Application_Module_Member_Register_POST_REGISTRAR_USERNAME);
 $_Application_Module_Member_Register_POST_REGISTRAR_USERNAME									= ucfirst($_Application_Module_Member_Register_POST_REGISTRAR_USERNAME);
 
@@ -214,7 +219,7 @@ $_Application_Module_Member_Register_POST_REGISTRAR_PASSWORD_HASHED								= pas
  ============================================================================================================
 */
 
-if (!$_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME) {
+if (!$_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST) {
 
 echo ("
 											<HR WIDTH=\"50%\" ALIGN=\"LEFT\">
@@ -222,11 +227,11 @@ echo ("
 
 											<HR WIDTH=\"50%\" ALIGN=\"LEFT\">
 												<BIG><B>&middot;</B></BIG>&nbsp;You will be given access to restricted areas.<BR>
-												<BIG><B>&middot;</B></BIG>&nbsp;You will be given personal webspace.<BR>
-												<BIG><B>&middot;</B></BIG>&nbsp;You will be given your very own avatar, profile with rich features, profile rank and more !<BR><BR>
+												<BIG><B>&middot;</B></BIG>&nbsp;You will be given personal webspace where you can upload personal data such as: Audio, Documents, Images and Video with your very own personal website.<BR>
+												<BIG><B>&middot;</B></BIG>&nbsp;You will be given your very own and unique avatar, personal profile with rich features, profile rank and more !<BR><BR>
 
 											<HR WIDTH=\"50%\" ALIGN=\"LEFT\">
-												<BIG><B>Account Registration is completely free ! First you will become an Account Registrar and then you will become a Registered Member.</B></BIG>
+												<BIG><B>Account Registration is completely free ! First you will become an Account Registrar and then you will become a Registered Member with a permanent Registered Member Account after activation.</B></BIG>
 											<HR WIDTH=\"50%\" ALIGN=\"LEFT\">
 												<BR>
 
@@ -235,10 +240,10 @@ echo ("
 											<HR WIDTH=\"20%\" ALIGN=\"LEFT\">
 												<B>Registrar :: Personal Details</B>
 											<HR WIDTH=\"20%\" ALIGN=\"LEFT\">
-												* Registrar :: First Name<BR>
+												* Registrar :: Name, First<BR>
 													<INPUT TYPE=\"text\" NAME=\"AMM_Register_Registrar_First_Name\" MAXLENGTH=\"50\"><BR><BR>
 
-												* Registrar :: Last Name<BR>
+												* Registrar :: Name, Last<BR>
 													<INPUT TYPE=\"text\" NAME=\"AMM_Register_Registrar_Last_Name\" MAXLENGTH=\"50\"><BR><BR>
 
 												* Registrar :: System Registration Age Requirement: $_GLOBAL_SYSTEM_SETTING_SECURITY_ACCOUNT_REGISTRATION_AGE_REQUIREMENT<BR>
@@ -295,11 +300,17 @@ echo ("
 											<HR WIDTH=\"75%\" ALIGN=\"CENTER\">
 ");
 
-} else { // [ + ] IF: Member Account Registration Form Variables Have Executed, Check Random Key
+/*
+ ============================================================================================================
+ + ELSE: Application Module :: Member :: Register :: Input Form Variables HAVE Executed, Proceed To Registration Procedure
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Member Account Registration Form Variables Have Executed, Check Random Key
 
 /*
  ============================================================================================================
- + IF: Setting :: System :: Registration :: Age Requirement :: Is: GREATER THAN Current Age Input, Deny Registration
+ + IF: Setting :: System :: Registration :: Age Requirement :: Is: LESS THAN Current Age Input, Deny Registration
  ============================================================================================================
 */
 
@@ -307,11 +318,17 @@ if ($_GLOBAL_SYSTEM_SETTING_SECURITY_ACCOUNT_REGISTRATION_AGE_REQUIREMENT > $_Ap
 
 											echo ("$_Application_Module_Member_Message_Register_REGISTRATION_ERROR_AGE_REQUIREMENT<BR>");
 
+/*
+ ============================================================================================================
+ + ELSE: Setting :: System :: Registration :: Age Requirement :: Is: GREATER THAN OR EQUAL TO Current Age Input, Accept Registration Age Requirement
+ ============================================================================================================
+*/
+
 } else {
 
 /*
  ============================================================================================================
- + IF: Compare Random Key Does Not Match :: Halt Registration
+ + IF: Compare Random Key DOES NOT Match :: Halt Registration
  ============================================================================================================
 */
 
@@ -319,11 +336,17 @@ if ($_Application_Module_Member_Register_POST_REGISTRAR_RANDOM_KEY != $_Applicat
 
 											echo ("$_Application_Module_Member_Message_Register_REGISTRATION_ERROR_KEY<BR> Keys Provided:<BR> ---- $_Application_Module_Member_Register_POST_REGISTRAR_RANDOM_KEY<BR> ---- $_Application_Module_Member_Register_POST_REGISTRAR_RANDOM_KEY_CHECK");
 
-} else { // [ + ] IF: Member Account Registration Form Random Key Variables Are The Same, Strip Harmful Characters From POST Data
+/*
+ ============================================================================================================
+ + ELSE: Random Key Comparison DOES Match :: Continue With Registration
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Member Account Registration Form Random Key Variables Are The Same, Strip Harmful Characters From POST Data
 
 /*
  ============================================================================================================
- + Internal Security => Strip Characters From Post Data
+ + Internal Security => Strip Characters From Variables :: Post Variables
  ============================================================================================================
 */
 
@@ -356,7 +379,7 @@ $_Application_Module_Member_Register_POST_STRIP_CHARACTERS[25]				= " ";
 
 /*
  ============================================================================================================
- + IF: Registrar Electronic Mail Address Is Invalid: Does Not Contain @ OR . Character :: Halt Registration
+ + IF: Registrar Electronic Mail Address Is Invalid: Does Not Contain @ Character :: Halt Registration
  ============================================================================================================
 */
 
@@ -364,17 +387,35 @@ if (substr_count($_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_
 
 											echo ($_Application_Module_Member_Message_Register_REGISTRATION_ERROR_INVALID_ELECTRONIC_MAIL_ADDRESS);
 
-} else { // [ + ] IF: Member Account Electronic Mail Address Is Valid: Check For Disallowed Characters
+/*
+ ============================================================================================================
+ + ELSE: Registrar Electronic Mail Address Is Valid: Does Not Contain @ OR . Character :: Continue Registration
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Member Account Electronic Mail Address Is Valid: Check For Disallowed Characters
+
+/*
+ ============================================================================================================
+ + IF: Registrar Electronic Mail Address Is Invalid: Does Not Contain . Character :: Halt Registration
+ ============================================================================================================
+*/
 
 if (substr_count($_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS,".") != 1) {
 
 											echo ($_Application_Module_Member_Message_Register_REGISTRATION_ERROR_INVALID_ELECTRONIC_MAIL_ADDRESS);
 
-} else { // [ + ] IF: Member Account Electronic Mail Address Is Valid: Check For Disallowed Characters
+/*
+ ============================================================================================================
+ + ELSE: Registrar Electronic Mail Address Is Invalid: Does Contain . Character :: Continue Registration
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Member Account Electronic Mail Address Is Valid: Check For Disallowed Characters
 
 /*
  ============================================================================================================
- + IF: Registrar Post Data Contains Disallowed Characters :: Halt Registration
+ + IF: Registrar :: Input Form Variables :: Post Variables Contains Disallowed Characters :: Halt Registration
  ============================================================================================================
 */
 
@@ -382,20 +423,31 @@ if (substr_count("$_Application_Module_Member_Register_POST_REGISTRAR_USERNAME",
 
 											echo ($_Application_Module_Member_Message_Register_REGISTRATION_ERROR_MEMBER_NAME);
 
-} else { // [ + ] IF: Member Account Registration Characters Are Valid: Check For UserName Character Length
+/*
+ ============================================================================================================
+ + ELSE: Registrar :: Input Form Variables :: Post Variables DO NOT Contain Disallowed Characters :: Continue Registration
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Member Account Registration Characters Are Valid: Check For UserName Character Length
 
 /*
  ============================================================================================================
- + IF: Registrar UserName Is Less Than 4 Characters :: Halt Registration
+ + IF: Registrar UserName IS LESS THAN 4 Characters :: Halt Registration
  ============================================================================================================
 */
 
 if (strlen($_Application_Module_Member_Register_POST_REGISTRAR_USERNAME) <= 4) {
 
 											echo ($_Application_Module_Member_Message_Register_REGISTRATION_ERROR_MEMBER_NAME_LENGTH);
-											//echo ("UserName String Length Is: $_Application_Module_Member_Register_GET_STRING_LENGTH_REGISTRAR_USERNAME - $_Application_Module_Member_Register_POST_REGISTRAR_USERNAME");
 
-} else { // [ + ] IF: Member Account Registration UserName Is Greater Than 4 Characters: Check For Existing Member Account In Database Server
+/*
+ ============================================================================================================
+ + ELSE: Registrar UserName IS NOT LESS THAN 4 Characters :: Continue Registration
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Member Account Registration UserName Is Greater Than 4 Characters: Check For Existing Member Account In Database Server
 
 /*
  ============================================================================================================
@@ -403,15 +455,21 @@ if (strlen($_Application_Module_Member_Register_POST_REGISTRAR_USERNAME) <= 4) {
  ============================================================================================================
 */
 
-if ("$_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME" == "$_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME") {
+if ("$_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST" == "$_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST") {
 
 											echo ($_Application_Module_Member_Message_Register_REGISTRATION_ERROR_MEMBER_NAME_MATCHES);
 
-} else { // [ + ] IF: Member Account Registration First Name Is Exactly Member Account Registration Last Name :: Halt Registration
+/*
+ ============================================================================================================
+ + ELSE: Registrar First Name IS NOT Registrar Last Name :: Continue Registration
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Member Account Registration First Name Is Exactly Member Account Registration Last Name :: Halt Registration
 
 /*
  ============================================================================================================
- + IF: Registrar Member Directory Does Not Exist In Master Directory, Check For Electronic Mail Address File
+ + IF: Registrar Member Directory DOES EXIST In The Master Directory :: Halt Registration
  ============================================================================================================
 */
 
@@ -419,11 +477,17 @@ if (file_exists("./Member/$_Application_Module_Member_Register_POST_REGISTRAR_US
 
 											echo ($_Application_Module_Member_Message_Register_REGISTRATION_ERROR_MEMBER_EXISTS);
 
-} else { // [ + ] IF: Member Account Registration UserName Already Exists In Member Account Directory
+/*
+ ============================================================================================================
+ + ELSE: Registrar Member Directory DOES NOT EXIST In The Master Directory :: Continue Registration
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Member Account Registration UserName DOES NOT Exist In The Master Directory
 
 /*
  ============================================================================================================
- + IF: Registrar Electronic Mail Address Exists In The Master List: Deny Registration
+ + IF: Registrar Electronic Mail Address DOES Exist In The Master List: Deny Registration
  ============================================================================================================
 */
 
@@ -431,7 +495,13 @@ if (file_exists("./Member/Master_List/Electronic_Mail_Addresses/$_Application_Mo
 
 											echo ($_Application_Module_Member_Message_Register_REGISTRATION_ERROR_MEMBER_EXISTS);
 
-} else { // [ + ] IF: Member Account Registration Electronic Mail Address Already Exists In Member Account Master: Deny Member Account Registration
+/*
+ ============================================================================================================
+ + ELSE: Registrar Electronic Mail Address DOES NOT Exist In The Master List: Continue Registration
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Member Account Registration Electronic Mail Address Already Exists In Member Account Master: Deny Member Account Registration
 
 											echo ("* Registration Message: Sending Electronic Mail Message... Wait.<BR>");
 											echo ("* Registration Message: Electronic Mail Address: $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS<BR>");
@@ -439,23 +509,29 @@ if (file_exists("./Member/Master_List/Electronic_Mail_Addresses/$_Application_Mo
 /*
  ============================================================================================================
  +
- + Send :: Electronic Mail Message :: Notification Message To Registrar Provided Electronic Mail Address
+ + Send :: Non-Encrypted :: Electronic Mail Message :: Notification Message To: Registrar Provided Electronic Mail Address
  +
+ ============================================================================================================
+*/
+
+/*
+ ============================================================================================================
+ + Define :: Non-Encrypted :: Electronic Mail Message :: Notification Message To: Registrar Provided Electronic Mail Address
  ============================================================================================================
 */
 
 $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_MESSAGE_SUBJECT					= "Thanks For Requesting Member Account Registration With :: $_GLOBAL_SYSTEM_SITE_TITLE";
 $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_MESSAGE_HEADERS					= "From: $_GLOBAL_SYSTEM_SITE_TITLE";
 $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_MESSAGE_MESSAGE					= "
-Dear $_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME :: $_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME
+Dear $_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST :: $_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST
 [ $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS ],
 -------------------------------------------------------------------
 Thank you for requesting Registration for a Member Account with ~ $_GLOBAL_SYSTEM_SITE_TITLE
 
 This is the Member Account information that was provided:
 -------------------------------------------------------------------
-* Member Account, First Name: $_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME
-* Member Account, Last Name: $_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME
+* Member Account, First Name: $_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST
+* Member Account, Last Name: $_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST
 * Member Account, Birth Date: $_Application_Module_Member_Register_POST_REGISTRAR_BIRTHDATE
 * Member Account, Specified Gender: $_Application_Module_Member_Register_POST_REGISTRAR_GENDER
 -------------------
@@ -515,6 +591,12 @@ Have a nice day,
 		~ $_GLOBAL_SYSTEM_SITE_TITLE
 ";
 
+/*
+ ============================================================================================================
+ + IF: Mail :: Electronic Mail Message :: Member Account Registration Information :: To: Provided Electronic Mail Address
+ ============================================================================================================
+*/
+
 if (mail("$_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS","$_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_MESSAGE_SUBJECT","$_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_MESSAGE_MESSAGE")) {
 
 echo ("* Registration Message: Electronic Mail Message Has Sent.<BR>");
@@ -526,6 +608,12 @@ echo ("* Registration Message: Inserting Registrar Data Into The Database Manage
  +
  + Database Server Query :: Insert Registrar Data
  +
+ ============================================================================================================
+*/
+
+/*
+ ============================================================================================================
+ + Define :: Database Server Query :: Insert Registrar Data
  ============================================================================================================
 */
 
@@ -631,10 +719,11 @@ member_security_pgp_key_panel_private,
 member_security_pgp_key_panel_public,
 member_security_setting_flag_force_logout,
 member_settings_control_panel_audio,
+member_settings_directory_theme,
+member_settings_directory_theme_video_resolution,
 member_settings_encryption_pgp,
 member_settings_language,
 member_settings_newsletter,
-member_settings_theme_directory,
 member_settings_visibility_profile_activity,
 member_settings_visibility_profile_authentication,
 member_settings_visibility_profile_contact,
@@ -665,6 +754,7 @@ member_socialmedia_programming_github,
 member_socialmedia_programming_launchpad,
 member_socialmedia_security_keybase,
 member_socialmedia_video_youtube,
+member_socialmedia_video_gaming_steam,
 member_status_account_activation,
 member_status_account_activation_key,
 member_status_account_active,
@@ -726,7 +816,7 @@ member_username
 'Emergency Contact :: 3',
 'Emergency :: Medical',
 '$_GLOBAL_LOCAL_SERVER_HTTP_REFERRER',
-'10',
+'1',
 'Unknown :: Location :: Device :: HTML :: GPS X',
 'Unknown :: Location :: Device :: HTML :: GPS Y',
 'Unknown :: Location :: Device :: HTML :: GPS Z',
@@ -741,12 +831,12 @@ member_username
 'Unknown :: Location :: Given :: Timezone',
 'On Guard',
 'Nine Inch Nails - Deep',
-'$_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME',
-'$_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME',
+'$_Application_Module_Member_Register_POST_REGISTRAR_NAME_FIRST',
+'$_Application_Module_Member_Register_POST_REGISTRAR_NAME_LAST',
 'Empty Entry :: Middle Name',
 'Emtpy Entry :: Nick Name',
 'Administration Notes',
-'10000',
+'1',
 '111',
 '111-1111',
 '1',
@@ -774,7 +864,7 @@ member_username
 'Account Profile :: Member Account',
 'Account Signature :: Member Account',
 '$_GLOBAL_LOCAL_SERVER_DATE_STANDARD',
-'This Registered Member Account Was Registered From The Internet Protocol Address :: $_GLOBAL_REMOTE_SERVER_ADDRESS On: $_GLOBAL_LOCAL_SERVER_DATE_STANDARD',
+'This Registered Member Account Was Registered From The Internet Protocol Address :: $_GLOBAL_REMOTE_SERVER_ADDRESS :: $_GLOBAL_REMOTE_SERVER_PORT ~ On This Web Server @: $_GLOBAL_LOCAL_SERVER_DATE_STANDARD and On The Connected Device @: $_GLOBAL_LOCAL_SERVER_TIME_UNIX',
 'Unknown :: Fingerprint :: Clear-Text',
 'Unknown :: Fingerprint :: Hashed',
 'Empty Entry :: Password :: Panel :: Custom :: Private',
@@ -782,10 +872,11 @@ member_username
 'Empty Entry :: P.G.P. :: Key Block :: Public',
 '0',
 '1',
+'$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME',
+'$_GLOBAL_SYSTEM_SETTINGS_DIRECTORY_THEME_VIDEO_RESOLUTION',
 '1',
-'$_GLOBAL_SYSTEM_LANGUAGE_DIRECTORY',
+'English',
 '0',
-'$_GLOBAL_SYSTEM_THEME_DIRECTORY',
 '0',
 '0',
 '0',
@@ -816,6 +907,7 @@ member_username
 'Empty Entry :: Social Media :: Programming :: LaunchPad',
 'Empty Entry :: Social Media :: Security :: KeyBase',
 'Empty Entry :: Social Media :: Video :: YouTube',
+'Empty Entry :: Social Media :: Video Gaming :: Steam',
 '0',
 '$_Application_Module_Member_Register_RANDOM_KEY_MD5',
 '0',
@@ -835,7 +927,7 @@ member_username
 
 /*
  ============================================================================================================
- + IF: Database Query :: Insert Registrar
+ + IF: Database Management System Server :: Database :: Query :: Insert Registrar
  ============================================================================================================
 */
 
@@ -1012,7 +1104,13 @@ copy("./System/Default/Friend/Friend.cerberus","./Member/Master_List/Electronic_
 											echo ($_Application_Module_Member_Message_Register_REGISTRATION_SUCCESSFUL);
 											echo ("<META HTTP-EQUIV=\"REFRESH\" CONTENT=\"5; URL=?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Register\"/>");
 
-} else { // [ + ] IF: Insert Member Account Registration Variable Has Executed In Error: Display Error Message
+/*
+ ============================================================================================================
+ + ELSE: Database Management System Server :: Database :: Query: Insert Registrar Data :: Error, Display Error Message
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Database Management System Server :: Database :: Query: Insert Registrar Data :: Error, Display Error Message
 
 											echo ($_Application_Module_Member_Message_Register_REGISTRATION_ERROR_DATABASE);
 
@@ -1020,7 +1118,7 @@ copy("./System/Default/Friend/Friend.cerberus","./Member/Master_List/Electronic_
 
 /*
  ============================================================================================================
- + Kill SQL Database Server Query: Insert Registrar Information
+ + Kill SQL Database Server Query: Insert :: Registrar Data
  ============================================================================================================
 */
 
