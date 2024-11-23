@@ -999,8 +999,8 @@ echo ("
 													<BR><BR><B>This Registered Member Account Is Services Root-Administration Level. Send Command Now ?</B><BR>
 													<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"POST\">
 														<SELECT NAME=\"AMM_Profile_Services_Command_Type\">
-															<OPTION VALUE=\"0\">Integrity :: Flash :: Server :: Local</OPTION>
-															<OPTION VALUE=\"1\">Integrity :: Flash :: Server :: Master</OPTION>
+															<OPTION VALUE=\"0\">Integrity :: Flash :: Device :: From This Web Server</OPTION>
+															<OPTION VALUE=\"1\">Integrity :: Flash :: Device :: From The Master Server</OPTION>
 															<OPTION VALUE=\"2\">Integrity :: KeyRing :: Manage</OPTION>
 															<OPTION VALUE=\"3\">Task :: Account :: Delete</OPTION>
 															<OPTION VALUE=\"4\">Task :: Message :: System-Wide</OPTION>
@@ -1267,10 +1267,10 @@ echo ("
 													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Time-Zone</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Time-Zone ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_TIMEZONE</I></A><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													<B>Location :: Last-Known :: Device-Reported :: Global-Positioning-System
+													<B>Location :: Last-Known :: Device-Reported :: Global-Positioning-System</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From H.T.M.L.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From H.T.M.L. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR>
-													&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From P.H.P.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From P.H.P. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR><BR>
+													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From H.T.M.L.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From H.T.M.L. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR>
+													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From P.H.P.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From P.H.P. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Location :: Last-Known :: Device-Reported :: Geographical-Localization-Objects</B>
@@ -1283,7 +1283,7 @@ echo ("
 													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Internet Protocol Address :: Connecting Device</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS</A></I><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													<B>Member' Account Details :: Logs</B></B>
+													<B>Member' Account Details :: Logs</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													&nbsp;*&nbsp;<B>Member' Account :: Logs :: Authentication</B><BR>
 													&nbsp;&nbsp;&nbsp;<I><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;Authentication&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Authentication Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: Authentication :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A></I><BR>
@@ -1334,10 +1334,10 @@ echo ("
 													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Time-Zone</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Time-Zone ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_TIMEZONE</I></A><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													<B>Location :: Last-Known :: Device-Reported :: Global-Positioning-System
+													<B>Location :: Last-Known :: Device-Reported :: Global-Positioning-System</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From H.T.M.L.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From H.T.M.L. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR>
-													&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From P.H.P.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From P.H.P. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR><BR>
+													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From H.T.M.L.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From H.T.M.L. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR>
+													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From P.H.P.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From P.H.P. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Location :: Last-Known :: Device-Reported :: Geographical-Localization-Objects</B>
@@ -1350,7 +1350,7 @@ echo ("
 													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Internet Protocol Address :: Connecting Device</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS</A></I><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													<B>Member' Account Details :: Logs</B></B>
+													<B>Member' Account Details :: Logs</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													&nbsp;*&nbsp;<B>Member' Account :: Logs :: Authentication</B><BR>
 													&nbsp;&nbsp;&nbsp;<I><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;Authentication&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Authentication Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: Authentication :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A></I><BR>
@@ -1413,10 +1413,10 @@ echo ("
 													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Time-Zone</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Time-Zone ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_TIMEZONE</I></A><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													<B>Location :: Last-Known :: Device-Reported :: Global-Positioning-System
+													<B>Location :: Last-Known :: Device-Reported :: Global-Positioning-System</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From H.T.M.L.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From H.T.M.L. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR>
-													&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From P.H.P.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From P.H.P. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR><BR>
+													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From H.T.M.L.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From H.T.M.L. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR>
+													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From P.H.P.</B>: <I><A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From P.H.P. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A></I><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Location :: Last-Known :: Device-Reported :: Geographical-Localization-Objects</B>
@@ -1429,7 +1429,7 @@ echo ("
 													&nbsp;*&nbsp;<B>Location :: Last Exact Device-Reported :: Internet Protocol Address :: Connecting Device</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS</A></I><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													<B>Member' Account Details :: Logs</B></B>
+													<B>Member' Account Details :: Logs</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													&nbsp;*&nbsp;<B>Member' Account :: Logs :: Authentication</B><BR>
 													&nbsp;&nbsp;&nbsp;<I><A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;Authentication&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Authentication Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: Authentication :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A></I><BR>
@@ -1597,21 +1597,21 @@ echo ("
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: This Web Server :: Date</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Year</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_YEARS</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Month</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MONTHS</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Day</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_DAYS</I><BR><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Device :: This Web Server :: Year</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_YEARS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Device :: This Web Server :: Month</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MONTHS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Device :: This Web Server :: Day</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_DAYS</I><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: This Web Server :: Time :: Timestamp</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Timestamp</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP</I><BR><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Timestamp</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP</I><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: This Web Server :: Time :: Timestamp</B>
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Hour</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_HOURS</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Minute</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MINUTES</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Second</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_SECONDS</I><BR><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Hour</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_HOURS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Minute</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MINUTES</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Second</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_SECONDS</I><BR><BR>
 
 												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: Connecting Device :: Time :: Timestamp</B>
@@ -1643,33 +1643,33 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 if (file_exists("./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Friends/$_GLOBAL_COOKIE_MEMBER_USERNAME")) {
 
 echo ("
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: This Web Server :: Date</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Year</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_YEARS</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Month</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MONTHS</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Day</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_DAYS</I><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Device :: This Web Server :: Year</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_YEARS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Device :: This Web Server :: Month</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MONTHS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Device :: This Web Server :: Day</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_DAYS</I><BR><BR>
 
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: This Web Server :: Time :: Timestamp</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Timestamp</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP</I><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Timestamp</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP</I><BR><BR>
 
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: This Web Server :: Time :: Timestamp</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Hour</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_HOURS</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Minute</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MINUTES</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Second</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_SECONDS</I><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Hour</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_HOURS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Minute</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MINUTES</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Second</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_SECONDS</I><BR><BR>
 
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: Connecting Device :: Time :: Timestamp</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Connecting Device :: Timestamp :: Unix</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_TIMESTAMP_UNIX_EPOCH\" TITLE=\":: Open & Display :: The Official Web Server :: For :: This System' Unix Timestamp Converter ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP_UNIX</A></I><BR><BR>
 
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: Connecting Device :: Last Web-Page Document Executed</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													&nbsp;*&nbsp;<B>Member Account :: <I><A HREF=\"$_Application_Module_Member_Profile_LIST_MEMBER_LAST_REFERRER\" TITLE=\":: Last Web-Page Document Executed ::\">Last Web-Page Document Executed</I></A><BR><BR>
 ");
 
@@ -1704,33 +1704,33 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 if ($_GLOBAL_COOKIE_MEMBER_USERNAME == "$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME") {
 
 echo ("
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: This Web Server :: Date</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Year</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_YEARS</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Month</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MONTHS</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Server :: This Web Server :: Day</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_DAYS</I><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Device :: This Web Server :: Year</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_YEARS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Device :: This Web Server :: Month</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MONTHS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Date :: Device :: This Web Server :: Day</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_DAYS</I><BR><BR>
 
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: This Web Server :: Time :: Timestamp</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Timestamp</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP</I><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Timestamp</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP</I><BR><BR>
 
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: This Web Server :: Time :: Timestamp</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Hour</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_HOURS</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Minute</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MINUTES</I><BR>
-													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Server :: This Web Server :: Second</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_SECONDS</I><BR><BR>
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Hour</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_HOURS</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Minute</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_MINUTES</I><BR>
+													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Device :: This Web Server :: Second</B>: <I>$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_SECONDS</I><BR><BR>
 
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: Connecting Device :: Time :: Timestamp</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													&nbsp;*&nbsp;<B>Member Account :: Timestamp :: Last Active :: Time :: Connecting Device :: Timestamp :: Unix</B>: <I><A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_TIMESTAMP_UNIX_EPOCH\" TITLE=\":: Open & Display :: The Official Web Server :: For :: This System' Unix Timestamp Converter ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_LAST_ACTIVE_TIMESTAMP_UNIX</A></I><BR><BR>
 
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													<B>Device :: Connecting Device :: Last Web-Page Document Executed</B>
-												<HR ALIGN=\"LEFT\" WIDTH=\"15%\">
+												<HR ALIGN=\"LEFT\" WIDTH=\"25%\">
 													&nbsp;*&nbsp;<B>Member Account :: <I><A HREF=\"$_Application_Module_Member_Profile_LIST_MEMBER_LAST_REFERRER\" TITLE=\":: Last Web-Page Document Executed ::\">Last Web-Page Document Executed</I></A><BR><BR>
 ");
 
@@ -3374,6 +3374,8 @@ echo ("<A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNA
 } // [ + ] IF: STOP: Remote-File-Inclusion AND Local-File-Inclusion
 
 } // [ + ] WHILE: Reading Directory: Registered Member Account :: Media :: Gallery :: Document :: Album
+
+echo ("<BR>");
 
 } // [ + ] Internal Application: Gallery :: Document :: Album :: Is: Activated
 
