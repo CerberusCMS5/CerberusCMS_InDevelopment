@@ -134,9 +134,19 @@ Dear $_ACCESS_ELECTRONIC_MAIL_ADDRESS_SYSTEM_ADMINISTRATOR,
 ----------------------------------------------------------------
 $_Application_Module_Member_Contact_Administrator_POST_NAME | $_GLOBAL_COOKIE_MEMBER_USERNAME has sent you this Non-Encrypted Electronic Mail Message from the Contact Systems Administrator Application Module:
 
-$_Application_Module_Member_Contact_Administrator_POST_MESSAGE
+\" $_Application_Module_Member_Contact_Administrator_POST_MESSAGE \"
 
-The Internet Protocol Address associated with the Electronic Mail Message is: $_GLOBAL_REMOTE_SERVER_ADDRESS :: $_GLOBAL_COOKIE_MEMBER_USERNAME
+-----------------------------
+NETWORKING INFORMATION
+-----------------------------
+Internet Protocol Addres :: Device :: This Web Server: $_GLOBAL_LOCAL_SERVER_ADDRESS :: $_GLOBAL_LOCAL_SERVER_PORT
+Internet Protocol Addres :: Device :: Connecting Device: $_GLOBAL_REMOTE_SERVER_ADDRESS :: $_GLOBAL_REMOTE_SERVER_PORT
+
+-----------------------------
+DEVICE INFORMATION
+-----------------------------
+Web Browser :: User-Agent :: Device :: This Web Server: $_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT
+Web Browser :: User-Agent :: Device :: Connecting Device: $_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT
 ----------------------------------------------------------------
 Have a nice day,
 
