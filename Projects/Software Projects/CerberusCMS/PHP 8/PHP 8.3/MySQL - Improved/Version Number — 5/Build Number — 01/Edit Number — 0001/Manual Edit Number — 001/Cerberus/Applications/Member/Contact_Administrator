@@ -145,7 +145,7 @@ Internet Protocol Addres :: Device :: Connecting Device: $_GLOBAL_REMOTE_SERVER_
 -----------------------------
 DEVICE INFORMATION
 -----------------------------
-Web Browser :: User-Agent :: Device :: This Web Server: $_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT
+Web Browser :: User-Agent :: Device :: This Web Server: $_GLOBAL_LOCAL_SERVER_HTTP_USER_AGENT
 Web Browser :: User-Agent :: Device :: Connecting Device: $_GLOBAL_REMOTE_SERVER_HTTP_USER_AGENT
 ----------------------------------------------------------------
 Have a nice day,
