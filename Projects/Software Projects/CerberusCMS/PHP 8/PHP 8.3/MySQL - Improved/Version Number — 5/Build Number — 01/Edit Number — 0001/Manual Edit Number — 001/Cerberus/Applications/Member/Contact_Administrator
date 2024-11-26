@@ -84,7 +84,7 @@ $_Application_Module_Member_Contact_Administrator_POST_MESSAGE				= $_POST['AMM_
 /*
  ============================================================================================================
  +
- + Contact Administration
+ + [ @ ] IF: Contact Administration
  +
  ============================================================================================================
 */
@@ -103,13 +103,29 @@ echo ("
 												</FORM>
 ");
 
-} else {
+/*
+ ============================================================================================================
+ + ELSE: Application :: Contact Administrator :: Input Form Variables :: HAVE Executed, Send Electronic Mail Message
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Application :: Contact Administrator :: Input Form Variables :: HAVE Executed, Send Electronic Mail Message
 
 /*
  ============================================================================================================
- +
+ + IF: Registered Member Account :: Credentials :: DO NOT Exist: Set UserName To: Non-Registered Member
+ ============================================================================================================
+*/
+
+if ($_GLOBAL_COOKIE_MEMBER_USERNAME == null) {
+
+	$_GLOBAL_COOKIE_MEMBER_USERNAME = "Non-Registered Member";
+
+} // [ + ] IF: Registered Member Account :: Credentials :: DO NOT Exist: Set UserName To: Non-Registered Member
+
+/*
+ ============================================================================================================
  + IF: Mail: Send :: Electronic Mail Message Notification
- +
  ============================================================================================================
 */
 
@@ -128,7 +144,14 @@ Have a nice day,
 ")) {
 
 											echo ($_Application_Module_Member_Message_Contact_Administrator_MESSAGE_SENT);
-} else {
+
+/*
+ ============================================================================================================
+ + ELSE: Mail :: Send :: Electronic Mail Message :: Error: Message NOT Sent
+ ============================================================================================================
+*/
+
+} else { // [ + ] ELSE: Mail :: Send :: Electronic Mail Message :: Error: Message NOT Sent
 
 
 											echo ($_Application_Module_Member_Message_Contact_Administrator_MESSAGE_SENT_ERROR);
